@@ -1,0 +1,21 @@
+# Build artifacts
+bin/
+*.o
+*.exe
+*.out
+
+# Generated experiment data (large CSV/PNG/log outputs from scripts/run_*.sh)
+results/**
+!results/.gitkeep
+
+# Stray CSV the program writes to the current working directory when run manually
+red_colores.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db

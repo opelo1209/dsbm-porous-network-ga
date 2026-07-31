@@ -1,0 +1,10 @@
+# Force LF line endings regardless of the platform's core.autocrlf setting.
+# The scripts/*.sh files are executed via bash (Git Bash/WSL/Linux/macOS);
+# CRLF line endings break them at runtime ("$'\r': command not found").
+* text=auto eol=lf
+*.sh text eol=lf
+*.c text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.cff text eol=lf
+*.txt text eol=lf

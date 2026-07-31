@@ -1,0 +1,24 @@
+# TODO before publishing: this file only has the fields that are known from
+# the manuscript itself (title, authors, affiliations). Fill in `version`,
+# `date-released`, `repository-code` (this repo's final GitHub URL), and add
+# a `preferred-citation` block with `journal`/`year`/`doi`/`volume`/`pages`
+# once the paper's publication details are final. See
+# https://citation-file-format.github.io/ for the schema.
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper it accompanies."
+title: "A Constraint-Preserving Genetic Algorithm for the Construction of Porous Networks Based on the Dual Site-Bond Model"
+type: software
+license: MIT
+authors:
+  - family-names: Moreno-Montiel
+    given-names: Benjamin
+    affiliation: "Departamento de Ingeniería Eléctrica, Universidad Autónoma Metropolitana, Unidad Iztapalapa"
+    email: bmm@xanum.uam.mx
+  - family-names: Cordero-Sánchez
+    given-names: Salomón
+    affiliation: "Departamento de Química, Universidad Autónoma Metropolitana, Unidad Iztapalapa"
+    email: scordero@izt.uam.mx
+  - family-names: Villegas-Cortez
+    given-names: Juan
+    affiliation: "Departamento de Sistemas, Universidad Autónoma Metropolitana, Unidad Azcapotzalco"
+    email: juanvc@azc.uam.mx

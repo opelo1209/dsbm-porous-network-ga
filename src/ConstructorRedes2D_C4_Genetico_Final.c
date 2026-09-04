@@ -1,8 +1,23 @@
+// MinGW-w64 only exposes its rand_r() compatibility macro under this guard
+// (must be defined before <stdlib.h> is included). On Windows it expands to
+// a call to the regular rand(), whose per-thread state is already
+// thread-local in the UCRT, so the decorrelated seeds computed in
+// mutarCromosoma() are ignored on this platform but the parallel exchanges
+// still draw independent sequences; on glibc (Linux/macOS) rand_r() is the
+// real reentrant implementation and does use the seed as intended.
+#define _POSIX_THREAD_SAFE_FUNCTIONS
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
 #include <omp.h>
+
+// Some MinGW header versions only define M_PI under _USE_MATH_DEFINES; the
+// fallback below keeps randomNormal() portable without relying on that.
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
 
 /* ============================================================================
  * Constraint-preserving Genetic Algorithm for the construction of 2D porous
@@ -596,7 +611,17 @@ void mutarCromosoma(int numCromosomas, int L, NODO_BSM ***POBLACION) {
                 // seed tied only to the thread id (and never updating it) would make
                 // every iteration handled by the same thread draw the identical
                 // "random" partner and the identical probability roll every time.
-                unsigned int seed = (unsigned int)(omp_get_thread_num() * 104729u
+                // omp_get_thread_num() is only called under _OPENMP (defined by the
+                // compiler exclusively when -fopenmp is passed) so that the sequential
+                // build - compiled from this very same source without -fopenmp - does
+                // not need to link the OpenMP runtime just for this one symbol; with a
+                // single thread the k/i/j terms alone already decorrelate iterations.
+#ifdef _OPENMP
+                unsigned int tid = (unsigned int)omp_get_thread_num();
+#else
+                unsigned int tid = 0u;
+#endif
+                unsigned int seed = (unsigned int)(tid * 104729u
                                                     + (unsigned int)k * 131u
                                                     + (unsigned int)i * 1000003u
                                                     + (unsigned int)j * 7919u + 1u);

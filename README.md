@@ -6,8 +6,9 @@ Reference implementation for:
 > Genetic Algorithm for the Construction of Porous Networks Based on the Dual Site-Bond Model."
 
 This repository accompanies the paper for cross-validation of results and implementation
-accuracy. It contains the single C source (sequential and OpenMP-parallel, see below), and
-scripts to reproduce Table 1 and Figures 12-18.
+accuracy. It contains the genetic algorithm's C source (sequential and OpenMP-parallel, see
+below), scripts to reproduce Table 1 and Figures 12-18, and a pure Monte Carlo baseline
+implementation (Sec. 2.2's classical approach) used as a quantitative point of comparison.
 
 **Please read "Reproducibility notes / known limitations" near the end of this file before
 treating any script output as a literal match to the paper's reported numbers.** The public
@@ -19,9 +20,10 @@ the closest faithful reproduction available.
 ## Repository layout
 
 ```
-src/        ConstructorRedes2D_C4_Genetico_Final.c   - the algorithm (single source, see below)
+src/        ConstructorRedes2D_C4_Genetico_Final.c   - the genetic algorithm (single source, see below)
+            ConstructorRedes2D_C4_MonteCarlo.c        - pure Monte Carlo baseline (Sec. 2.2)
 scripts/    build.sh, env_info.sh, run_*.sh           - build + experiment automation (bash)
-analysis/   plot_*.py, requirements.txt               - Python plotting for Table 1 / Fig. 12-18
+analysis/   plot_*.py, requirements.txt               - Python plotting for Table 1 / Fig. 12-18 / GA vs. MC
 results/    (created by the scripts; not committed)   - raw logs, CSVs and generated figures
 ```
 
@@ -69,9 +71,42 @@ gcc -O2 -std=c99 -Wall src/ConstructorRedes2D_C4_Genetico_Final.c -o ga_seq -lm
 gcc -O2 -std=c99 -Wall -fopenmp src/ConstructorRedes2D_C4_Genetico_Final.c -o ga_omp -lm
 ```
 
+## Pure Monte Carlo baseline
+
+`src/ConstructorRedes2D_C4_MonteCarlo.c` implements the classical baseline the paper contrasts
+the GA against (Sec. 1.2/2.2, citing Cruz et al.): lattice elements are repeatedly exchanged
+through random site-site and bond-bond permutations until the Construction Principle is
+satisfied, with **no** population, crossover, mutation, size-category restriction, or relaxation
+fallback. A candidate exchange is accepted only if it does not increase the total error
+(greedy/blind acceptance, not simulated annealing); it shares the exact same node layout, Type 1
+error accounting (`calcularErrT1Local`), and CSV export format as the genetic algorithm, so
+results are directly comparable and the existing `plot_site_distribution.py` /
+`plot_correlation.py` scripts work on its output unchanged. Naively re-evaluating the whole
+lattice after every single exchange would be O(L^2) per attempt and intractable at the paper's
+lattice sizes; instead only the (at most four) positions whose error can change as a result of a
+given exchange are recomputed, an O(1)-per-attempt algorithm documented in the source.
+
+`scripts/build.sh` builds it to `bin/montecarlo/mc_puro` alongside the GA binaries. It is
+interactive (`scanf`) and, unlike the GA binary, takes **no** command-line arguments and has
+**no** `argv` quirk:
+
+```bash
+printf '50\n410\n400\n50\n20000000\n' | ./bin/montecarlo/mc_puro
+```
+
+in order: `L`, `mediaS`, `mediaE`, `desviacion`, and a maximum number of attempts (`0` = no
+limit; use with caution - see below). Because there is no relaxation fallback, convergence is
+**not guaranteed** within any fixed budget for large lattices - this is expected and is the
+whole point of using it as the "blind search" baseline; the program reports whichever residual
+error remains if the attempt budget is exhausted, rather than hanging indefinitely.
+
+`scripts/run_ga_vs_mc_comparison.sh` runs both implementations on the same lattice sizes and
+`(mediaS, mediaE, desviacion)` and produces a side-by-side execution-time / attempts-to-converge
+comparison, plotted with `python analysis/plot_ga_vs_mc.py results/ga_vs_mc/ga_vs_mc_raw.csv`.
+
 ## Running
 
-The program is interactive (`scanf`) and takes four inputs in this order:
+The GA program is interactive (`scanf`) and takes four inputs in this order:
 
 1. Lattice size `L` (creates an `L x L` periodic lattice, Sec. 3.1)
 2. Mean site radius `mediaS`
@@ -168,6 +203,7 @@ pip install -r analysis/requirements.txt
 | Fig. 14 (sequential vs. parallel execution time) | `scripts/run_seq_vs_parallel.sh` | `python analysis/plot_seq_vs_parallel.py results/fig14/fig14_raw.csv` |
 | Fig. 15-17 (site-size snapshots at Omega = 0.3/0.6/0.9) | `scripts/run_overlap_snapshots.sh` | `python analysis/plot_site_distribution.py <csv> --title "Omega = 0.X"` |
 | Fig. 18 (spatial correlation C(r), log-log) | same run as Fig. 15-17 | `python analysis/plot_correlation.py <csv_0.3> <csv_0.6> <csv_0.9>` |
+| GA vs. pure Monte Carlo baseline (Sec. 1.2/2.2, quantitative) | `scripts/run_ga_vs_mc_comparison.sh` | `python analysis/plot_ga_vs_mc.py results/ga_vs_mc/ga_vs_mc_raw.csv` |
 
 Every `run_*.sh` script has a header comment documenting its exact parameters and how to
 override them (population size, L values, thread counts, timeout). **Large-L, few-thread
@@ -219,6 +255,12 @@ run it" is explicit:
    times per call rather than once. This is a pre-existing property of the fallback path (not
    part of the crossover/mutation/initialization operators covered by this repository's
    alignment with the paper) and is documented here rather than changed.
+
+8. **The pure Monte Carlo baseline has no convergence guarantee within a bounded budget**, by
+   design (see "Pure Monte Carlo baseline" above) - unlike the GA, it has no relaxation fallback,
+   so `scripts/run_ga_vs_mc_comparison.sh` may legitimately report a non-zero residual error for
+   it at large L once its `--max-attempts` cap is hit. This is not a bug; it is the comparison's
+   point.
 
 None of the above affect the correctness of the core constraint-preserving genetic operators
 (population initialization, crossover, mutation — Sec. 3.2/3.4/3.5), which this source

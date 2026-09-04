@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Compares the pure Monte Carlo baseline (src/ConstructorRedes2D_C4_MonteCarlo.c,
+# Compares the pure Monte Carlo baseline (src/montecarlo/ConstructorRedes2D_C4_MonteCarlo.c,
 # Sec. 2.2's classical approach) against the constraint-preserving genetic
-# algorithm (src/ConstructorRedes2D_C4_Genetico_Final.c, Sec. 3), on the same
+# algorithm (src/genetico/ConstructorRedes2D_C4_Genetico_Final.c, Sec. 3), on the same
 # lattice sizes and the same (mediaS, mediaE, desviacion) parameters - i.e.
 # the same statistical inventory and the same Omega (see the Omega derivation
 # in README.md).
@@ -32,8 +32,8 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-SRC_GA="$REPO_ROOT/src/ConstructorRedes2D_C4_Genetico_Final.c"
-SRC_MC="$REPO_ROOT/src/ConstructorRedes2D_C4_MonteCarlo.c"
+SRC_GA="$REPO_ROOT/src/genetico/ConstructorRedes2D_C4_Genetico_Final.c"
+SRC_MC="$REPO_ROOT/src/montecarlo/ConstructorRedes2D_C4_MonteCarlo.c"
 CC="${CC:-gcc}"
 
 L_VALUES="${L_VALUES:-20 50 100}"

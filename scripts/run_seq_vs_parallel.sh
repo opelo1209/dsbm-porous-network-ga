@@ -31,7 +31,7 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-SRC="$REPO_ROOT/src/ConstructorRedes2D_C4_Genetico_Final.c"
+SRC="$REPO_ROOT/src/genetico/ConstructorRedes2D_C4_Genetico_Final.c"
 CC="${CC:-gcc}"
 
 L_VALUES="${L_VALUES:-50 100 150}"

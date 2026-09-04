@@ -20,12 +20,18 @@ the closest faithful reproduction available.
 ## Repository layout
 
 ```
-src/        ConstructorRedes2D_C4_Genetico_Final.c   - the genetic algorithm (single source, see below)
-            ConstructorRedes2D_C4_MonteCarlo.c        - pure Monte Carlo baseline (Sec. 2.2)
-scripts/    build.sh, env_info.sh, run_*.sh           - build + experiment automation (bash)
-analysis/   plot_*.py, requirements.txt               - Python plotting for Table 1 / Fig. 12-18 / GA vs. MC
-results/    (created by the scripts; not committed)   - raw logs, CSVs and generated figures
+src/genetico/     ConstructorRedes2D_C4_Genetico_Final.c + .vscode/  - the genetic algorithm
+src/montecarlo/    ConstructorRedes2D_C4_MonteCarlo.c + .vscode/      - pure Monte Carlo baseline (Sec. 2.2)
+scripts/           build.sh, env_info.sh, run_*.sh                   - build + experiment automation (bash)
+analysis/          plot_*.py, requirements.txt                       - Python plotting for Table 1 / Fig. 12-18 / GA vs. MC
+results/           (created by the scripts; not committed)           - raw logs, CSVs and generated figures
 ```
+
+Each program lives in its own subfolder (with its own `.vscode/`) specifically so they can each be opened
+directly as a VS Code workspace root and built/run/debugged with the "C/C++ Runner" extension's one-click
+buttons without the two `main()` functions colliding in a single build. Open `src/genetico/` or
+`src/montecarlo/` in VS Code (not the repository root) for that workflow; use `scripts/build.sh` /
+the `run_*.sh` scripts below for the scripted reproducibility pipeline.
 
 ## Sequential and parallel code
 
@@ -67,13 +73,13 @@ built with `gcc -O2 -std=c99 -Wall`. Override the compiler with `CC=clang script
 Equivalent manual commands, if you prefer not to use the script:
 
 ```bash
-gcc -O2 -std=c99 -Wall src/ConstructorRedes2D_C4_Genetico_Final.c -o ga_seq -lm
-gcc -O2 -std=c99 -Wall -fopenmp src/ConstructorRedes2D_C4_Genetico_Final.c -o ga_omp -lm
+gcc -O2 -std=c99 -Wall src/genetico/ConstructorRedes2D_C4_Genetico_Final.c -o ga_seq -lm
+gcc -O2 -std=c99 -Wall -fopenmp src/genetico/ConstructorRedes2D_C4_Genetico_Final.c -o ga_omp -lm
 ```
 
 ## Pure Monte Carlo baseline
 
-`src/ConstructorRedes2D_C4_MonteCarlo.c` implements the classical baseline the paper contrasts
+`src/montecarlo/ConstructorRedes2D_C4_MonteCarlo.c` implements the classical baseline the paper contrasts
 the GA against (Sec. 1.2/2.2, citing Cruz et al.): lattice elements are repeatedly exchanged
 through random site-site and bond-bond permutations until the Construction Principle is
 satisfied, with **no** population, crossover, mutation, size-category restriction, or relaxation

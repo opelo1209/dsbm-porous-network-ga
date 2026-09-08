@@ -20,6 +20,23 @@
 #endif
 
 /* ============================================================================
+ * ABLATION VARIANT - Sec. 4.6 ablation study (initialization only).
+ *
+ * Identical to ConstructorRedes2D_C4_Genetico_Final.c EXCEPT
+ * inicializarPoblacion() generates individuals 1..P-1 INDEPENDENTLY from
+ * the prescribed distributions, instead of Fisher-Yates permuting a single
+ * shared M_base. This reproduces the "conventional" alternative the paper's
+ * Sec. 3.2 describes only in prose ("independently generating chromosomes
+ * from the prescribed Gaussian distributions introduced an undesirable
+ * evolutionary bias, systematically favoring individuals with
+ * disproportionate numbers of large sites and small bonds"). Crossover,
+ * mutation, the fitness function, elitist selection, and every other part
+ * of the evolutionary cycle are left byte-for-byte identical to the
+ * proposed method (still category-preserving), so this file isolates ONLY
+ * the initialization strategy as the ablated variable - complementary to
+ * ConstructorRedes2D_C4_Ablacion.c, which instead ablates crossover and
+ * mutation while keeping the proposed shared-M_base initialization.
+ *
  * Constraint-preserving Genetic Algorithm for the construction of 2D porous
  * networks under the Dual Site-Bond Model (DSBM), coordination number four.
  *
@@ -366,8 +383,6 @@ int main(int argc, char **argv) {
 // exactly - only the spatial arrangement changes.
 // ============================================================================
 void inicializarPoblacion(NODO_BSM ***Poblacion, int numCromosomas, int L, double mediaS, double mediaE, double desviacion) {
-    int N = L * L;
-
     for (int k = 0; k < numCromosomas; k++) {
         if (k == 0) {
             // ---- Baseline Synthesis: build M_base from the prescribed distributions ----
@@ -471,40 +486,37 @@ void inicializarPoblacion(NODO_BSM ***Poblacion, int numCromosomas, int L, doubl
             printf("Histograma de colores (enlaces): Amarillo(Pequeños) = %d, Azul(Medianos) = %d, Rojo(Grandes) = %d\n", histB[0], histB[1], histB[2]);
 
         } else {
-            // ---- Individuals 1..P-1: uniform Fisher-Yates permutation of M_base ----
-
-            // Structural Replication + Linear Projection (flatten): copy M_base
-            // (chromosome 0, NOT the previously generated individual) into a 1D
-            // working buffer of length N = L^2.
-            NODO_BSM *V = malloc(N * sizeof(NODO_BSM));
+            // ---- ABLATION (Sec. 4.6 ablation study): individuals 1..P-1
+            // are generated INDEPENDENTLY from the prescribed distributions,
+            // matching the "conventional" alternative described in prose in
+            // Sec. 3.2 ("independently generating chromosomes from the
+            // prescribed Gaussian distributions introduced an undesirable
+            // evolutionary bias...") instead of the proposed method's
+            // Fisher-Yates permutation of a single shared M_base. Category
+            // thresholds (x1,x2,e1,e2) are still the ones computed once from
+            // M_base (chromosome 0) above, applied here to classify this
+            // independently-drawn individual - crossover/mutation elsewhere
+            // in this file are UNCHANGED (still category-preserving), so
+            // this variant isolates initialization alone as the ablated
+            // variable.
             for (int i = 0; i < L; i++) {
                 for (int j = 0; j < L; j++) {
-                    V[i * L + j] = Poblacion[0][i][j];
+                    Poblacion[k][i][j].r_Sitio = randomUniform(mediaS - desviacion, mediaS + desviacion);
+                    Poblacion[k][i][j].r_EIzq = randomUniform(mediaE - desviacion, mediaE + desviacion);
+                    Poblacion[k][i][j].r_EArr = randomUniform(mediaE - desviacion, mediaE + desviacion);
+                    Poblacion[k][i][j].errT1 = 0;
+                    Poblacion[k][i][j].errG = 0;
+
+                    double sitio = Poblacion[k][i][j].r_Sitio;
+                    Poblacion[k][i][j].tipo = (sitio <= x1) ? 0 : (sitio <= x2) ? 1 : 2;
+
+                    double izq = Poblacion[k][i][j].r_EIzq;
+                    Poblacion[k][i][j].tipoEIzq = (izq <= e1) ? 0 : (izq <= e2) ? 1 : 2;
+
+                    double arr = Poblacion[k][i][j].r_EArr;
+                    Poblacion[k][i][j].tipoEArr = (arr <= e1) ? 0 : (arr <= e2) ? 1 : 2;
                 }
             }
-
-            // Fisher-Yates Permutation (Alg. 1): every permutation of the N genes
-            // is equally likely, P(pi) = 1/N!. Complete gene structures are
-            // exchanged, so r_Sitio, r_EIzq, r_EArr and their category labels
-            // always move together.
-            for (int i = N - 1; i >= 1; i--) {
-                int j = rand() % (i + 1);
-                NODO_BSM temp = V[i];
-                V[i] = V[j];
-                V[j] = temp;
-            }
-
-            // Spatial Mapping (reshape): restore the L x L lattice. Periodic
-            // boundaries need no extra bookkeeping here because right/lower
-            // bonds are always derived from neighboring nodes' left/upper
-            // fields at evaluation time (Sec. 3.1), not stored redundantly.
-            for (int i = 0; i < L; i++) {
-                for (int j = 0; j < L; j++) {
-                    Poblacion[k][i][j] = V[i * L + j];
-                }
-            }
-
-            free(V);
         }
     }
 }

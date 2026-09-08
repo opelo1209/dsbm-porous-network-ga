@@ -68,13 +68,13 @@ scripts/build.sh
 ```
 
 produces `bin/sequential/ga_seq` (no `-fopenmp`) and `bin/parallel/ga_omp` (`-fopenmp`), both
-built with `gcc -O2 -std=c99 -Wall`. Override the compiler with `CC=clang scripts/build.sh`.
+built with `gcc -O3 -std=c99 -Wall`. Override the compiler with `CC=clang scripts/build.sh`.
 
 Equivalent manual commands, if you prefer not to use the script:
 
 ```bash
-gcc -O2 -std=c99 -Wall src/genetico/ConstructorRedes2D_C4_Genetico_Final.c -o ga_seq -lm
-gcc -O2 -std=c99 -Wall -fopenmp src/genetico/ConstructorRedes2D_C4_Genetico_Final.c -o ga_omp -lm
+gcc -O3 -std=c99 -Wall src/genetico/ConstructorRedes2D_C4_Genetico_Final.c -o ga_seq -lm
+gcc -O3 -std=c99 -Wall -fopenmp src/genetico/ConstructorRedes2D_C4_Genetico_Final.c -o ga_omp -lm
 ```
 
 ## Pure Monte Carlo baseline
@@ -149,7 +149,7 @@ working directory, plus a final `Tiempo total de ejecución: <seconds> segundos`
 | Population size (`numCromosomas`) | **compile-time constant** in `main()`, `src/...c` | 4, 8, 16, 32, 64, 128 (64 optimal, Sec. 4.2) | Not a runtime input in this source. `scripts/run_population_sweep.sh` / `run_thread_sweep.sh` vary it by patching a *temporary* copy of the source with `sed` before compiling — `src/` itself is never modified. |
 | Thread count | `OMP_NUM_THREADS` env var (parallel build only) | 4, 8, 16, 32, 64, 128 (32 optimal, Sec. 4.3) | Standard OpenMP mechanism; no source change needed. |
 | Mutation probability | hard-coded `const double probMutacion = 0.15;` in `mutarCromosoma()` | 15% (Sec. 3.5) | Fixed in source, matches the paper exactly. |
-| Iterations / generations | **unbounded**: `main()`'s loop is `while (mejorFitness != 0)` | fixed budget of 13000 (Sec. 4.1/4.2) | See "Reproducibility notes" — this is the most important gap between the shipped code and the paper's experimental protocol. |
+| Iterations / generations | **fixed budget of 13000** via `MAX_GENERACIONES` in `main()` (0 = unbounded, run until `mejorFitness == 0`) | fixed budget of 13000 (Sec. 4.1/4.2) | Matches the paper by default. See "Reproducibility notes" item 1. |
 | Omega (overlap) | **not a direct input** — implied by `mediaS`, `mediaE`, `desviacion` | 0.3, 0.6, 0.9 | See the derivation and concrete triples below. |
 | Random seed | `srand(time(NULL))` in `main()` | not reported per-run in the paper | See "Random seeds" below. |
 
@@ -232,14 +232,25 @@ already implemented/corrected in this repository), documented here rather than s
 patched, so the gap between "what the paper reports" and "what this code will print if you
 run it" is explicit:
 
-1. **No fixed iteration budget.** `main()` loops until the lattice is fully free of
-   Construction Principle violations (`mejorFitness == 0`), aided by a relaxation fallback
-   (`relajaSitios`) once the residual violation rate drops below ~0.001%. The paper's Table 1
-   and Fig. 13 report the (generally non-zero) error remaining after a **fixed** 13000-generation
-   budget. Consequently, any run of the current code will always converge to error = 0 —
-   `scripts/run_population_sweep.sh` and `plot_table1.py` report generations/time **to full
-   convergence** instead, which is the closest faithful comparison obtainable without changing
-   the algorithm's termination condition.
+1. **Fixed 13000-generation budget by default**, matching the paper (Sec. 4.1/4.2, Table 1/Fig.
+   13). `main()`'s loop is `while (mejorFitness != 0 && (MAX_GENERACIONES <= 0 || gen <
+   MAX_GENERACIONES))`, with `MAX_GENERACIONES = 13000`. If the budget runs out before
+   `mejorFitness` reaches 0, the loop stops, the best network found so far is still exported to
+   `red_colores.csv`, and the program prints the residual error instead of "converged" - matching
+   how the paper itself reports Table 1/Fig. 13 (a fixed budget, generally non-zero residual
+   error), rather than forcing exact convergence. This matters most for high-overlap
+   configurations (e.g. Omega=0.9, `mediaS`/`mediaE` close together) where reaching error=0 via
+   crossover/mutation alone can take an impractically long time even with population=64 and the
+   guards below. Set `MAX_GENERACIONES = 0` in `main()` to restore the original unbounded
+   behavior (run until `mejorFitness == 0`, however long that takes). Two additional mechanisms
+   help close the distance to zero (or to whatever the budget allows) faster: a relaxation
+   fallback (`relajaSitios`) once the residual violation rate drops below 0.1% (widened from an
+   original 0.001% threshold that could never trigger below L~317, i.e. for every L the paper's
+   own experiments use - see item 9 below), and a stagnation guard that refreshes part of the
+   population if the best fitness stalls for too long (see item 10). `scripts/run_population_sweep.sh`
+   and `plot_table1.py` currently report generations/time **to full convergence** rather than
+   residual error at a fixed budget; with `MAX_GENERACIONES` now enforced, they could be updated
+   to report residual error directly instead, closer to the paper's own Table 1 format.
 2. **Population size is a compile-time constant** (`numCromosomas` in `main()`), not a runtime
    argument. The sweep scripts vary it by compiling a `sed`-patched temporary copy of the
    source per data point; `src/` itself is never modified.
@@ -255,18 +266,47 @@ run it" is explicit:
    single OR-based indicator per bond (contributing at most 1). Both formulations reach exactly
    0 under the same "fully consistent lattice" condition, so this does not affect the
    convergence criterion, only the intermediate magnitude of the reported error.
-7. **`relajaSitios` (the legacy relaxation fallback, Sec. 2.2) loops over `numCromosomas`
-   iterations of the *same* single chromosome it is given** (its `NODO_BSM **` parameter does
-   not vary with the loop index), so it applies its `+0.1%` site-radius growth `numCromosomas`
-   times per call rather than once. This is a pre-existing property of the fallback path (not
-   part of the crossover/mutation/initialization operators covered by this repository's
-   alignment with the paper) and is documented here rather than changed.
+7. **Fixed:** `relajaSitios` (the legacy relaxation fallback, Sec. 2.2) used to loop over
+   `numCromosomas` iterations of the *same* single chromosome it is given (its `NODO_BSM **`
+   parameter did not vary with the loop index), applying its `+0.1%` site-radius growth
+   `numCromosomas` times per call instead of once, and doing so under an OpenMP
+   `collapse(3)` with no synchronization between the redundant iterations (a data race on
+   `r_Sitio`). The redundant loop has been removed; the growth is now applied exactly once
+   per call, deterministically, in both the sequential and parallel builds.
 
 8. **The pure Monte Carlo baseline has no convergence guarantee within a bounded budget**, by
    design (see "Pure Monte Carlo baseline" above) - unlike the GA, it has no relaxation fallback,
    so `scripts/run_ga_vs_mc_comparison.sh` may legitimately report a non-zero residual error for
    it at large L once its `--max-attempts` cap is hit. This is not a bug; it is the comparison's
-   point.
+   point. Its output also tends to show large, smoothly-bounded spatial domains of same-category
+   sites (visibly, and confirmed numerically: ~78% same-category neighbor pairs on a run vs. ~33%
+   expected under spatial randomness) rather than a well-mixed arrangement. This is not a
+   plotting artifact - it is an expected consequence of its "never accept a worse exchange"
+   acceptance rule, which behaves like a zero-temperature local-search dynamics known to produce
+   domain coarsening (the same class of phenomenon behind phase separation in zero-temperature
+   Ising/Glauber dynamics or voter models), and is itself a concrete illustration of the paper's
+   point (Sec. 1.2/2.2) that blind Monte Carlo search does not guarantee a physically realistic
+   spatial arrangement the way the GA's category-preserving operators do.
+
+9. **`relajaSitios`'s trigger threshold was widened from 0.001% to 0.1%** (see item 1). The
+   original `< 0.001` percentage comparison required `error < 0.025` for L=50 - impossible for
+   an integer error count - so the fallback could never fire for any L below ~317, silently
+   defeating its documented purpose (finishing off the last few violations near convergence)
+   for every L value the paper's own experiments use (50-500... except the very largest are
+   still below 317). At 0.1% it becomes reachable (`error <= 2` at L=50, `<= 250` at L=500)
+   while still only firing once the population is genuinely close to a feasible solution.
+
+10. **Stagnation guard (new, additive - not one of the paper's Sec. 3 operators).** The
+    elitist replacement in `cruzarCromosomas` (keep the 2 best of 2 parents + 2 offspring) can
+    collapse the population into near-identical chromosomes after enough generations, leaving
+    mutation's single-site swaps as the only remaining source of novelty - which stalls for a
+    long time on violations that need several coordinated changes at once. If `mejorFitness`
+    hasn't improved for 50 generations, `inyectarDiversidad` replaces the worst-performing
+    quarter of the population (by that generation's fitness, never the current best) with fresh
+    Fisher-Yates permutations of the same `M_base` used at startup - identical mechanism to
+    `inicializarPoblacion`, so `F_S(R_S)`/`F_B(R_B)` stay exactly invariant; only which spatial
+    arrangements are present in the population changes. Prints
+    `Estancamiento detectado: N individuos reemplazados...` when it fires.
 
 None of the above affect the correctness of the core constraint-preserving genetic operators
 (population initialization, crossover, mutation — Sec. 3.2/3.4/3.5), which this source

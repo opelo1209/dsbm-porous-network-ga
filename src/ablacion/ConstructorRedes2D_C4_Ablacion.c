@@ -20,6 +20,22 @@
 #endif
 
 /* ============================================================================
+ * ABLATION VARIANT - Sec. 4.6 ablation study.
+ *
+ * Identical to ConstructorRedes2D_C4_Genetico_Final.c EXCEPT the category
+ * restriction is removed from crossover and mutation, reproducing the
+ * "conventional" unrestricted recombination/mutation the paper's Sec. 3.4
+ * describes only in prose ("an initial implementation employed conventional
+ * crossover strategies in which parent chromosomes generated offspring
+ * through unrestricted recombination... the selective pressure systematically
+ * favored chromosomes containing a larger proportion of large sites connected
+ * through small bonds"). Population initialization, the fitness function,
+ * elitist selection, the stagnation guard, and every other part of the
+ * evolutionary cycle are left byte-for-byte identical to the proposed method,
+ * so this file isolates ONLY the category-preservation design choice as the
+ * ablated variable. See cruzarSinCategoriaEnlace() and the mutation loop in
+ * mutarCromosoma() below for the two specific changes.
+ *
  * Constraint-preserving Genetic Algorithm for the construction of 2D porous
  * networks under the Dual Site-Bond Model (DSBM), coordination number four.
  *
@@ -638,15 +654,6 @@ int evaluarFitness(NODO_BSM **RED_2D, int L) {
     return errores;
 }
 
-// ----------------------------------------------------------------------------
-// Small accessors used by the bond-category crossover below. campo = 0 selects
-// the left bond (r_EIzq / tipoEIzq, i.e. type_BLeft); campo = 1 selects the
-// upper bond (r_EArr / tipoEArr, i.e. type_BUp).
-// ----------------------------------------------------------------------------
-static int obtenerTipoEnlace(NODO_BSM *nodo, int campo) {
-    return (campo == 0) ? nodo->tipoEIzq : nodo->tipoEArr;
-}
-
 // Exchanges only the bond radius (and its category label) stored in the
 // requested slot between two nodes; site radii and site categories are left
 // untouched, exactly as illustrated in Fig. 10 (only the highlighted bonds move).
@@ -671,54 +678,26 @@ static void intercambiarRadioEnlace(NODO_BSM *a, NODO_BSM *b, int campo) {
 }
 
 // ============================================================================
-// Sec. 3.4 - Constraint-preserving crossover, single bond field (left or
-// upper). Coordinates are bucketed into Small/Medium/Large by bond category
-// (type_BLeft or type_BUp) for each offspring, then bond radii are exchanged
-// only between matching categories. Because donor and receiver always belong
-// to the same category, the prescribed bond-size distribution F_B(R_B) stays
-// exactly invariant; only the spatial arrangement of bonds changes. Exchanges
-// are focused on positions that currently violate the Construction Principle
-// (errT1 > 0), so recombination concentrates on defective regions of the lattice.
+// ABLATION VARIANT (Sec. 4.6 ablation study) - "conventional" unrestricted
+// crossover: identical to cruzarPorCategoriaEnlace above (same total number
+// of exchange attempts, same errT1>0 gating on the donor position) except
+// the small/medium/large bucketing is removed entirely, so a bond radius
+// can be exchanged with ANY other lattice position regardless of category.
+// This is the "initial implementation" the paper's Sec. 3.4 describes only
+// in text ("parent chromosomes generated offspring through unrestricted
+// recombination"). Isolating ONLY the category restriction as the ablated
+// variable - everything else (elitist replacement, exchange count, error
+// gating) is left identical to the proposed method.
 // ============================================================================
-static void cruzarPorCategoriaEnlace(NODO_BSM **Hijo1, NODO_BSM **Hijo2, int L, int campo) {
+static void cruzarSinCategoriaEnlace(NODO_BSM **Hijo1, NODO_BSM **Hijo2, int L, int campo) {
     int N = L * L;
-    int *idxCat1[3], *idxCat2[3];
-    int cnt1[3] = {0, 0, 0}, cnt2[3] = {0, 0, 0};
+    for (int n = 0; n < N; n++) {
+        int i1 = rand() % L, j1 = rand() % L;
+        int i2 = rand() % L, j2 = rand() % L;
 
-    for (int c = 0; c < 3; c++) {
-        idxCat1[c] = malloc(N * sizeof(int));
-        idxCat2[c] = malloc(N * sizeof(int));
-    }
-
-    // Classify every lattice position by bond category, for both offspring.
-    for (int i = 0; i < L; i++) {
-        for (int j = 0; j < L; j++) {
-            int idx = i * L + j;
-            int t1 = obtenerTipoEnlace(&Hijo1[i][j], campo);
-            int t2 = obtenerTipoEnlace(&Hijo2[i][j], campo);
-            idxCat1[t1][cnt1[t1]++] = idx;
-            idxCat2[t2][cnt2[t2]++] = idx;
+        if (Hijo1[i1][j1].errT1 > 0) {
+            intercambiarRadioEnlace(&Hijo1[i1][j1], &Hijo2[i2][j2], campo);
         }
-    }
-
-    // Exchange bond radii within each category (small/medium/large).
-    for (int c = 0; c < 3; c++) {
-        int numIntercambios = (cnt1[c] < cnt2[c]) ? cnt1[c] : cnt2[c];
-        for (int n = 0; n < numIntercambios; n++) {
-            int idx1 = idxCat1[c][rand() % cnt1[c]];
-            int idx2 = idxCat2[c][rand() % cnt2[c]];
-            int i1 = idx1 / L, j1 = idx1 % L;
-            int i2 = idx2 / L, j2 = idx2 % L;
-
-            if (Hijo1[i1][j1].errT1 > 0) {
-                intercambiarRadioEnlace(&Hijo1[i1][j1], &Hijo2[i2][j2], campo);
-            }
-        }
-    }
-
-    for (int c = 0; c < 3; c++) {
-        free(idxCat1[c]);
-        free(idxCat2[c]);
     }
 }
 
@@ -788,9 +767,10 @@ void cruzarCromosomas(int tamPoblacion, int L, NODO_BSM ***Poblacion, const int 
             }
         }
 
-        // Category-preserving recombination on left bonds, then upper bonds.
-        cruzarPorCategoriaEnlace(Hijos[0], Hijos[1], L, 0); // left bonds  (type_BLeft)
-        cruzarPorCategoriaEnlace(Hijos[0], Hijos[1], L, 1); // upper bonds (type_BUp)
+        // ABLATION: unrestricted ("conventional") recombination on left bonds,
+        // then upper bonds - see cruzarSinCategoriaEnlace() above.
+        cruzarSinCategoriaEnlace(Hijos[0], Hijos[1], L, 0); // left bonds  (type_BLeft)
+        cruzarSinCategoriaEnlace(Hijos[0], Hijos[1], L, 1); // upper bonds (type_BUp)
 
         // Arreglo para anotar los fitness de los 4 seleccionados. Los padres
         // no han sido modificados desde que se evaluaron en el bucle de
@@ -905,13 +885,25 @@ void mutarCromosoma(int numCromosomas, int L, NODO_BSM ***POBLACION) {
                 int j2 = rand_r(&seed) % L;
                 double roll = (double)rand_r(&seed) / (double)RAND_MAX;
 
-                if (roll < probMutacion && POBLACION[k][i2][j2].tipo == POBLACION[k][i][j].tipo) {
-                    // Relocate: swap only the site radius between two same-category
-                    // sites; the site category itself is unaffected by construction,
-                    // since both positions already belonged to the same category.
+                // ABLATION: category check removed - "conventional" unrestricted
+                // mutation swaps r_Sitio between ANY two random positions, not
+                // just same-category ones, so F_S(R_S) is no longer guaranteed
+                // invariant. The category label travels WITH the value (as
+                // intercambiarRadioEnlace already does for bonds in crossover)
+                // so .tipo never goes stale relative to the actual r_Sitio now
+                // occupying each position - functionally inert here (nothing
+                // downstream reads .tipo; exportarRedConColores recomputes
+                // color from r_Sitio directly), but kept consistent since this
+                // variant may become the primary method rather than a
+                // throwaway ablation.
+                if (roll < probMutacion) {
                     double temp = POBLACION[k][i][j].r_Sitio;
                     POBLACION[k][i][j].r_Sitio = POBLACION[k][i2][j2].r_Sitio;
                     POBLACION[k][i2][j2].r_Sitio = temp;
+
+                    int tempTipo = POBLACION[k][i][j].tipo;
+                    POBLACION[k][i][j].tipo = POBLACION[k][i2][j2].tipo;
+                    POBLACION[k][i2][j2].tipo = tempTipo;
                 }
             }
         }

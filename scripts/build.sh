@@ -36,13 +36,13 @@ mkdir -p "$REPO_ROOT/bin/sequential" "$REPO_ROOT/bin/parallel" "$REPO_ROOT/bin/m
 echo "Using compiler: $("$CC" --version | head -n 1)"
 
 echo "Building sequential GA binary (no -fopenmp)..."
-"$CC" -O2 -std=c99 -Wall "$SRC_GA" -o "$REPO_ROOT/bin/sequential/ga_seq" -lm
+"$CC" -O3 -std=c99 -Wall "$SRC_GA" -o "$REPO_ROOT/bin/sequential/ga_seq" -lm
 
 echo "Building parallel (OpenMP) GA binary (-fopenmp)..."
-"$CC" -O2 -std=c99 -Wall -fopenmp "$SRC_GA" -o "$REPO_ROOT/bin/parallel/ga_omp" -lm
+"$CC" -O3 -std=c99 -Wall -fopenmp "$SRC_GA" -o "$REPO_ROOT/bin/parallel/ga_omp" -lm
 
 echo "Building pure Monte Carlo baseline binary..."
-"$CC" -O2 -std=c99 -Wall "$SRC_MC" -o "$REPO_ROOT/bin/montecarlo/mc_puro" -lm
+"$CC" -O3 -std=c99 -Wall "$SRC_MC" -o "$REPO_ROOT/bin/montecarlo/mc_puro" -lm
 
 echo "Done:"
 echo "  $REPO_ROOT/bin/sequential/ga_seq"

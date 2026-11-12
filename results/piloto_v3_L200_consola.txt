@@ -1,0 +1,49 @@
+fecha: 2026-11-12T02:21:48-06:00
+compilador: gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+flags: -O3 -std=gnu99 -fopenmp  ; OMP_NUM_THREADS=1 por corrida ; 8 corridas simultaneas
+sistema: Linux LAPTOP-SV7CB0U3 6.18.58.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct 27 00:24:11 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+cpu: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+fuente: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/src/genetico_v2/ConstructorRedes2D_C4_Genetico_v2.c
+sha256 fuente: f36f445e8a0e248dc5b6f921cf136c1a1bd2c72f4c3bb31e2f97974290fc63fb
+fuente v3: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/src/genetico_v3/ConstructorRedes2D_C4_Teselas_v3.c
+sha256 fuente v3: 8df4021044bb4bb64f4f32f4193ba7caae023ffc2e55fad4dfb1d6f856319a23
+git commit: 3a50809a7cb6bb1f8b21f70466a0a898732d2270 (cambios sin commit: 10)
+L=200 presupuesto=2e10 semillas=[1 2 3]
+omegas (omega:mediaS:mediaE:semiancho): 0.95:405:400:50
+variantes (nombre:P:opciones): busquedaLocal_P1:1:--sin-cruce focal0.5_P1:1:--sin-cruce,--focal=0.5 focal0.75_P1:1:--sin-cruce,--focal=0.75 v3_K1:1:--motor=v3,--tesela=50 v3_K2:2:--motor=v3,--tesela=50
+Corridas: 15  (simultaneas: 8)
+  ya hecho w0.95_busquedaLocal_P1_s3
+  ya hecho w0.95_busquedaLocal_P1_s1
+  ya hecho w0.95_busquedaLocal_P1_s2
+  listo w0.95_focal0.75_P1_s1: error%,misma_cat,C1 = 1.95687,0.8677,0.8594
+  listo w0.95_focal0.5_P1_s3: error%,misma_cat,C1 = 1.94750,0.8735,0.8608
+  listo w0.95_v3_K1_s1: error%,misma_cat,C1 = 2.88375,0.8526,0.8271
+  listo w0.95_focal0.75_P1_s3: error%,misma_cat,C1 = 1.77812,0.8729,0.8647
+  listo w0.95_focal0.75_P1_s2: error%,misma_cat,C1 = 1.93938,0.8736,0.8672
+  listo w0.95_focal0.5_P1_s1: error%,misma_cat,C1 = 2.13375,0.8691,0.8579
+  listo w0.95_v3_K1_s2: error%,misma_cat,C1 = 2.87938,0.8537,0.8234
+  listo w0.95_focal0.5_P1_s2: error%,misma_cat,C1 = 2.10812,0.8732,0.8600
+  listo w0.95_v3_K2_s1: error%,misma_cat,C1 = 3.35812,0.8325,0.7796
+  listo w0.95_v3_K2_s2: error%,misma_cat,C1 = 3.29000,0.8293,0.7729
+  listo w0.95_v3_K2_s3: error%,misma_cat,C1 = 3.17625,0.8300,0.7704
+  listo w0.95_v3_K1_s3: error%,misma_cat,C1 = 2.69375,0.8571,0.8232
+
+Resumen: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/piloto_v3_L200/resumen.csv (15 corridas)
+Analisis: python3 analysis/resumen_cruce.py /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/piloto_v3_L200
+| Ω | Variante | n | Error final (media ± DE) | Mediana | Error % incidencias | Llegaron a 0 | % misma categoría | C(1) | Evaluaciones usadas | Tiempo (s) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 0.950 | Busqueda local P=1 | 3 | 4266.3 ± 141.9 | 4328 | 2.666 ± 0.089 | 0/3 | 86.1 ± 0.3 | 0.842 ± 0.003 | 2e+10 | 2844.6 ± 487.8 |
+| 0.950 | focal0.5_P1 | 3 | 3301.0 ± 161.5 | 3373 | 2.063 ± 0.101 | 0/3 | 87.2 ± 0.2 | 0.860 ± 0.001 | 2e+10 | 2473.3 ± 155.4 |
+| 0.950 | focal0.75_P1 | 3 | 3026.3 ± 157.7 | 3103 | 1.891 ± 0.099 | 0/3 | 87.1 ± 0.3 | 0.864 ± 0.004 | 2e+10 | 2441.9 ± 129.2 |
+| 0.950 | v3_K1 | 3 | 4510.3 ± 173.5 | 4607 | 2.819 ± 0.108 | 0/3 | 85.4 ± 0.2 | 0.825 ± 0.002 | 2e+10 | 2008.5 ± 801.8 |
+| 0.950 | v3_K2 | 3 | 5239.7 ± 147.0 | 5264 | 3.275 ± 0.092 | 0/3 | 83.1 ± 0.2 | 0.774 ± 0.005 | 2e+10 | 932.5 ± 74.3 |
+
+| Ω | Comparación | Mediana busquedaLocal_P1 | Mediana otra | U | p (dos colas) | Conclusión (α=0.05) |
+|---|---|---|---|---|---|---|
+| 0.950 | busquedaLocal_P1 vs focal0.5_P1 | 4328 | 3373 | 9.0 | 0.1 | sin diferencia significativa |
+| 0.950 | busquedaLocal_P1 vs focal0.75_P1 | 4328 | 3103 | 9.0 | 0.1 | sin diferencia significativa |
+| 0.950 | busquedaLocal_P1 vs v3_K1 | 4328 | 4607 | 2.0 | 0.4 | sin diferencia significativa |
+| 0.950 | busquedaLocal_P1 vs v3_K2 | 4328 | 5264 | 0.0 | 0.1 | sin diferencia significativa |
+
+Guardado results/piloto_v3_L200/convergencia_omega_0.950.png
+Guardado results/piloto_v3_L200/cajas_error.png

@@ -1,0 +1,14 @@
+GA v2 | L=100 P=64 Gmax=13000 semilla=2026 | mediaS=440.00 mediaE=400.00 semiancho=50.00 -> Omega=0.600
+Mutacion GUIADA (acepta si no empeora), pm=0.15, sin restriccion de categoria; cruce PMX por bloques.
+Hilos OpenMP: 16
+M_base: media sitios=440.386  media enlaces=400.185  x1=423.342 x2=456.669
+Solucion sin violaciones en la generacion 204.
+--- Verificacion ---
+Inventario de sitios conservado:  SI (permutacion exacta de M_base)
+Inventario de enlaces conservado: SI (permutacion exacta de M_base)
+Fitness recalculado = 0 (registrado = 0)
+Error residual por incidencia = 0.0000%
+Vecinos de misma categoria (crudo) = 44.0%
+Generaciones = 204
+Tiempo total de ejecucion: 3.41 segundos
+Archivos omega_0.6_colores.csv y omega_0.6_completa.csv generados.

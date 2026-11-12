@@ -1,0 +1,119 @@
+GA v2 [GA_P64] | L=50 P=64 Gmax=2147483647 presupuesto=4e+09 semilla=5 | mediaS=440.00 mediaE=400.00 semiancho=50.00 -> Omega=0.600
+Mutacion GUIADA (acepta si no empeora), pm=0.15, sin restriccion de categoria; cruce PMX por bloques.
+Hilos OpenMP: 1
+M_base: media sitios=439.946  media enlaces=400.390  x1=423.330 x2=456.648
+Optimo[0] = 1779
+Optimo[1] = 1518
+Optimo[2] = 1306
+Optimo[3] = 1147
+Optimo[4] = 1030
+Optimo[5] = 943
+Optimo[6] = 864
+Optimo[7] = 784
+Optimo[8] = 719
+Optimo[9] = 661
+Optimo[10] = 617
+Optimo[11] = 581
+Optimo[12] = 530
+Optimo[13] = 496
+Optimo[14] = 463
+Optimo[15] = 426
+Optimo[16] = 404
+Optimo[17] = 380
+Optimo[18] = 368
+Optimo[19] = 348
+Optimo[20] = 338
+Optimo[21] = 317
+Optimo[22] = 306
+Optimo[23] = 290
+Optimo[24] = 281
+Optimo[25] = 262
+Optimo[26] = 249
+Optimo[27] = 240
+Optimo[28] = 228
+Optimo[29] = 217
+Optimo[30] = 207
+Optimo[31] = 197
+Optimo[32] = 193
+Optimo[33] = 184
+Optimo[34] = 176
+Optimo[35] = 169
+Optimo[36] = 163
+Optimo[37] = 154
+Optimo[38] = 147
+Optimo[39] = 141
+Optimo[40] = 137
+Optimo[41] = 127
+Optimo[42] = 122
+Optimo[43] = 118
+Optimo[44] = 114
+Optimo[45] = 107
+Optimo[46] = 103
+Optimo[47] = 102
+Optimo[48] = 99
+Optimo[49] = 97
+Optimo[50] = 95
+Optimo[51] = 94
+Optimo[52] = 87
+Optimo[53] = 85
+Optimo[54] = 83
+Optimo[55] = 77
+Optimo[56] = 74
+Optimo[57] = 70
+Optimo[58] = 66
+Optimo[59] = 65
+Optimo[60] = 61
+Optimo[61] = 56
+Optimo[62] = 55
+Optimo[63] = 54
+Optimo[64] = 52
+Optimo[65] = 51
+Optimo[66] = 49
+Optimo[68] = 48
+Optimo[69] = 44
+Optimo[70] = 42
+Optimo[71] = 41
+Optimo[74] = 40
+Optimo[75] = 38
+Optimo[76] = 36
+Optimo[77] = 34
+Optimo[78] = 31
+Optimo[80] = 29
+Optimo[81] = 27
+Optimo[84] = 25
+Optimo[85] = 24
+Optimo[87] = 23
+Optimo[88] = 21
+Optimo[89] = 20
+Optimo[90] = 19
+Optimo[93] = 17
+Optimo[96] = 16
+Optimo[97] = 15
+Optimo[100] = 14
+Optimo[101] = 13
+Optimo[103] = 12
+Optimo[104] = 11
+Optimo[105] = 10
+Optimo[106] = 9
+Optimo[110] = 8
+Optimo[111] = 6
+Optimo[112] = 5
+Optimo[113] = 4
+Optimo[114] = 3
+Optimo[116] = 2
+Optimo[131] = 1
+Optimo[150] = 0
+Solucion sin violaciones en la generacion 150.
+--- Verificacion ---
+Inventario de sitios conservado:  SI (permutacion exacta de M_base)
+Inventario de enlaces conservado: SI (permutacion exacta de M_base)
+Fitness recalculado = 0 (registrado = 0)
+Error residual por incidencia = 0.0000%
+Vecinos de misma categoria (crudo) = 44.3%
+C(1) vecinos inmediatos = 0.2838
+Generaciones = 150
+Evaluaciones de sitio = 96129672
+Tiempo total de ejecucion: 3.82 segundos
+RESUMEN,variante,L,omega,semilla,P,cruce,generaciones,evaluaciones,tiempo_s,error,error_pct,misma_cat,C1,inventario_ok,fitness_ok
+RESUMEN,GA_P64,50,0.600,5,64,1,150,96129672,3.824,0,0.00000,0.4428,0.2838,1,1
+Archivos /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/experimento_cruce/redes/w0.6_GA_P64_s5_colores.csv y /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/experimento_cruce/redes/w0.6_GA_P64_s5_completa.csv generados.

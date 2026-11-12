@@ -1,0 +1,40 @@
+w0.95_GA_P64_s1 64 405 400 50 1 GA_P64
+w0.95_GA_P64_s2 64 405 400 50 2 GA_P64
+w0.95_GA_P64_s3 64 405 400 50 3 GA_P64
+w0.95_GA_P64_s4 64 405 400 50 4 GA_P64
+w0.95_GA_P64_s5 64 405 400 50 5 GA_P64
+w0.95_GA_P16_s1 16 405 400 50 1 GA_P16
+w0.95_GA_P16_s2 16 405 400 50 2 GA_P16
+w0.95_GA_P16_s3 16 405 400 50 3 GA_P16
+w0.95_GA_P16_s4 16 405 400 50 4 GA_P16
+w0.95_GA_P16_s5 16 405 400 50 5 GA_P16
+w0.95_GA4_rango_rep2_s1 4 405 400 50 1 GA4_rango_rep2 --cruce=rango,--reparar=2
+w0.95_GA4_rango_rep2_s2 4 405 400 50 2 GA4_rango_rep2 --cruce=rango,--reparar=2
+w0.95_GA4_rango_rep2_s3 4 405 400 50 3 GA4_rango_rep2 --cruce=rango,--reparar=2
+w0.95_GA4_rango_rep2_s4 4 405 400 50 4 GA4_rango_rep2 --cruce=rango,--reparar=2
+w0.95_GA4_rango_rep2_s5 4 405 400 50 5 GA4_rango_rep2 --cruce=rango,--reparar=2
+w0.95_busquedaLocal_P1_s1 1 405 400 50 1 busquedaLocal_P1 --sin-cruce
+w0.95_busquedaLocal_P1_s2 1 405 400 50 2 busquedaLocal_P1 --sin-cruce
+w0.95_busquedaLocal_P1_s3 1 405 400 50 3 busquedaLocal_P1 --sin-cruce
+w0.95_busquedaLocal_P1_s4 1 405 400 50 4 busquedaLocal_P1 --sin-cruce
+w0.95_busquedaLocal_P1_s5 1 405 400 50 5 busquedaLocal_P1 --sin-cruce
+w0.9_GA_P64_s1 64 410 400 50 1 GA_P64
+w0.9_GA_P64_s2 64 410 400 50 2 GA_P64
+w0.9_GA_P64_s3 64 410 400 50 3 GA_P64
+w0.9_GA_P64_s4 64 410 400 50 4 GA_P64
+w0.9_GA_P64_s5 64 410 400 50 5 GA_P64
+w0.9_GA_P16_s1 16 410 400 50 1 GA_P16
+w0.9_GA_P16_s2 16 410 400 50 2 GA_P16
+w0.9_GA_P16_s3 16 410 400 50 3 GA_P16
+w0.9_GA_P16_s4 16 410 400 50 4 GA_P16
+w0.9_GA_P16_s5 16 410 400 50 5 GA_P16
+w0.9_GA4_rango_rep2_s1 4 410 400 50 1 GA4_rango_rep2 --cruce=rango,--reparar=2
+w0.9_GA4_rango_rep2_s2 4 410 400 50 2 GA4_rango_rep2 --cruce=rango,--reparar=2
+w0.9_GA4_rango_rep2_s3 4 410 400 50 3 GA4_rango_rep2 --cruce=rango,--reparar=2
+w0.9_GA4_rango_rep2_s4 4 410 400 50 4 GA4_rango_rep2 --cruce=rango,--reparar=2
+w0.9_GA4_rango_rep2_s5 4 410 400 50 5 GA4_rango_rep2 --cruce=rango,--reparar=2
+w0.9_busquedaLocal_P1_s1 1 410 400 50 1 busquedaLocal_P1 --sin-cruce
+w0.9_busquedaLocal_P1_s2 1 410 400 50 2 busquedaLocal_P1 --sin-cruce
+w0.9_busquedaLocal_P1_s3 1 410 400 50 3 busquedaLocal_P1 --sin-cruce
+w0.9_busquedaLocal_P1_s4 1 410 400 50 4 busquedaLocal_P1 --sin-cruce
+w0.9_busquedaLocal_P1_s5 1 410 400 50 5 busquedaLocal_P1 --sin-cruce

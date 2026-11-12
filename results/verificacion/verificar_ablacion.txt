@@ -1,0 +1,42 @@
+=== Verificacion de operadores ===
+Fuente: ../src/ablacion/ConstructorRedes2D_C4_Ablacion.c
+L=50  P=16  G=300  mediaS=410.0  mediaE=400.0  semiancho=50.0  semilla=12345
+
+[T0] RAND_MAX = 2147483647
+     OK para este L (problema aparece si L^2-1 > RAND_MAX, es decir L > 46340).
+
+--- salida de inicializarPoblacion() ---
+x1 =  393.333881, x2 = 426.616702
+Histograma de colores (sitios): Amarillo(Pequeños) = 847, Azul(Medianos) = 853, Rojo(Grandes) = 800
+e1 =  383.340623, e2 = 416.663893
+Histograma de colores (enlaces): Amarillo(Pequeños) = 1641, Azul(Medianos) = 1706, Rojo(Grandes) = 1653
+----------------------------------------
+
+Evolucion (solo cruzarCromosomas + mutarCromosoma):
+  gen   mejor_fitness   media_enlaces_poblacion (M_base = 399.928)
+     0            4053   399.928
+    60            1629   377.324
+   120             790   368.171
+   180             471   364.078
+   240             314   361.988
+   300             206   360.564
+
+[T1] Mapa de categorias de sitios (A1)
+     Cromosomas finales cuyo mapa es IDENTICO a algun mapa inicial: 0 de 16
+     Vecinos de misma categoria: inicial 33.2%  ->  final 33.6%  (aleatorio ~33.3%)
+     Los operadores SI generan arreglos nuevos de categorias.
+
+[T2] Inventario por cromosoma vs M_base (A4)
+     Sitios  con multiconjunto identico a M_base: 16 de 16
+     Enlaces con multiconjunto identico a M_base: 0 de 16
+     Media de enlaces: M_base 399.928 | poblacion final min 360.387 / prom 360.564 / max 360.710
+     CONFIRMADO: el cruce NO conserva el inventario de enlaces de cada cromosoma.
+
+[T3] Determinismo de la mutacion (B1)
+     Posiciones alteradas por una llamada: 676 de 2500
+     Dos llamadas desde el MISMO estado coinciden en 2500 de 2500 posiciones
+     CONFIRMADO: la mutacion produce exactamente lo mismo en cada generacion
+     (la semilla de rand_r no depende de la generacion). Tras 2 llamadas seguidas,
+     482 de 676 sitios movidos regresaron a su valor original.
+
+Fin.

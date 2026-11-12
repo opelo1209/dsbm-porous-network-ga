@@ -1,0 +1,15 @@
+w0.95_busquedaLocal_P1_s1 1 405 400 50 1 busquedaLocal_P1 --sin-cruce
+w0.95_busquedaLocal_P1_s2 1 405 400 50 2 busquedaLocal_P1 --sin-cruce
+w0.95_busquedaLocal_P1_s3 1 405 400 50 3 busquedaLocal_P1 --sin-cruce
+w0.95_focal0.75_P1_s1 1 405 400 50 1 focal0.75_P1 --sin-cruce,--focal=0.75
+w0.95_focal0.75_P1_s2 1 405 400 50 2 focal0.75_P1 --sin-cruce,--focal=0.75
+w0.95_focal0.75_P1_s3 1 405 400 50 3 focal0.75_P1 --sin-cruce,--focal=0.75
+w0.95_GA4_pmx_focal_s1 4 405 400 50 1 GA4_pmx_focal --focal=0.75
+w0.95_GA4_pmx_focal_s2 4 405 400 50 2 GA4_pmx_focal --focal=0.75
+w0.95_GA4_pmx_focal_s3 4 405 400 50 3 GA4_pmx_focal --focal=0.75
+w0.95_GA4_rango_rep2_focal_s1 4 405 400 50 1 GA4_rango_rep2_focal --cruce=rango,--reparar=2,--focal=0.75
+w0.95_GA4_rango_rep2_focal_s2 4 405 400 50 2 GA4_rango_rep2_focal --cruce=rango,--reparar=2,--focal=0.75
+w0.95_GA4_rango_rep2_focal_s3 4 405 400 50 3 GA4_rango_rep2_focal --cruce=rango,--reparar=2,--focal=0.75
+w0.95_GA16_pmx_focal_s1 16 405 400 50 1 GA16_pmx_focal --focal=0.75
+w0.95_GA16_pmx_focal_s2 16 405 400 50 2 GA16_pmx_focal --focal=0.75
+w0.95_GA16_pmx_focal_s3 16 405 400 50 3 GA16_pmx_focal --focal=0.75

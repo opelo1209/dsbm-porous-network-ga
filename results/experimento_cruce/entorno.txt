@@ -1,0 +1,10 @@
+fecha: 2026-11-11T22:06:28-06:00
+compilador: gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+flags: -O3 -std=gnu99 -fopenmp ; OMP_NUM_THREADS=1 por corrida ; 8 corridas simultaneas
+sistema: Linux LAPTOP-SV7CB0U3 6.18.58.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct 27 00:24:11 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+cpu: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+sha256 fuente: 4946defb0e4bd3dfccc7b7ee12e07157a119fee28be95d53fc878bfb3bdb747e
+git commit: 3a50809a7cb6bb1f8b21f70466a0a898732d2270 (cambios sin commit: 8)
+L=50 presupuesto=4e9 semillas=[1 2 3 4 5 6 7 8 9 10]
+omegas: 0.6=(440,400,50) 0.9=(410,400,50)
+variantes: GA_P64, GA_P16, sinCruce_P64, busquedaLocal_P1

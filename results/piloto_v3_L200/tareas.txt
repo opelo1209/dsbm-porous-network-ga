@@ -1,0 +1,15 @@
+w0.95_busquedaLocal_P1_s1 1 405 400 50 1 busquedaLocal_P1 --sin-cruce
+w0.95_busquedaLocal_P1_s2 1 405 400 50 2 busquedaLocal_P1 --sin-cruce
+w0.95_busquedaLocal_P1_s3 1 405 400 50 3 busquedaLocal_P1 --sin-cruce
+w0.95_focal0.5_P1_s1 1 405 400 50 1 focal0.5_P1 --sin-cruce,--focal=0.5
+w0.95_focal0.5_P1_s2 1 405 400 50 2 focal0.5_P1 --sin-cruce,--focal=0.5
+w0.95_focal0.5_P1_s3 1 405 400 50 3 focal0.5_P1 --sin-cruce,--focal=0.5
+w0.95_focal0.75_P1_s1 1 405 400 50 1 focal0.75_P1 --sin-cruce,--focal=0.75
+w0.95_focal0.75_P1_s2 1 405 400 50 2 focal0.75_P1 --sin-cruce,--focal=0.75
+w0.95_focal0.75_P1_s3 1 405 400 50 3 focal0.75_P1 --sin-cruce,--focal=0.75
+w0.95_v3_K1_s1 1 405 400 50 1 v3_K1 --motor=v3,--tesela=50
+w0.95_v3_K1_s2 1 405 400 50 2 v3_K1 --motor=v3,--tesela=50
+w0.95_v3_K1_s3 1 405 400 50 3 v3_K1 --motor=v3,--tesela=50
+w0.95_v3_K2_s1 2 405 400 50 1 v3_K2 --motor=v3,--tesela=50
+w0.95_v3_K2_s2 2 405 400 50 2 v3_K2 --motor=v3,--tesela=50
+w0.95_v3_K2_s3 2 405 400 50 3 v3_K2 --motor=v3,--tesela=50

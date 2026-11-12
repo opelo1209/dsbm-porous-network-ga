@@ -1,0 +1,44 @@
+fecha: 2026-11-12T01:51:10-06:00
+compilador: gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+flags: -O3 -std=gnu99 -fopenmp  ; OMP_NUM_THREADS=1 por corrida ; 2 corridas simultaneas
+sistema: Linux LAPTOP-SV7CB0U3 6.18.58.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct 27 00:24:11 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+cpu: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+fuente: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/src/genetico_v2/ConstructorRedes2D_C4_Genetico_v2.c
+sha256 fuente: 6de65a22130c637aed989da6d19134e6c063730b865f536dfac9a9f6595f39c5
+fuente v3: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/src/genetico_v3/ConstructorRedes2D_C4_Teselas_v3.c
+sha256 fuente v3: 8df4021044bb4bb64f4f32f4193ba7caae023ffc2e55fad4dfb1d6f856319a23
+git commit: 3a50809a7cb6bb1f8b21f70466a0a898732d2270 (cambios sin commit: 10)
+L=50 presupuesto=1e9 semillas=[1 2]
+omegas (omega:mediaS:mediaE:semiancho): 0.95:405:400:50
+variantes (nombre:P:opciones): busquedaLocal_P1:1:--sin-cruce SA_T0.3:1:--sin-cruce,--recocido=0.3/0.01 SA_T1:1:--sin-cruce,--recocido=1/0.01 v3_K1:1:--motor=v3,--tesela=25 v3_K4:4:--motor=v3,--tesela=25
+Corridas: 10  (simultaneas: 2)
+  ya hecho w0.95_busquedaLocal_P1_s1
+  ya hecho w0.95_busquedaLocal_P1_s2
+  listo w0.95_SA_T0.3_s2: error%,misma_cat,C1 = 2.25000,0.8478,0.8531
+  listo w0.95_SA_T0.3_s1: error%,misma_cat,C1 = 2.04000,0.8518,0.8665
+  listo w0.95_SA_T1_s1: error%,misma_cat,C1 = 2.28000,0.8418,0.8315
+  ya hecho w0.95_v3_K1_s1
+  ya hecho w0.95_v3_K1_s2
+  ya hecho w0.95_v3_K4_s1
+  ya hecho w0.95_v3_K4_s2
+  listo w0.95_SA_T1_s2: error%,misma_cat,C1 = 2.49000,0.8388,0.8099
+
+Resumen: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/calibracion_v3/resumen.csv (10 corridas)
+Analisis: python3 analysis/resumen_cruce.py /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/calibracion_v3
+| Ω | Variante | n | Error final (media ± DE) | Mediana | Error % incidencias | Llegaron a 0 | % misma categoría | C(1) | Evaluaciones usadas | Tiempo (s) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 0.950 | Busqueda local P=1 | 2 | 196.5 ± 7.8 | 196 | 1.965 ± 0.078 | 0/2 | 84.2 ± 0.7 | 0.827 ± 0.002 | 1e+09 | 73.7 ± 2.4 |
+| 0.950 | SA_T0.3 | 2 | 214.5 ± 14.8 | 214 | 2.145 ± 0.148 | 0/2 | 85.0 ± 0.3 | 0.860 ± 0.009 | 1e+09 | 77.5 ± 2.3 |
+| 0.950 | SA_T1 | 2 | 238.5 ± 14.8 | 238 | 2.385 ± 0.148 | 0/2 | 84.0 ± 0.2 | 0.821 ± 0.015 | 1e+09 | 89.1 ± 1.1 |
+| 0.950 | v3_K1 | 2 | 218.0 ± 18.4 | 218 | 2.180 ± 0.184 | 0/2 | 83.0 ± 0.3 | 0.808 ± 0.010 | 1e+09 | 84.2 ± 2.6 |
+| 0.950 | v3_K4 | 2 | 322.5 ± 6.4 | 322 | 3.225 ± 0.064 | 0/2 | 77.6 ± 0.6 | 0.685 ± 0.025 | 1e+09 | 86.3 ± 0.9 |
+
+| Ω | Comparación | Mediana busquedaLocal_P1 | Mediana otra | U | p (dos colas) | Conclusión (α=0.05) |
+|---|---|---|---|---|---|---|
+| 0.950 | busquedaLocal_P1 vs SA_T0.3 | 196 | 214 | 0.0 | 0.3333 | sin diferencia significativa |
+| 0.950 | busquedaLocal_P1 vs SA_T1 | 196 | 238 | 0.0 | 0.3333 | sin diferencia significativa |
+| 0.950 | busquedaLocal_P1 vs v3_K1 | 196 | 218 | 0.0 | 0.3333 | sin diferencia significativa |
+| 0.950 | busquedaLocal_P1 vs v3_K4 | 196 | 322 | 0.0 | 0.3333 | sin diferencia significativa |
+
+Guardado results/calibracion_v3/convergencia_omega_0.950.png
+Guardado results/calibracion_v3/cajas_error.png

@@ -1,0 +1,30 @@
+fecha: 2026-11-11T22:30:22-06:00
+compilador: gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+flags: -O3 -std=gnu99 -fopenmp  ; OMP_NUM_THREADS=1 por corrida ; 3 corridas simultaneas
+sistema: Linux LAPTOP-SV7CB0U3 6.18.58.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct 27 00:24:11 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+cpu: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+fuente: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/src/genetico_v2/ConstructorRedes2D_C4_Genetico_v2.c
+sha256 fuente: ac9d6cad2cda845e60e253685051b7c09026302574211f08b1f79def89f63610
+git commit: 3a50809a7cb6bb1f8b21f70466a0a898732d2270 (cambios sin commit: 9)
+L=50 presupuesto=1e9 semillas=[1 2 3]
+omegas (omega:mediaS:mediaE:semiancho): 0.9:410:400:50
+variantes (nombre:P:opciones): GA16_pmx:16 GA16_pmx_rep2:16:--reparar=2 GA16_rango:16:--cruce=rango GA16_rango_rep2:16:--cruce=rango,--reparar=2 GA4_rango_rep2:4:--cruce=rango,--reparar=2 busquedaLocal_P1:1:--sin-cruce
+Corridas: 18  (simultaneas: 3)
+  listo w0.9_GA16_pmx_rep2_s2: error%,misma_cat,C1 = 4.23000,0.6436,0.5254
+  listo w0.9_GA16_pmx_rep2_s3: error%,misma_cat,C1 = 5.41000,0.6424,0.5004
+  listo w0.9_GA16_pmx_s1: error%,misma_cat,C1 = 1.92000,0.7348,0.7235
+  listo w0.9_GA16_rango_s1: error%,misma_cat,C1 = 1.84000,0.7388,0.7191
+  listo w0.9_GA16_rango_s2: error%,misma_cat,C1 = 1.93000,0.7344,0.7291
+  listo w0.9_GA16_rango_s3: error%,misma_cat,C1 = 3.00000,0.7354,0.6561
+  listo w0.9_GA16_rango_rep2_s1: error%,misma_cat,C1 = 2.34000,0.7194,0.6735
+  listo w0.9_GA16_rango_rep2_s2: error%,misma_cat,C1 = 2.63000,0.7054,0.6575
+  listo w0.9_GA16_rango_rep2_s3: error%,misma_cat,C1 = 3.62000,0.7188,0.6191
+  listo w0.9_GA4_rango_rep2_s1: error%,misma_cat,C1 = 0.83000,0.7762,0.8247
+  listo w0.9_GA4_rango_rep2_s2: error%,misma_cat,C1 = 0.92000,0.7820,0.8174
+  listo w0.9_GA4_rango_rep2_s3: error%,misma_cat,C1 = 2.05000,0.7666,0.7362
+  listo w0.9_busquedaLocal_P1_s1: error%,misma_cat,C1 = 0.00000,0.8358,0.9314
+  listo w0.9_busquedaLocal_P1_s2: error%,misma_cat,C1 = 0.00000,0.8222,0.9298
+  listo w0.9_busquedaLocal_P1_s3: error%,misma_cat,C1 = 0.40000,0.8436,0.9144
+
+Resumen: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/piloto_cruce/resumen.csv (15 corridas)
+Analisis: python3 analysis/resumen_cruce.py /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/piloto_cruce

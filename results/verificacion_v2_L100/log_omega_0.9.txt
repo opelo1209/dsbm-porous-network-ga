@@ -1,0 +1,14 @@
+GA v2 | L=100 P=64 Gmax=13000 semilla=2026 | mediaS=410.00 mediaE=400.00 semiancho=50.00 -> Omega=0.900
+Mutacion GUIADA (acepta si no empeora), pm=0.15, sin restriccion de categoria; cruce PMX por bloques.
+Hilos OpenMP: 16
+M_base: media sitios=410.386  media enlaces=400.185  x1=393.342 x2=426.669
+Presupuesto de 13000 generaciones agotado. Error residual = 731.
+--- Verificacion ---
+Inventario de sitios conservado:  SI (permutacion exacta de M_base)
+Inventario de enlaces conservado: SI (permutacion exacta de M_base)
+Fitness recalculado = 731 (registrado = 731)
+Error residual por incidencia = 1.8275%
+Vecinos de misma categoria (crudo) = 76.7%
+Generaciones = 13000
+Tiempo total de ejecucion: 176.39 segundos
+Archivos omega_0.9_colores.csv y omega_0.9_completa.csv generados.

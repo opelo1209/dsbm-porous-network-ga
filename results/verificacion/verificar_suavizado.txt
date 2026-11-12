@@ -1,0 +1,4 @@
+Red ALEATORIA L=200
+  crudo:                  33.5% vecinos de misma categoria
+  suavizado sigma=1.0:     68.5%   <- solo por el filtro de la grafica
+  suavizado sigma=2.0:     83.2%   <- solo por el filtro de la grafica

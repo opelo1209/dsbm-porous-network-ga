@@ -1,9 +1,16 @@
-# Constraint-Preserving Genetic Algorithm for DSBM Porous Networks
+# Constraint-Aware Evolutionary Algorithm for DSBM Porous Networks
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24177405.svg)](https://doi.org/10.5281/zenodo.24177405)
 
 Reference implementation for:
 
-> Moreno-Montiel, B., Cordero-Sánchez, S., Villegas-Cortez, J. "A Constraint-Preserving
-> Genetic Algorithm for the Construction of Porous Networks Based on the Dual Site-Bond Model."
+> Moreno-Montiel, B., Cordero-Sánchez, S., Villegas-Cortez, J. "A Constraint-Aware
+> Evolutionary Algorithm for Reducing Construction Principle Violations in Two-Dimensional
+> Dual Site-Bond Porous Networks." Submitted to *The Computer Journal*.
+> Archived release v2.0.0: https://doi.org/10.5281/zenodo.24177405
+>
+> Earlier version: "A Constraint-Preserving Genetic Algorithm for the Construction of Porous
+> Networks Based on the Dual Site-Bond Model" (see the status update below).
 
 This repository accompanies the paper for cross-validation of results and implementation
 accuracy. It contains the genetic algorithm's C source (sequential and OpenMP-parallel, see

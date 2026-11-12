@@ -1,0 +1,13 @@
+fecha: 2026-11-12T08:43:14-06:00
+compilador: gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+flags: -O3 -std=gnu99 -fopenmp  ; OMP_NUM_THREADS=1 por corrida ; 8 corridas simultaneas
+sistema: Linux LAPTOP-SV7CB0U3 6.18.58.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct 27 00:24:11 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+cpu: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+fuente: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/src/genetico_v2/ConstructorRedes2D_C4_Genetico_v2.c
+sha256 fuente: f36f445e8a0e248dc5b6f921cf136c1a1bd2c72f4c3bb31e2f97974290fc63fb
+fuente v3: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/src/genetico_v3/ConstructorRedes2D_C4_Teselas_v3.c
+sha256 fuente v3: 8df4021044bb4bb64f4f32f4193ba7caae023ffc2e55fad4dfb1d6f856319a23
+git commit: 12b3d63d1e30de18e62fc0152c3ce4497e3fd3b1 (cambios sin commit: 2)
+L=100 presupuesto=2e9 semillas=[1 2 3 4 5]
+omegas (omega:mediaS:mediaE:semiancho): 0.3:440:370:50 0.6:440:400:50 0.9:410:400:50 0.95:405:400:50
+variantes (nombre:P:opciones): focal0.75_P1:1:--sin-cruce,--focal=0.75 busquedaLocal_P1:1:--sin-cruce

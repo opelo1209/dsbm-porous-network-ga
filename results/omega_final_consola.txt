@@ -1,0 +1,80 @@
+fecha: 2026-11-12T08:43:14-06:00
+compilador: gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+flags: -O3 -std=gnu99 -fopenmp  ; OMP_NUM_THREADS=1 por corrida ; 8 corridas simultaneas
+sistema: Linux LAPTOP-SV7CB0U3 6.18.58.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct 27 00:24:11 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+cpu: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+fuente: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/src/genetico_v2/ConstructorRedes2D_C4_Genetico_v2.c
+sha256 fuente: f36f445e8a0e248dc5b6f921cf136c1a1bd2c72f4c3bb31e2f97974290fc63fb
+fuente v3: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/src/genetico_v3/ConstructorRedes2D_C4_Teselas_v3.c
+sha256 fuente v3: 8df4021044bb4bb64f4f32f4193ba7caae023ffc2e55fad4dfb1d6f856319a23
+git commit: 12b3d63d1e30de18e62fc0152c3ce4497e3fd3b1 (cambios sin commit: 2)
+L=100 presupuesto=2e9 semillas=[1 2 3 4 5]
+omegas (omega:mediaS:mediaE:semiancho): 0.3:440:370:50 0.6:440:400:50 0.9:410:400:50 0.95:405:400:50
+variantes (nombre:P:opciones): focal0.75_P1:1:--sin-cruce,--focal=0.75 busquedaLocal_P1:1:--sin-cruce
+Corridas: 40  (simultaneas: 8)
+  listo w0.3_focal0.75_P1_s3: error%,misma_cat,C1 = 0.00000,0.3367,0.0200
+  listo w0.3_focal0.75_P1_s4: error%,misma_cat,C1 = 0.00000,0.3444,0.0161
+  listo w0.3_focal0.75_P1_s2: error%,misma_cat,C1 = 0.00000,0.3412,0.0100
+  listo w0.3_focal0.75_P1_s5: error%,misma_cat,C1 = 0.00000,0.3412,0.0207
+  listo w0.3_focal0.75_P1_s1: error%,misma_cat,C1 = 0.00000,0.3412,0.0186
+  listo w0.3_busquedaLocal_P1_s3: error%,misma_cat,C1 = 0.00000,0.3420,0.0200
+  listo w0.3_busquedaLocal_P1_s2: error%,misma_cat,C1 = 0.00000,0.3469,0.0386
+  listo w0.3_busquedaLocal_P1_s1: error%,misma_cat,C1 = 0.00000,0.3446,0.0294
+  listo w0.6_focal0.75_P1_s2: error%,misma_cat,C1 = 0.00000,0.4089,0.2197
+  listo w0.6_focal0.75_P1_s1: error%,misma_cat,C1 = 0.00000,0.4134,0.2238
+  listo w0.3_busquedaLocal_P1_s4: error%,misma_cat,C1 = 0.00000,0.3484,0.0393
+  listo w0.3_busquedaLocal_P1_s5: error%,misma_cat,C1 = 0.00000,0.3488,0.0297
+  listo w0.6_focal0.75_P1_s3: error%,misma_cat,C1 = 0.00000,0.4079,0.2070
+  listo w0.6_focal0.75_P1_s4: error%,misma_cat,C1 = 0.00000,0.4192,0.2232
+  listo w0.6_focal0.75_P1_s5: error%,misma_cat,C1 = 0.00000,0.4189,0.2184
+  listo w0.6_busquedaLocal_P1_s1: error%,misma_cat,C1 = 0.00000,0.4384,0.2886
+  listo w0.6_busquedaLocal_P1_s2: error%,misma_cat,C1 = 0.00000,0.4360,0.2756
+  listo w0.6_busquedaLocal_P1_s5: error%,misma_cat,C1 = 0.00000,0.4521,0.2998
+  listo w0.6_busquedaLocal_P1_s3: error%,misma_cat,C1 = 0.00000,0.4506,0.3108
+  listo w0.6_busquedaLocal_P1_s4: error%,misma_cat,C1 = 0.00000,0.4504,0.3171
+  listo w0.9_focal0.75_P1_s1: error%,misma_cat,C1 = 0.00000,0.8102,0.9001
+  listo w0.9_focal0.75_P1_s4: error%,misma_cat,C1 = 0.00000,0.8106,0.9035
+  listo w0.9_focal0.75_P1_s2: error%,misma_cat,C1 = 0.00000,0.8060,0.8957
+  listo w0.9_focal0.75_P1_s3: error%,misma_cat,C1 = 0.00000,0.8119,0.9029
+  listo w0.9_busquedaLocal_P1_s2: error%,misma_cat,C1 = 0.26500,0.8363,0.9112
+  listo w0.9_busquedaLocal_P1_s1: error%,misma_cat,C1 = 0.23750,0.8428,0.9179
+  listo w0.9_busquedaLocal_P1_s3: error%,misma_cat,C1 = 0.32500,0.8416,0.9134
+  listo w0.9_focal0.75_P1_s5: error%,misma_cat,C1 = 0.46250,0.8282,0.8832
+  listo w0.9_busquedaLocal_P1_s4: error%,misma_cat,C1 = 0.28000,0.8340,0.9158
+  listo w0.95_focal0.75_P1_s1: error%,misma_cat,C1 = 2.29000,0.8448,0.8342
+  listo w0.9_busquedaLocal_P1_s5: error%,misma_cat,C1 = 0.90500,0.8379,0.8593
+  listo w0.95_focal0.75_P1_s2: error%,misma_cat,C1 = 2.25750,0.8414,0.8136
+  listo w0.95_focal0.75_P1_s3: error%,misma_cat,C1 = 2.58250,0.8519,0.8110
+  listo w0.95_focal0.75_P1_s4: error%,misma_cat,C1 = 2.31750,0.8399,0.8242
+  listo w0.95_busquedaLocal_P1_s1: error%,misma_cat,C1 = 2.99000,0.8423,0.7956
+  listo w0.95_focal0.75_P1_s5: error%,misma_cat,C1 = 3.49750,0.8407,0.7750
+  listo w0.95_busquedaLocal_P1_s3: error%,misma_cat,C1 = 3.28500,0.8410,0.7877
+  listo w0.95_busquedaLocal_P1_s2: error%,misma_cat,C1 = 2.97000,0.8361,0.7858
+  listo w0.95_busquedaLocal_P1_s4: error%,misma_cat,C1 = 3.14000,0.8310,0.7974
+  listo w0.95_busquedaLocal_P1_s5: error%,misma_cat,C1 = 4.09750,0.8394,0.7711
+
+Resumen: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/omega_final/resumen.csv (40 corridas)
+Analisis: python3 analysis/resumen_cruce.py /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/omega_final
+| Ω | Variante | n | Error final (media ± DE) | Mediana | Error % incidencias | Llegaron a 0 | % misma categoría | C(1) | Evaluaciones usadas | Tiempo (s) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 0.300 | Busqueda local P=1 | 5 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 5/5 | 34.6 ± 0.3 | 0.031 ± 0.008 | 1.06e+06 | 0.1 ± 0.0 |
+| 0.300 | focal0.75_P1 | 5 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 5/5 | 34.1 ± 0.3 | 0.017 ± 0.004 | 7.99e+04 | 0.0 ± 0.0 |
+| 0.600 | Busqueda local P=1 | 5 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 5/5 | 44.5 ± 0.8 | 0.298 ± 0.017 | 6.84e+06 | 0.7 ± 0.1 |
+| 0.600 | focal0.75_P1 | 5 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 5/5 | 41.4 ± 0.5 | 0.218 ± 0.007 | 8.1e+05 | 0.2 ± 0.1 |
+| 0.900 | Busqueda local P=1 | 5 | 161.0 ± 113.1 | 112 | 0.403 ± 0.283 | 0/5 | 83.9 ± 0.4 | 0.904 ± 0.025 | 2e+09 | 109.2 ± 6.5 |
+| 0.900 | focal0.75_P1 | 5 | 37.0 ± 82.7 | 0 | 0.092 ± 0.207 | 4/5 | 81.3 ± 0.9 | 0.897 ± 0.008 | 1.45e+09 | 86.0 ± 21.0 |
+| 0.950 | Busqueda local P=1 | 5 | 1318.6 ± 186.2 | 1256 | 3.297 ± 0.466 | 0/5 | 83.8 ± 0.5 | 0.788 ± 0.010 | 2e+09 | 83.3 ± 11.3 |
+| 0.950 | focal0.75_P1 | 5 | 1035.6 ± 209.6 | 927 | 2.589 ± 0.524 | 0/5 | 84.4 ± 0.5 | 0.812 ± 0.022 | 2e+09 | 102.6 ± 5.6 |
+
+| Ω | Comparación | Mediana focal0.75_P1 | Mediana otra | U | p (dos colas) | Conclusión (α=0.05) |
+|---|---|---|---|---|---|---|
+| 0.300 | focal0.75_P1 vs busquedaLocal_P1 | 0 | 0 | nan | 1 | sin diferencia significativa |
+| 0.600 | focal0.75_P1 vs busquedaLocal_P1 | 0 | 0 | nan | 1 | sin diferencia significativa |
+| 0.900 | focal0.75_P1 vs busquedaLocal_P1 | 0 | 112 | 4.0 | 0.08467 | sin diferencia significativa |
+| 0.950 | focal0.75_P1 vs busquedaLocal_P1 | 927 | 1256 | 4.0 | 0.09524 | sin diferencia significativa |
+
+Guardado results/omega_final/convergencia_omega_0.300.png
+Guardado results/omega_final/convergencia_omega_0.600.png
+Guardado results/omega_final/convergencia_omega_0.900.png
+Guardado results/omega_final/convergencia_omega_0.950.png
+Guardado results/omega_final/cajas_error.png

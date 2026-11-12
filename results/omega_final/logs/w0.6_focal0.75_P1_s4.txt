@@ -1,0 +1,47 @@
+GA v2 [focal0.75_P1] | L=100 P=1 Gmax=2147483647 presupuesto=2e+09 semilla=4 | mediaS=440.00 mediaE=400.00 semiancho=50.00 -> Omega=0.600
+Mutacion GUIADA (acepta si no empeora), pm=0.15, sin restriccion de categoria; cruce DESACTIVADO; reparacion de frontera: 0 barridos.
+FOCAL,f=0.75 (primer elemento de cada intento tomado de los sitios violados)
+Hilos OpenMP: 1
+M_base: media sitios=440.245  media enlaces=399.902  x1=423.331 x2=456.657
+Optimo[0] = 7231
+Optimo[1] = 5988
+Optimo[2] = 5023
+Optimo[3] = 4332
+Optimo[4] = 3734
+Optimo[5] = 3291
+Optimo[6] = 2968
+Optimo[7] = 2659
+Optimo[8] = 2393
+Optimo[9] = 2132
+Optimo[10] = 1883
+Optimo[11] = 1681
+Optimo[12] = 1466
+Optimo[13] = 1302
+Optimo[14] = 1168
+Optimo[15] = 1032
+Optimo[16] = 902
+Optimo[17] = 801
+Optimo[18] = 687
+Optimo[19] = 591
+Optimo[20] = 494
+Optimo[21] = 418
+Optimo[22] = 327
+Optimo[23] = 263
+Optimo[24] = 189
+Optimo[25] = 115
+Optimo[26] = 48
+Optimo[27] = 0
+Solucion sin violaciones en la generacion 27.
+--- Verificacion ---
+Inventario de sitios conservado:  SI (permutacion exacta de M_base)
+Inventario de enlaces conservado: SI (permutacion exacta de M_base)
+Fitness recalculado = 0 (registrado = 0)
+Error residual por incidencia = 0.0000%
+Vecinos de misma categoria (crudo) = 41.9%
+C(1) vecinos inmediatos = 0.2232
+Generaciones = 27
+Evaluaciones de sitio = 824976
+Tiempo total de ejecucion: 0.23 segundos
+RESUMEN,variante,L,omega,semilla,P,cruce,generaciones,evaluaciones,tiempo_s,error,error_pct,misma_cat,C1,inventario_ok,fitness_ok
+RESUMEN,focal0.75_P1,100,0.600,4,1,0,27,824976,0.227,0,0.00000,0.4192,0.2232,1,1
+Archivos /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/omega_final/redes/w0.6_focal0.75_P1_s4_colores.csv y /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/omega_final/redes/w0.6_focal0.75_P1_s4_completa.csv generados.

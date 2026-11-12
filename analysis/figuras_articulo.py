@@ -112,10 +112,23 @@ def metodos_L200(res):
             ("(1+1)-EA, conflict-directed", V, "focal0.75_P1", C["eaf"], "-")]
 
 
+def convergencia_L200(res):
+    """Convergence curves: all seeds of the formal experiment (evidence 07) when it exists;
+    GA mu=64 from evidence 02 (five seeds). Falls back to the pilots (seeds 1-3)."""
+    Fm = os.path.join(res, "formal_L200")
+    if not os.path.isdir(os.path.join(Fm, "trazas")):
+        return [(e, d, v, c, ls, "s[123]") for e, d, v, c, ls in metodos_L200(res)]
+    E = os.path.join(res, "experimento_regimen_grande")
+    return [("GA $\\mu$=64", E, "GA_P64", C["ga64"], "-", "s*"),
+            ("GA $\\mu$=4, conflict-directed", Fm, "GA4_pmx_focal", C["ga4"], "--", "s*"),
+            ("(1+1)-EA", Fm, "busquedaLocal_P1", C["ea"], "-.", "s*"),
+            ("(1+1)-EA, conflict-directed", Fm, "focal0.75_P1", C["eaf"], "-", "s*")]
+
+
 def fig_convergence(res, salida):
     fig, ax = plt.subplots(figsize=(3.4, 2.6))
-    for etq, d, var, col, ls in metodos_L200(res):
-        rutas = sorted(glob.glob(os.path.join(d, "trazas", f"w0.95_{var}_s[123].csv")))
+    for etq, d, var, col, ls, pat in convergencia_L200(res):
+        rutas = sorted(glob.glob(os.path.join(d, "trazas", f"w0.95_{var}_{pat}.csv")))
         if not rutas:
             continue
         tr = [traza(p) for p in rutas]

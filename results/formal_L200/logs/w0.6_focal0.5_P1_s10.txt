@@ -1,0 +1,53 @@
+GA v2 [focal0.5_P1] | L=200 P=1 Gmax=2147483647 presupuesto=2e+10 semilla=10 | mediaS=440.00 mediaE=400.00 semiancho=50.00 -> Omega=0.600
+Mutacion GUIADA (acepta si no empeora), pm=0.15, sin restriccion de categoria; cruce DESACTIVADO; reparacion de frontera: 0 barridos.
+FOCAL,f=0.5 (primer elemento de cada intento tomado de los sitios violados)
+Hilos OpenMP: 1
+M_base: media sitios=439.913  media enlaces=399.900  x1=423.338 x2=456.668
+Optimo[0] = 28585
+Optimo[1] = 23903
+Optimo[2] = 20387
+Optimo[3] = 17735
+Optimo[4] = 15531
+Optimo[5] = 13806
+Optimo[6] = 12334
+Optimo[7] = 11081
+Optimo[8] = 9961
+Optimo[9] = 9035
+Optimo[10] = 8191
+Optimo[11] = 7451
+Optimo[12] = 6745
+Optimo[13] = 6190
+Optimo[14] = 5634
+Optimo[15] = 5131
+Optimo[16] = 4604
+Optimo[17] = 4190
+Optimo[18] = 3795
+Optimo[19] = 3402
+Optimo[20] = 3045
+Optimo[21] = 2730
+Optimo[22] = 2431
+Optimo[23] = 2119
+Optimo[24] = 1816
+Optimo[25] = 1566
+Optimo[26] = 1331
+Optimo[27] = 1103
+Optimo[28] = 919
+Optimo[29] = 711
+Optimo[30] = 522
+Optimo[31] = 326
+Optimo[32] = 147
+Optimo[33] = 0
+Solucion sin violaciones en la generacion 33.
+--- Verificacion ---
+Inventario de sitios conservado:  SI (permutacion exacta de M_base)
+Inventario de enlaces conservado: SI (permutacion exacta de M_base)
+Fitness recalculado = 0 (registrado = 0)
+Error residual por incidencia = 0.0000%
+Vecinos de misma categoria (crudo) = 41.6%
+C(1) vecinos inmediatos = 0.2217
+Generaciones = 33
+Evaluaciones de sitio = 4027058
+Tiempo total de ejecucion: 0.52 segundos
+RESUMEN,variante,L,omega,semilla,P,cruce,generaciones,evaluaciones,tiempo_s,error,error_pct,misma_cat,C1,inventario_ok,fitness_ok
+RESUMEN,focal0.5_P1,200,0.600,10,1,0,33,4027058,0.520,0,0.00000,0.4155,0.2217,1,1
+Archivos /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L200/redes/w0.6_focal0.5_P1_s10_colores.csv y /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L200/redes/w0.6_focal0.5_P1_s10_completa.csv generados.

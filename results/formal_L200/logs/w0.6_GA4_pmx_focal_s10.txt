@@ -1,0 +1,47 @@
+GA v2 [GA4_pmx_focal] | L=200 P=4 Gmax=2147483647 presupuesto=2e+10 semilla=10 | mediaS=440.00 mediaE=400.00 semiancho=50.00 -> Omega=0.600
+Mutacion GUIADA (acepta si no empeora), pm=0.15, sin restriccion de categoria; cruce PMX por bloques; reparacion de frontera: 0 barridos.
+FOCAL,f=0.75 (primer elemento de cada intento tomado de los sitios violados)
+Hilos OpenMP: 1
+M_base: media sitios=439.913  media enlaces=399.900  x1=423.338 x2=456.668
+Optimo[0] = 28585
+Optimo[1] = 23605
+Optimo[2] = 19880
+Optimo[3] = 17089
+Optimo[4] = 14801
+Optimo[5] = 12954
+Optimo[6] = 11408
+Optimo[7] = 10056
+Optimo[8] = 8894
+Optimo[9] = 7910
+Optimo[10] = 7020
+Optimo[11] = 6234
+Optimo[12] = 5552
+Optimo[13] = 4980
+Optimo[14] = 4384
+Optimo[15] = 3815
+Optimo[16] = 3336
+Optimo[17] = 2914
+Optimo[18] = 2471
+Optimo[19] = 2088
+Optimo[20] = 1717
+Optimo[21] = 1388
+Optimo[22] = 1033
+Optimo[23] = 731
+Optimo[24] = 454
+Optimo[25] = 198
+Optimo[26] = 0
+Solucion sin violaciones en la generacion 26.
+--- Verificacion ---
+Inventario de sitios conservado:  SI (permutacion exacta de M_base)
+Inventario de enlaces conservado: SI (permutacion exacta de M_base)
+Fitness recalculado = 0 (registrado = 0)
+Error residual por incidencia = 0.0000%
+Vecinos de misma categoria (crudo) = 41.3%
+C(1) vecinos inmediatos = 0.2153
+Generaciones = 26
+Evaluaciones de sitio = 16919170
+CRUCE,modo=pmx,reparar=0,hijos_evaluados=104,hijos_aceptados=3,tasa_aceptacion=0.0288
+Tiempo total de ejecucion: 1.84 segundos
+RESUMEN,variante,L,omega,semilla,P,cruce,generaciones,evaluaciones,tiempo_s,error,error_pct,misma_cat,C1,inventario_ok,fitness_ok
+RESUMEN,GA4_pmx_focal,200,0.600,10,4,1,26,16919170,1.838,0,0.00000,0.4134,0.2153,1,1
+Archivos /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L200/redes/w0.6_GA4_pmx_focal_s10_colores.csv y /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L200/redes/w0.6_GA4_pmx_focal_s10_completa.csv generados.

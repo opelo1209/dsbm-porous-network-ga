@@ -1,0 +1,16 @@
+w0.9_busquedaLocal_P1_s1 <- results/experimento_regimen_grande
+w0.9_busquedaLocal_P1_s2 <- results/experimento_regimen_grande
+w0.9_busquedaLocal_P1_s3 <- results/experimento_regimen_grande
+w0.9_busquedaLocal_P1_s4 <- results/experimento_regimen_grande
+w0.9_busquedaLocal_P1_s5 <- results/experimento_regimen_grande
+w0.95_busquedaLocal_P1_s1 <- results/experimento_regimen_grande
+w0.95_busquedaLocal_P1_s2 <- results/experimento_regimen_grande
+w0.95_busquedaLocal_P1_s3 <- results/experimento_regimen_grande
+w0.95_busquedaLocal_P1_s4 <- results/experimento_regimen_grande
+w0.95_busquedaLocal_P1_s5 <- results/experimento_regimen_grande
+w0.95_focal0.75_P1_s1 <- results/piloto_v3_L200
+w0.95_focal0.75_P1_s2 <- results/piloto_v3_L200
+w0.95_focal0.75_P1_s3 <- results/piloto_v3_L200
+w0.95_GA4_pmx_focal_s1 <- results/piloto_ga_focal
+w0.95_GA4_pmx_focal_s2 <- results/piloto_ga_focal
+w0.95_GA4_pmx_focal_s3 <- results/piloto_ga_focal

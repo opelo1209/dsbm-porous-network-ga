@@ -1,0 +1,53 @@
+GA v2 [focal0.5_P1] | L=200 P=1 Gmax=2147483647 presupuesto=2e+10 semilla=3 | mediaS=440.00 mediaE=400.00 semiancho=50.00 -> Omega=0.600
+Mutacion GUIADA (acepta si no empeora), pm=0.15, sin restriccion de categoria; cruce DESACTIVADO; reparacion de frontera: 0 barridos.
+FOCAL,f=0.5 (primer elemento de cada intento tomado de los sitios violados)
+Hilos OpenMP: 1
+M_base: media sitios=440.036  media enlaces=399.819  x1=423.335 x2=456.665
+Optimo[0] = 28635
+Optimo[1] = 24074
+Optimo[2] = 20491
+Optimo[3] = 17800
+Optimo[4] = 15609
+Optimo[5] = 13863
+Optimo[6] = 12358
+Optimo[7] = 11111
+Optimo[8] = 9995
+Optimo[9] = 9038
+Optimo[10] = 8208
+Optimo[11] = 7439
+Optimo[12] = 6764
+Optimo[13] = 6095
+Optimo[14] = 5553
+Optimo[15] = 5037
+Optimo[16] = 4559
+Optimo[17] = 4120
+Optimo[18] = 3722
+Optimo[19] = 3344
+Optimo[20] = 2982
+Optimo[21] = 2676
+Optimo[22] = 2391
+Optimo[23] = 2102
+Optimo[24] = 1820
+Optimo[25] = 1537
+Optimo[26] = 1286
+Optimo[27] = 1064
+Optimo[28] = 840
+Optimo[29] = 608
+Optimo[30] = 430
+Optimo[31] = 255
+Optimo[32] = 84
+Optimo[33] = 0
+Solucion sin violaciones en la generacion 33.
+--- Verificacion ---
+Inventario de sitios conservado:  SI (permutacion exacta de M_base)
+Inventario de enlaces conservado: SI (permutacion exacta de M_base)
+Fitness recalculado = 0 (registrado = 0)
+Error residual por incidencia = 0.0000%
+Vecinos de misma categoria (crudo) = 41.6%
+C(1) vecinos inmediatos = 0.2240
+Generaciones = 33
+Evaluaciones de sitio = 3977736
+Tiempo total de ejecucion: 0.53 segundos
+RESUMEN,variante,L,omega,semilla,P,cruce,generaciones,evaluaciones,tiempo_s,error,error_pct,misma_cat,C1,inventario_ok,fitness_ok
+RESUMEN,focal0.5_P1,200,0.600,3,1,0,33,3977736,0.531,0,0.00000,0.4162,0.2240,1,1
+Archivos /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L200/redes/w0.6_focal0.5_P1_s3_colores.csv y /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L200/redes/w0.6_focal0.5_P1_s3_completa.csv generados.

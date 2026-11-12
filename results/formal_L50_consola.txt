@@ -1,0 +1,264 @@
+fecha: 2026-11-12T09:00:43-06:00
+compilador: gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+flags: -O3 -std=gnu99 -fopenmp  ; OMP_NUM_THREADS=1 por corrida ; 8 corridas simultaneas
+sistema: Linux LAPTOP-SV7CB0U3 6.18.58.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct 27 00:24:11 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+cpu: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+fuente: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/src/genetico_v2/ConstructorRedes2D_C4_Genetico_v2.c
+sha256 fuente: f36f445e8a0e248dc5b6f921cf136c1a1bd2c72f4c3bb31e2f97974290fc63fb
+fuente v3: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/src/genetico_v3/ConstructorRedes2D_C4_Teselas_v3.c
+sha256 fuente v3: 8df4021044bb4bb64f4f32f4193ba7caae023ffc2e55fad4dfb1d6f856319a23
+git commit: 5b07a12ec8dfa1ad99f61da2c01444c6799b910e (cambios sin commit: 3)
+L=50 presupuesto=4e9 semillas=[1 2 3 4 5 6 7 8 9 10]
+omegas (omega:mediaS:mediaE:semiancho): 0.3:440:370:50 0.6:440:400:50 0.9:410:400:50 0.95:405:400:50
+variantes (nombre:P:opciones): busquedaLocal_P1:1:--sin-cruce focal0.5_P1:1:--sin-cruce,--focal=0.5 focal0.75_P1:1:--sin-cruce,--focal=0.75 focal0.9_P1:1:--sin-cruce,--focal=0.9 GA4_pmx_focal:4:--focal=0.75
+Corridas: 200  (simultaneas: 8)
+  listo w0.3_busquedaLocal_P1_s1: error%,misma_cat,C1 = 0.00000,0.3438,0.0570
+  listo w0.3_busquedaLocal_P1_s2: error%,misma_cat,C1 = 0.00000,0.3256,0.0204
+  listo w0.3_busquedaLocal_P1_s3: error%,misma_cat,C1 = 0.00000,0.3366,0.0188
+  listo w0.3_busquedaLocal_P1_s4: error%,misma_cat,C1 = 0.00000,0.3426,0.0132
+  listo w0.3_busquedaLocal_P1_s7: error%,misma_cat,C1 = 0.00000,0.3398,0.0228
+  listo w0.3_busquedaLocal_P1_s6: error%,misma_cat,C1 = 0.00000,0.3464,0.0162
+  listo w0.3_busquedaLocal_P1_s5: error%,misma_cat,C1 = 0.00000,0.3328,0.0295
+  listo w0.3_busquedaLocal_P1_s8: error%,misma_cat,C1 = 0.00000,0.3346,0.0280
+  listo w0.3_focal0.5_P1_s1: error%,misma_cat,C1 = 0.00000,0.3470,0.0384
+  listo w0.3_focal0.5_P1_s4: error%,misma_cat,C1 = 0.00000,0.3358,0.0185
+  listo w0.3_focal0.5_P1_s6: error%,misma_cat,C1 = 0.00000,0.3422,0.0248
+  listo w0.3_focal0.5_P1_s2: error%,misma_cat,C1 = 0.00000,0.3458,0.0184
+  listo w0.3_focal0.5_P1_s5: error%,misma_cat,C1 = 0.00000,0.3348,0.0278
+  listo w0.3_busquedaLocal_P1_s9: error%,misma_cat,C1 = 0.00000,0.3464,0.0453
+  listo w0.3_focal0.5_P1_s3: error%,misma_cat,C1 = 0.00000,0.3364,0.0286
+  listo w0.3_busquedaLocal_P1_s10: error%,misma_cat,C1 = 0.00000,0.3506,0.0371
+  listo w0.3_focal0.5_P1_s7: error%,misma_cat,C1 = 0.00000,0.3444,0.0232
+  listo w0.3_focal0.5_P1_s9: error%,misma_cat,C1 = 0.00000,0.3376,0.0037
+  listo w0.3_focal0.5_P1_s8: error%,misma_cat,C1 = 0.00000,0.3360,0.0153
+  listo w0.3_focal0.5_P1_s10: error%,misma_cat,C1 = 0.00000,0.3430,0.0297
+  listo w0.3_focal0.75_P1_s1: error%,misma_cat,C1 = 0.00000,0.3482,0.0288
+  listo w0.3_focal0.75_P1_s3: error%,misma_cat,C1 = 0.00000,0.3426,0.0268
+  listo w0.3_focal0.75_P1_s2: error%,misma_cat,C1 = 0.00000,0.3328,0.0115
+  listo w0.3_focal0.75_P1_s4: error%,misma_cat,C1 = 0.00000,0.3496,0.0409
+  listo w0.3_focal0.75_P1_s5: error%,misma_cat,C1 = 0.00000,0.3426,0.0285
+  listo w0.3_focal0.75_P1_s6: error%,misma_cat,C1 = 0.00000,0.3428,0.0286
+  listo w0.3_focal0.75_P1_s7: error%,misma_cat,C1 = 0.00000,0.3402,0.0281
+  listo w0.3_focal0.75_P1_s10: error%,misma_cat,C1 = 0.00000,0.3288,0.0156
+  listo w0.3_focal0.75_P1_s9: error%,misma_cat,C1 = 0.00000,0.3450,0.0138
+  listo w0.3_focal0.75_P1_s8: error%,misma_cat,C1 = 0.00000,0.3396,0.0208
+  listo w0.3_focal0.9_P1_s1: error%,misma_cat,C1 = 0.00000,0.3444,0.0431
+  listo w0.3_focal0.9_P1_s2: error%,misma_cat,C1 = 0.00000,0.3370,0.0077
+  listo w0.3_focal0.9_P1_s3: error%,misma_cat,C1 = 0.00000,0.3488,0.0488
+  listo w0.3_focal0.9_P1_s4: error%,misma_cat,C1 = 0.00000,0.3408,0.0233
+  listo w0.3_focal0.9_P1_s5: error%,misma_cat,C1 = 0.00000,0.3446,0.0291
+  listo w0.3_focal0.9_P1_s6: error%,misma_cat,C1 = 0.00000,0.3434,0.0400
+  listo w0.3_focal0.9_P1_s7: error%,misma_cat,C1 = 0.00000,0.3398,0.0410
+  listo w0.3_focal0.9_P1_s8: error%,misma_cat,C1 = 0.00000,0.3476,0.0260
+  listo w0.3_focal0.9_P1_s10: error%,misma_cat,C1 = 0.00000,0.3440,0.0346
+  listo w0.3_focal0.9_P1_s9: error%,misma_cat,C1 = 0.00000,0.3432,0.0118
+  listo w0.3_GA4_pmx_focal_s1: error%,misma_cat,C1 = 0.00000,0.3438,0.0258
+  listo w0.3_GA4_pmx_focal_s2: error%,misma_cat,C1 = 0.00000,0.3416,0.0291
+  listo w0.3_GA4_pmx_focal_s3: error%,misma_cat,C1 = 0.00000,0.3466,0.0185
+  listo w0.3_GA4_pmx_focal_s5: error%,misma_cat,C1 = 0.00000,0.3410,0.0074
+  listo w0.3_GA4_pmx_focal_s4: error%,misma_cat,C1 = 0.00000,0.3358,0.0217
+  listo w0.3_GA4_pmx_focal_s6: error%,misma_cat,C1 = 0.00000,0.3412,0.0189
+  ya hecho w0.6_busquedaLocal_P1_s1
+  listo w0.3_GA4_pmx_focal_s7: error%,misma_cat,C1 = 0.00000,0.3456,0.0185
+  ya hecho w0.6_busquedaLocal_P1_s2
+  ya hecho w0.6_busquedaLocal_P1_s3
+  listo w0.3_GA4_pmx_focal_s8: error%,misma_cat,C1 = 0.00000,0.3366,0.0117
+  ya hecho w0.6_busquedaLocal_P1_s4
+  ya hecho w0.6_busquedaLocal_P1_s5
+  ya hecho w0.6_busquedaLocal_P1_s6
+  ya hecho w0.6_busquedaLocal_P1_s7
+  ya hecho w0.6_busquedaLocal_P1_s8
+  ya hecho w0.6_busquedaLocal_P1_s9
+  ya hecho w0.6_busquedaLocal_P1_s10
+  listo w0.3_GA4_pmx_focal_s9: error%,misma_cat,C1 = 0.00000,0.3368,-0.0146
+  listo w0.3_GA4_pmx_focal_s10: error%,misma_cat,C1 = 0.00000,0.3400,0.0138
+  listo w0.6_focal0.5_P1_s2: error%,misma_cat,C1 = 0.00000,0.4264,0.2196
+  listo w0.6_focal0.5_P1_s1: error%,misma_cat,C1 = 0.00000,0.4150,0.2238
+  listo w0.6_focal0.5_P1_s3: error%,misma_cat,C1 = 0.00000,0.4214,0.2276
+  listo w0.6_focal0.5_P1_s4: error%,misma_cat,C1 = 0.00000,0.4214,0.2272
+  listo w0.6_focal0.5_P1_s6: error%,misma_cat,C1 = 0.00000,0.4160,0.2280
+  listo w0.6_focal0.5_P1_s5: error%,misma_cat,C1 = 0.00000,0.4118,0.2050
+  listo w0.6_focal0.5_P1_s7: error%,misma_cat,C1 = 0.00000,0.4144,0.2051
+  listo w0.6_focal0.5_P1_s8: error%,misma_cat,C1 = 0.00000,0.4032,0.2094
+  listo w0.6_focal0.5_P1_s9: error%,misma_cat,C1 = 0.00000,0.4068,0.1963
+  listo w0.6_focal0.75_P1_s1: error%,misma_cat,C1 = 0.00000,0.3972,0.1912
+  listo w0.6_focal0.5_P1_s10: error%,misma_cat,C1 = 0.00000,0.4038,0.2022
+  listo w0.6_focal0.75_P1_s3: error%,misma_cat,C1 = 0.00000,0.4022,0.2081
+  listo w0.6_focal0.75_P1_s2: error%,misma_cat,C1 = 0.00000,0.4212,0.2191
+  listo w0.6_focal0.75_P1_s4: error%,misma_cat,C1 = 0.00000,0.4262,0.2389
+  listo w0.6_focal0.75_P1_s5: error%,misma_cat,C1 = 0.00000,0.4040,0.2074
+  listo w0.6_focal0.75_P1_s6: error%,misma_cat,C1 = 0.00000,0.4050,0.2150
+  listo w0.6_focal0.75_P1_s7: error%,misma_cat,C1 = 0.00000,0.4024,0.1979
+  listo w0.6_focal0.75_P1_s9: error%,misma_cat,C1 = 0.00000,0.4130,0.2309
+  listo w0.6_focal0.9_P1_s1: error%,misma_cat,C1 = 0.00000,0.4104,0.1979
+  listo w0.6_focal0.75_P1_s8: error%,misma_cat,C1 = 0.00000,0.4094,0.2382
+  listo w0.6_focal0.75_P1_s10: error%,misma_cat,C1 = 0.00000,0.4066,0.2012
+  listo w0.6_focal0.9_P1_s2: error%,misma_cat,C1 = 0.00000,0.4140,0.2163
+  listo w0.6_focal0.9_P1_s3: error%,misma_cat,C1 = 0.00000,0.4182,0.2213
+  listo w0.6_focal0.9_P1_s4: error%,misma_cat,C1 = 0.00000,0.4266,0.2386
+  listo w0.6_focal0.9_P1_s5: error%,misma_cat,C1 = 0.00000,0.4128,0.2276
+  listo w0.6_focal0.9_P1_s6: error%,misma_cat,C1 = 0.00000,0.4248,0.2294
+  listo w0.6_focal0.9_P1_s7: error%,misma_cat,C1 = 0.00000,0.4100,0.2030
+  listo w0.6_focal0.9_P1_s9: error%,misma_cat,C1 = 0.00000,0.4250,0.2222
+  listo w0.6_focal0.9_P1_s8: error%,misma_cat,C1 = 0.00000,0.4088,0.2349
+  listo w0.6_focal0.9_P1_s10: error%,misma_cat,C1 = 0.00000,0.4104,0.2170
+  listo w0.6_GA4_pmx_focal_s1: error%,misma_cat,C1 = 0.00000,0.4122,0.2120
+  listo w0.6_GA4_pmx_focal_s2: error%,misma_cat,C1 = 0.00000,0.4024,0.1950
+  listo w0.6_GA4_pmx_focal_s3: error%,misma_cat,C1 = 0.00000,0.4280,0.2381
+  listo w0.6_GA4_pmx_focal_s4: error%,misma_cat,C1 = 0.00000,0.4228,0.2207
+  listo w0.6_GA4_pmx_focal_s6: error%,misma_cat,C1 = 0.00000,0.4184,0.2304
+  ya hecho w0.9_busquedaLocal_P1_s1
+  listo w0.6_GA4_pmx_focal_s5: error%,misma_cat,C1 = 0.00000,0.4236,0.2299
+  listo w0.6_GA4_pmx_focal_s7: error%,misma_cat,C1 = 0.00000,0.4148,0.2205
+  ya hecho w0.9_busquedaLocal_P1_s2
+  listo w0.6_GA4_pmx_focal_s8: error%,misma_cat,C1 = 0.00000,0.4088,0.2040
+  ya hecho w0.9_busquedaLocal_P1_s3
+  ya hecho w0.9_busquedaLocal_P1_s4
+  ya hecho w0.9_busquedaLocal_P1_s5
+  ya hecho w0.9_busquedaLocal_P1_s6
+  ya hecho w0.9_busquedaLocal_P1_s7
+  ya hecho w0.9_busquedaLocal_P1_s8
+  ya hecho w0.9_busquedaLocal_P1_s9
+  ya hecho w0.9_busquedaLocal_P1_s10
+  listo w0.6_GA4_pmx_focal_s10: error%,misma_cat,C1 = 0.00000,0.4178,0.2333
+  listo w0.6_GA4_pmx_focal_s9: error%,misma_cat,C1 = 0.00000,0.4070,0.1887
+  listo w0.9_focal0.5_P1_s1: error%,misma_cat,C1 = 0.00000,0.7910,0.8850
+  listo w0.9_focal0.5_P1_s2: error%,misma_cat,C1 = 0.00000,0.7950,0.8883
+  listo w0.9_focal0.5_P1_s7: error%,misma_cat,C1 = 0.00000,0.8006,0.8991
+  listo w0.9_focal0.5_P1_s6: error%,misma_cat,C1 = 0.00000,0.8134,0.9097
+  listo w0.9_focal0.75_P1_s1: error%,misma_cat,C1 = 0.00000,0.7888,0.8649
+  listo w0.9_focal0.5_P1_s4: error%,misma_cat,C1 = 0.00000,0.8196,0.9158
+  listo w0.9_focal0.5_P1_s9: error%,misma_cat,C1 = 0.00000,0.8028,0.8863
+  listo w0.9_focal0.5_P1_s10: error%,misma_cat,C1 = 0.00000,0.8244,0.9204
+  listo w0.9_focal0.75_P1_s2: error%,misma_cat,C1 = 0.00000,0.7892,0.8782
+  listo w0.9_focal0.5_P1_s3: error%,misma_cat,C1 = 0.00000,0.8434,0.9335
+  listo w0.9_focal0.5_P1_s5: error%,misma_cat,C1 = 0.00000,0.8420,0.9339
+  listo w0.9_focal0.75_P1_s4: error%,misma_cat,C1 = 0.00000,0.8110,0.9048
+  listo w0.9_focal0.5_P1_s8: error%,misma_cat,C1 = 0.00000,0.8500,0.9420
+  listo w0.9_focal0.75_P1_s6: error%,misma_cat,C1 = 0.00000,0.8046,0.8952
+  listo w0.9_focal0.75_P1_s7: error%,misma_cat,C1 = 0.00000,0.7944,0.8858
+  listo w0.9_focal0.75_P1_s9: error%,misma_cat,C1 = 0.00000,0.7960,0.8834
+  listo w0.9_focal0.9_P1_s1: error%,misma_cat,C1 = 0.00000,0.7778,0.8624
+  listo w0.9_focal0.75_P1_s5: error%,misma_cat,C1 = 0.00000,0.8314,0.9217
+  listo w0.9_focal0.75_P1_s3: error%,misma_cat,C1 = 0.00000,0.8250,0.9281
+  listo w0.9_focal0.75_P1_s10: error%,misma_cat,C1 = 0.00000,0.8170,0.8960
+  listo w0.9_focal0.9_P1_s2: error%,misma_cat,C1 = 0.00000,0.7774,0.8635
+  listo w0.9_focal0.9_P1_s7: error%,misma_cat,C1 = 0.00000,0.7876,0.8750
+  listo w0.9_focal0.9_P1_s4: error%,misma_cat,C1 = 0.00000,0.8018,0.8934
+  listo w0.9_focal0.75_P1_s8: error%,misma_cat,C1 = 0.00000,0.8418,0.9302
+  listo w0.9_focal0.9_P1_s6: error%,misma_cat,C1 = 0.00000,0.8032,0.8876
+  listo w0.9_focal0.9_P1_s9: error%,misma_cat,C1 = 0.00000,0.7928,0.8742
+  listo w0.9_focal0.9_P1_s10: error%,misma_cat,C1 = 0.00000,0.8022,0.8952
+  listo w0.9_focal0.9_P1_s5: error%,misma_cat,C1 = 0.00000,0.8316,0.9175
+  listo w0.9_focal0.9_P1_s3: error%,misma_cat,C1 = 0.00000,0.8416,0.9194
+  listo w0.9_GA4_pmx_focal_s1: error%,misma_cat,C1 = 0.00000,0.7774,0.8655
+  listo w0.9_GA4_pmx_focal_s2: error%,misma_cat,C1 = 0.00000,0.7850,0.8665
+  listo w0.9_focal0.9_P1_s8: error%,misma_cat,C1 = 0.00000,0.8270,0.9182
+  listo w0.9_GA4_pmx_focal_s7: error%,misma_cat,C1 = 0.00000,0.7800,0.8798
+  listo w0.9_GA4_pmx_focal_s4: error%,misma_cat,C1 = 0.00000,0.8112,0.9013
+  listo w0.9_GA4_pmx_focal_s9: error%,misma_cat,C1 = 0.00000,0.7892,0.8840
+  listo w0.9_GA4_pmx_focal_s6: error%,misma_cat,C1 = 0.00000,0.7982,0.8891
+  listo w0.9_GA4_pmx_focal_s10: error%,misma_cat,C1 = 0.00000,0.8024,0.8950
+  listo w0.9_GA4_pmx_focal_s3: error%,misma_cat,C1 = 0.00000,0.8220,0.9175
+  listo w0.9_GA4_pmx_focal_s5: error%,misma_cat,C1 = 0.00000,0.8294,0.9177
+  listo w0.9_GA4_pmx_focal_s8: error%,misma_cat,C1 = 0.00000,0.8392,0.9208
+  listo w0.95_busquedaLocal_P1_s1: error%,misma_cat,C1 = 1.25000,0.8644,0.8668
+  listo w0.95_busquedaLocal_P1_s2: error%,misma_cat,C1 = 1.41000,0.8704,0.8988
+  listo w0.95_busquedaLocal_P1_s5: error%,misma_cat,C1 = 2.61000,0.8810,0.8352
+  listo w0.95_busquedaLocal_P1_s3: error%,misma_cat,C1 = 2.81000,0.8880,0.8645
+  listo w0.95_busquedaLocal_P1_s4: error%,misma_cat,C1 = 1.88000,0.8798,0.8723
+  listo w0.95_busquedaLocal_P1_s7: error%,misma_cat,C1 = 1.53000,0.8546,0.8618
+  listo w0.95_busquedaLocal_P1_s6: error%,misma_cat,C1 = 1.77000,0.8712,0.8723
+  listo w0.95_busquedaLocal_P1_s8: error%,misma_cat,C1 = 2.80000,0.8778,0.8520
+  listo w0.95_busquedaLocal_P1_s9: error%,misma_cat,C1 = 1.54000,0.8762,0.8698
+  listo w0.95_busquedaLocal_P1_s10: error%,misma_cat,C1 = 1.98000,0.8638,0.8617
+  listo w0.95_focal0.5_P1_s2: error%,misma_cat,C1 = 0.61000,0.8786,0.9197
+  listo w0.95_focal0.5_P1_s1: error%,misma_cat,C1 = 0.55000,0.8748,0.9189
+  listo w0.95_focal0.5_P1_s3: error%,misma_cat,C1 = 2.29000,0.8870,0.8498
+  listo w0.95_focal0.5_P1_s4: error%,misma_cat,C1 = 1.44000,0.8860,0.8934
+  listo w0.95_focal0.5_P1_s5: error%,misma_cat,C1 = 2.15000,0.8840,0.8470
+  listo w0.95_focal0.5_P1_s6: error%,misma_cat,C1 = 1.13000,0.8982,0.9011
+  listo w0.95_focal0.5_P1_s7: error%,misma_cat,C1 = 0.97000,0.8786,0.9077
+  listo w0.95_focal0.5_P1_s8: error%,misma_cat,C1 = 2.34000,0.8810,0.8504
+  listo w0.95_focal0.5_P1_s9: error%,misma_cat,C1 = 0.99000,0.8864,0.9121
+  listo w0.95_focal0.5_P1_s10: error%,misma_cat,C1 = 1.13000,0.8834,0.9020
+  listo w0.95_focal0.75_P1_s1: error%,misma_cat,C1 = 0.63000,0.8806,0.9102
+  listo w0.95_focal0.75_P1_s2: error%,misma_cat,C1 = 0.73000,0.8754,0.9031
+  listo w0.95_focal0.75_P1_s4: error%,misma_cat,C1 = 1.29000,0.8804,0.8876
+  listo w0.95_focal0.75_P1_s3: error%,misma_cat,C1 = 2.02000,0.8976,0.8741
+  listo w0.95_focal0.75_P1_s5: error%,misma_cat,C1 = 2.04000,0.8828,0.8677
+  listo w0.95_focal0.75_P1_s6: error%,misma_cat,C1 = 0.88000,0.8906,0.9104
+  listo w0.95_focal0.75_P1_s7: error%,misma_cat,C1 = 0.79000,0.8796,0.8958
+  listo w0.95_focal0.75_P1_s8: error%,misma_cat,C1 = 2.31000,0.8842,0.8304
+  listo w0.95_focal0.75_P1_s9: error%,misma_cat,C1 = 1.02000,0.8720,0.8670
+  listo w0.95_focal0.75_P1_s10: error%,misma_cat,C1 = 0.99000,0.8846,0.9129
+  listo w0.95_focal0.9_P1_s2: error%,misma_cat,C1 = 1.05000,0.8556,0.8626
+  listo w0.95_focal0.9_P1_s1: error%,misma_cat,C1 = 0.80000,0.8682,0.8919
+  listo w0.95_focal0.9_P1_s3: error%,misma_cat,C1 = 1.84000,0.8812,0.8414
+  listo w0.95_focal0.9_P1_s4: error%,misma_cat,C1 = 1.07000,0.8842,0.8946
+  listo w0.95_focal0.9_P1_s5: error%,misma_cat,C1 = 1.76000,0.8838,0.8583
+  listo w0.95_focal0.9_P1_s7: error%,misma_cat,C1 = 0.87000,0.8728,0.8863
+  listo w0.95_focal0.9_P1_s6: error%,misma_cat,C1 = 1.01000,0.8796,0.8954
+  listo w0.95_focal0.9_P1_s8: error%,misma_cat,C1 = 1.98000,0.8892,0.8517
+  listo w0.95_focal0.9_P1_s10: error%,misma_cat,C1 = 1.06000,0.8692,0.8830
+  listo w0.95_focal0.9_P1_s9: error%,misma_cat,C1 = 1.37000,0.8504,0.8253
+  listo w0.95_GA4_pmx_focal_s1: error%,misma_cat,C1 = 1.38000,0.8436,0.8304
+  listo w0.95_GA4_pmx_focal_s2: error%,misma_cat,C1 = 1.05000,0.8564,0.8689
+  listo w0.95_GA4_pmx_focal_s3: error%,misma_cat,C1 = 2.58000,0.8654,0.8076
+  listo w0.95_GA4_pmx_focal_s5: error%,misma_cat,C1 = 2.45000,0.8488,0.8019
+  listo w0.95_GA4_pmx_focal_s4: error%,misma_cat,C1 = 1.79000,0.8630,0.8434
+  listo w0.95_GA4_pmx_focal_s6: error%,misma_cat,C1 = 1.50000,0.8704,0.8692
+  listo w0.95_GA4_pmx_focal_s8: error%,misma_cat,C1 = 2.67000,0.8594,0.8121
+  listo w0.95_GA4_pmx_focal_s7: error%,misma_cat,C1 = 1.48000,0.8466,0.8379
+  listo w0.95_GA4_pmx_focal_s9: error%,misma_cat,C1 = 1.77000,0.8372,0.7893
+  listo w0.95_GA4_pmx_focal_s10: error%,misma_cat,C1 = 1.58000,0.8502,0.8420
+
+Resumen: /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L50/resumen.csv (200 corridas)
+Analisis: python3 analysis/resumen_cruce.py /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L50
+| Ω | Variante | n | Error final (media ± DE) | Mediana | Error % incidencias | Llegaron a 0 | % misma categoría | C(1) | Evaluaciones usadas | Tiempo (s) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 0.300 | Busqueda local P=1 | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 34.0 ± 0.8 | 0.029 ± 0.014 | 2.16e+05 | 0.0 ± 0.0 |
+| 0.300 | GA4_pmx_focal | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 34.1 ± 0.4 | 0.015 ± 0.012 | 9.82e+04 | 0.0 ± 0.0 |
+| 0.300 | focal0.5_P1 | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 34.0 ± 0.5 | 0.023 ± 0.010 | 2.33e+04 | 0.0 ± 0.0 |
+| 0.300 | focal0.75_P1 | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 34.1 ± 0.6 | 0.024 ± 0.009 | 1.85e+04 | 0.0 ± 0.0 |
+| 0.300 | focal0.9_P1 | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 34.3 ± 0.4 | 0.031 ± 0.014 | 1.59e+04 | 0.0 ± 0.0 |
+| 0.600 | Busqueda local P=1 | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 44.2 ± 0.8 | 0.293 ± 0.018 | 1.52e+06 | 0.2 ± 0.1 |
+| 0.600 | GA4_pmx_focal | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 41.6 ± 0.8 | 0.217 ± 0.017 | 1.01e+06 | 0.1 ± 0.0 |
+| 0.600 | focal0.5_P1 | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 41.4 ± 0.8 | 0.214 ± 0.012 | 2.46e+05 | 0.1 ± 0.0 |
+| 0.600 | focal0.75_P1 | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 40.9 ± 0.9 | 0.215 ± 0.017 | 1.97e+05 | 0.0 ± 0.0 |
+| 0.600 | focal0.9_P1 | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 41.6 ± 0.7 | 0.221 ± 0.013 | 1.73e+05 | 0.0 ± 0.0 |
+| 0.900 | Busqueda local P=1 | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 84.6 ± 1.5 | 0.943 ± 0.009 | 1.41e+09 | 57.8 ± 41.1 |
+| 0.900 | GA4_pmx_focal | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 80.3 ± 2.1 | 0.894 ± 0.020 | 1.73e+09 | 61.0 ± 33.9 |
+| 0.900 | focal0.5_P1 | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 81.8 ± 2.1 | 0.911 ± 0.021 | 3.72e+08 | 15.3 ± 8.9 |
+| 0.900 | focal0.75_P1 | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 81.0 ± 1.9 | 0.899 ± 0.022 | 3.86e+08 | 15.8 ± 8.2 |
+| 0.900 | focal0.9_P1 | 10 | 0.0 ± 0.0 | 0 | 0.000 ± 0.000 | 10/10 | 80.4 ± 2.2 | 0.891 ± 0.022 | 5.72e+08 | 21.5 ± 13.6 |
+| 0.950 | Busqueda local P=1 | 10 | 195.8 ± 58.3 | 182 | 1.958 ± 0.583 | 0/10 | 87.3 ± 1.0 | 0.866 ± 0.016 | 4e+09 | 147.7 ± 11.8 |
+| 0.950 | GA4_pmx_focal | 10 | 182.5 ± 55.4 | 168 | 1.825 ± 0.554 | 0/10 | 85.4 ± 1.1 | 0.830 ± 0.027 | 4e+09 | 113.5 ± 11.0 |
+| 0.950 | focal0.5_P1 | 10 | 136.0 ± 67.2 | 113 | 1.360 ± 0.672 | 0/10 | 88.4 ± 0.6 | 0.890 ± 0.029 | 4e+09 | 134.6 ± 11.6 |
+| 0.950 | focal0.75_P1 | 10 | 127.0 ± 62.0 | 100 | 1.270 ± 0.620 | 0/10 | 88.3 ± 0.7 | 0.886 ± 0.026 | 4e+09 | 123.4 ± 7.0 |
+| 0.950 | focal0.9_P1 | 10 | 128.1 ± 42.9 | 106 | 1.281 ± 0.429 | 0/10 | 87.3 ± 1.3 | 0.869 ± 0.025 | 4e+09 | 121.8 ± 4.7 |
+
+| Ω | Comparación | Mediana busquedaLocal_P1 | Mediana otra | U | p (dos colas) | Conclusión (α=0.05) |
+|---|---|---|---|---|---|---|
+| 0.300 | busquedaLocal_P1 vs GA4_pmx_focal | 0 | 0 | nan | 1 | sin diferencia significativa |
+| 0.300 | busquedaLocal_P1 vs focal0.5_P1 | 0 | 0 | nan | 1 | sin diferencia significativa |
+| 0.300 | busquedaLocal_P1 vs focal0.75_P1 | 0 | 0 | nan | 1 | sin diferencia significativa |
+| 0.300 | busquedaLocal_P1 vs focal0.9_P1 | 0 | 0 | nan | 1 | sin diferencia significativa |
+| 0.600 | busquedaLocal_P1 vs GA4_pmx_focal | 0 | 0 | nan | 1 | sin diferencia significativa |
+| 0.600 | busquedaLocal_P1 vs focal0.5_P1 | 0 | 0 | nan | 1 | sin diferencia significativa |
+| 0.600 | busquedaLocal_P1 vs focal0.75_P1 | 0 | 0 | nan | 1 | sin diferencia significativa |
+| 0.600 | busquedaLocal_P1 vs focal0.9_P1 | 0 | 0 | nan | 1 | sin diferencia significativa |
+| 0.900 | busquedaLocal_P1 vs GA4_pmx_focal | 0 | 0 | nan | 1 | sin diferencia significativa |
+| 0.900 | busquedaLocal_P1 vs focal0.5_P1 | 0 | 0 | nan | 1 | sin diferencia significativa |
+| 0.900 | busquedaLocal_P1 vs focal0.75_P1 | 0 | 0 | nan | 1 | sin diferencia significativa |
+| 0.900 | busquedaLocal_P1 vs focal0.9_P1 | 0 | 0 | nan | 1 | sin diferencia significativa |
+| 0.950 | busquedaLocal_P1 vs GA4_pmx_focal | 182 | 168 | 59.5 | 0.4961 | sin diferencia significativa |
+| 0.950 | busquedaLocal_P1 vs focal0.5_P1 | 182 | 113 | 77.0 | 0.04507 | focal0.5_P1 mejor |
+| 0.950 | busquedaLocal_P1 vs focal0.75_P1 | 182 | 100 | 78.0 | 0.03764 | focal0.75_P1 mejor |
+| 0.950 | busquedaLocal_P1 vs focal0.9_P1 | 182 | 106 | 83.5 | 0.01258 | focal0.9_P1 mejor |
+
+Guardado results/formal_L50/convergencia_omega_0.300.png
+Guardado results/formal_L50/convergencia_omega_0.600.png
+Guardado results/formal_L50/convergencia_omega_0.900.png
+Guardado results/formal_L50/convergencia_omega_0.950.png
+Guardado results/formal_L50/cajas_error.png

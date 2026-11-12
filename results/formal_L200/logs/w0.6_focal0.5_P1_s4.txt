@@ -1,0 +1,54 @@
+GA v2 [focal0.5_P1] | L=200 P=1 Gmax=2147483647 presupuesto=2e+10 semilla=4 | mediaS=440.00 mediaE=400.00 semiancho=50.00 -> Omega=0.600
+Mutacion GUIADA (acepta si no empeora), pm=0.15, sin restriccion de categoria; cruce DESACTIVADO; reparacion de frontera: 0 barridos.
+FOCAL,f=0.5 (primer elemento de cada intento tomado de los sitios violados)
+Hilos OpenMP: 1
+M_base: media sitios=440.158  media enlaces=400.113  x1=423.333 x2=456.665
+Optimo[0] = 28979
+Optimo[1] = 24217
+Optimo[2] = 20649
+Optimo[3] = 18004
+Optimo[4] = 15859
+Optimo[5] = 14108
+Optimo[6] = 12646
+Optimo[7] = 11382
+Optimo[8] = 10236
+Optimo[9] = 9254
+Optimo[10] = 8370
+Optimo[11] = 7644
+Optimo[12] = 6909
+Optimo[13] = 6311
+Optimo[14] = 5717
+Optimo[15] = 5182
+Optimo[16] = 4731
+Optimo[17] = 4323
+Optimo[18] = 3919
+Optimo[19] = 3549
+Optimo[20] = 3191
+Optimo[21] = 2860
+Optimo[22] = 2552
+Optimo[23] = 2251
+Optimo[24] = 1996
+Optimo[25] = 1739
+Optimo[26] = 1485
+Optimo[27] = 1256
+Optimo[28] = 1054
+Optimo[29] = 836
+Optimo[30] = 625
+Optimo[31] = 446
+Optimo[32] = 251
+Optimo[33] = 82
+Optimo[34] = 0
+Solucion sin violaciones en la generacion 34.
+--- Verificacion ---
+Inventario de sitios conservado:  SI (permutacion exacta de M_base)
+Inventario de enlaces conservado: SI (permutacion exacta de M_base)
+Fitness recalculado = 0 (registrado = 0)
+Error residual por incidencia = 0.0000%
+Vecinos de misma categoria (crudo) = 42.1%
+C(1) vecinos inmediatos = 0.2288
+Generaciones = 34
+Evaluaciones de sitio = 4102012
+Tiempo total de ejecucion: 0.49 segundos
+RESUMEN,variante,L,omega,semilla,P,cruce,generaciones,evaluaciones,tiempo_s,error,error_pct,misma_cat,C1,inventario_ok,fitness_ok
+RESUMEN,focal0.5_P1,200,0.600,4,1,0,34,4102012,0.488,0,0.00000,0.4210,0.2288,1,1
+Archivos /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L200/redes/w0.6_focal0.5_P1_s4_colores.csv y /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L200/redes/w0.6_focal0.5_P1_s4_completa.csv generados.

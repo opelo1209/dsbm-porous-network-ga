@@ -1,0 +1,48 @@
+GA v2 [GA4_pmx_focal] | L=200 P=4 Gmax=2147483647 presupuesto=2e+10 semilla=1 | mediaS=440.00 mediaE=400.00 semiancho=50.00 -> Omega=0.600
+Mutacion GUIADA (acepta si no empeora), pm=0.15, sin restriccion de categoria; cruce PMX por bloques; reparacion de frontera: 0 barridos.
+FOCAL,f=0.75 (primer elemento de cada intento tomado de los sitios violados)
+Hilos OpenMP: 1
+M_base: media sitios=439.922  media enlaces=399.913  x1=423.334 x2=456.666
+Optimo[0] = 28760
+Optimo[1] = 23696
+Optimo[2] = 19958
+Optimo[3] = 17109
+Optimo[4] = 14814
+Optimo[5] = 13004
+Optimo[6] = 11490
+Optimo[7] = 10155
+Optimo[8] = 9030
+Optimo[9] = 8104
+Optimo[10] = 7222
+Optimo[11] = 6437
+Optimo[12] = 5673
+Optimo[13] = 5054
+Optimo[14] = 4478
+Optimo[15] = 3972
+Optimo[16] = 3487
+Optimo[17] = 3034
+Optimo[18] = 2606
+Optimo[19] = 2174
+Optimo[20] = 1812
+Optimo[21] = 1481
+Optimo[22] = 1132
+Optimo[23] = 825
+Optimo[24] = 509
+Optimo[25] = 237
+Optimo[26] = 9
+Optimo[27] = 0
+Solucion sin violaciones en la generacion 27.
+--- Verificacion ---
+Inventario de sitios conservado:  SI (permutacion exacta de M_base)
+Inventario de enlaces conservado: SI (permutacion exacta de M_base)
+Fitness recalculado = 0 (registrado = 0)
+Error residual por incidencia = 0.0000%
+Vecinos de misma categoria (crudo) = 41.5%
+C(1) vecinos inmediatos = 0.2170
+Generaciones = 27
+Evaluaciones de sitio = 17206150
+CRUCE,modo=pmx,reparar=0,hijos_evaluados=108,hijos_aceptados=2,tasa_aceptacion=0.0185
+Tiempo total de ejecucion: 2.06 segundos
+RESUMEN,variante,L,omega,semilla,P,cruce,generaciones,evaluaciones,tiempo_s,error,error_pct,misma_cat,C1,inventario_ok,fitness_ok
+RESUMEN,GA4_pmx_focal,200,0.600,1,4,1,27,17206150,2.064,0,0.00000,0.4147,0.2170,1,1
+Archivos /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L200/redes/w0.6_GA4_pmx_focal_s1_colores.csv y /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L200/redes/w0.6_GA4_pmx_focal_s1_completa.csv generados.

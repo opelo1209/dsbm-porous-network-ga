@@ -1,0 +1,2987 @@
+GA v2 [GA4_pmx_focal] | L=50 P=4 Gmax=2147483647 presupuesto=4e+09 semilla=2 | mediaS=405.00 mediaE=400.00 semiancho=50.00 -> Omega=0.950
+Mutacion GUIADA (acepta si no empeora), pm=0.15, sin restriccion de categoria; cruce PMX por bloques; reparacion de frontera: 0 barridos.
+FOCAL,f=0.75 (primer elemento de cada intento tomado de los sitios violados)
+Hilos OpenMP: 1
+M_base: media sitios=405.534  media enlaces=399.534  x1=388.309 x2=421.592
+Optimo[0] = 4380
+Optimo[1] = 4048
+Optimo[2] = 3813
+Optimo[3] = 3612
+Optimo[4] = 3451
+Optimo[5] = 3319
+Optimo[6] = 3193
+Optimo[7] = 3088
+Optimo[8] = 2998
+Optimo[9] = 2943
+Optimo[10] = 2855
+Optimo[11] = 2790
+Optimo[12] = 2733
+Optimo[13] = 2690
+Optimo[14] = 2644
+Optimo[15] = 2595
+Optimo[16] = 2560
+Optimo[17] = 2518
+Optimo[18] = 2481
+Optimo[19] = 2458
+Optimo[20] = 2433
+Optimo[21] = 2401
+Optimo[22] = 2370
+Optimo[23] = 2343
+Optimo[24] = 2323
+Optimo[25] = 2305
+Optimo[26] = 2278
+Optimo[27] = 2257
+Optimo[28] = 2236
+Optimo[29] = 2220
+Optimo[30] = 2192
+Optimo[31] = 2180
+Optimo[32] = 2165
+Optimo[33] = 2150
+Optimo[34] = 2132
+Optimo[35] = 2115
+Optimo[36] = 2095
+Optimo[37] = 2083
+Optimo[38] = 2077
+Optimo[39] = 2066
+Optimo[40] = 2052
+Optimo[41] = 2039
+Optimo[42] = 2029
+Optimo[43] = 2014
+Optimo[44] = 2004
+Optimo[45] = 1987
+Optimo[46] = 1974
+Optimo[47] = 1960
+Optimo[48] = 1946
+Optimo[49] = 1937
+Optimo[50] = 1929
+Optimo[51] = 1921
+Optimo[52] = 1908
+Optimo[53] = 1894
+Optimo[54] = 1882
+Optimo[55] = 1872
+Optimo[56] = 1862
+Optimo[57] = 1854
+Optimo[58] = 1849
+Optimo[59] = 1840
+Optimo[60] = 1832
+Optimo[61] = 1824
+Optimo[62] = 1813
+Optimo[63] = 1808
+Optimo[64] = 1800
+Optimo[65] = 1787
+Optimo[66] = 1779
+Optimo[67] = 1774
+Optimo[68] = 1768
+Optimo[69] = 1762
+Optimo[70] = 1757
+Optimo[71] = 1750
+Optimo[72] = 1740
+Optimo[73] = 1734
+Optimo[74] = 1728
+Optimo[75] = 1722
+Optimo[76] = 1716
+Optimo[77] = 1707
+Optimo[78] = 1702
+Optimo[79] = 1695
+Optimo[80] = 1693
+Optimo[81] = 1685
+Optimo[82] = 1682
+Optimo[83] = 1678
+Optimo[84] = 1670
+Optimo[85] = 1662
+Optimo[86] = 1659
+Optimo[87] = 1649
+Optimo[88] = 1646
+Optimo[89] = 1642
+Optimo[90] = 1639
+Optimo[91] = 1632
+Optimo[92] = 1626
+Optimo[93] = 1622
+Optimo[94] = 1613
+Optimo[95] = 1611
+Optimo[96] = 1608
+Optimo[97] = 1603
+Optimo[98] = 1596
+Optimo[99] = 1591
+Optimo[100] = 1589
+Optimo[101] = 1582
+Optimo[102] = 1580
+Optimo[103] = 1574
+Optimo[104] = 1570
+Optimo[105] = 1569
+Optimo[106] = 1567
+Optimo[107] = 1562
+Optimo[108] = 1558
+Optimo[109] = 1557
+Optimo[110] = 1551
+Optimo[111] = 1545
+Optimo[112] = 1542
+Optimo[113] = 1537
+Optimo[114] = 1533
+Optimo[115] = 1529
+Optimo[116] = 1526
+Optimo[117] = 1525
+Optimo[118] = 1523
+Optimo[119] = 1519
+Optimo[120] = 1517
+Optimo[121] = 1511
+Optimo[122] = 1507
+Optimo[123] = 1501
+Optimo[124] = 1500
+Optimo[125] = 1496
+Optimo[126] = 1493
+Optimo[127] = 1491
+Optimo[128] = 1485
+Optimo[129] = 1483
+Optimo[130] = 1479
+Optimo[131] = 1478
+Optimo[132] = 1476
+Optimo[133] = 1474
+Optimo[135] = 1471
+Optimo[136] = 1466
+Optimo[137] = 1464
+Optimo[138] = 1460
+Optimo[139] = 1458
+Optimo[140] = 1454
+Optimo[141] = 1450
+Optimo[142] = 1447
+Optimo[143] = 1445
+Optimo[144] = 1441
+Optimo[145] = 1438
+Optimo[146] = 1437
+Optimo[147] = 1436
+Optimo[148] = 1434
+Optimo[149] = 1429
+Optimo[150] = 1426
+Optimo[151] = 1424
+Optimo[152] = 1420
+Optimo[153] = 1417
+Optimo[154] = 1414
+Optimo[155] = 1410
+Optimo[156] = 1408
+Optimo[157] = 1407
+Optimo[158] = 1404
+Optimo[159] = 1401
+Optimo[160] = 1397
+Optimo[161] = 1395
+Optimo[162] = 1392
+Optimo[163] = 1390
+Optimo[164] = 1389
+Optimo[165] = 1387
+Optimo[167] = 1385
+Optimo[168] = 1384
+Optimo[169] = 1380
+Optimo[170] = 1379
+Optimo[171] = 1376
+Optimo[172] = 1371
+Optimo[173] = 1370
+Optimo[174] = 1365
+Optimo[175] = 1363
+Optimo[176] = 1361
+Optimo[177] = 1356
+Optimo[178] = 1355
+Optimo[179] = 1354
+Optimo[180] = 1352
+Optimo[181] = 1350
+Optimo[182] = 1348
+Optimo[183] = 1346
+Optimo[184] = 1344
+Optimo[185] = 1342
+Optimo[186] = 1336
+Optimo[187] = 1334
+Optimo[188] = 1333
+Optimo[189] = 1331
+Optimo[190] = 1330
+Optimo[192] = 1329
+Optimo[193] = 1328
+Optimo[194] = 1326
+Optimo[195] = 1325
+Optimo[196] = 1324
+Optimo[197] = 1323
+Optimo[198] = 1321
+Optimo[199] = 1320
+Optimo[201] = 1319
+Optimo[202] = 1317
+Optimo[203] = 1316
+Optimo[204] = 1312
+Optimo[205] = 1311
+Optimo[207] = 1310
+Optimo[208] = 1307
+Optimo[209] = 1305
+Optimo[210] = 1303
+Optimo[211] = 1301
+Optimo[212] = 1300
+Optimo[213] = 1297
+Optimo[214] = 1296
+Optimo[215] = 1295
+Optimo[217] = 1291
+Optimo[218] = 1286
+Optimo[219] = 1284
+Optimo[220] = 1281
+Optimo[221] = 1279
+Optimo[222] = 1277
+Optimo[223] = 1275
+Optimo[224] = 1273
+Optimo[225] = 1272
+Optimo[226] = 1270
+Optimo[227] = 1269
+Optimo[228] = 1265
+Optimo[229] = 1263
+Optimo[231] = 1260
+Optimo[233] = 1258
+Optimo[234] = 1256
+Optimo[236] = 1255
+Optimo[237] = 1253
+Optimo[238] = 1252
+Optimo[241] = 1251
+Optimo[242] = 1250
+Optimo[245] = 1249
+Optimo[246] = 1247
+Optimo[247] = 1246
+Optimo[248] = 1245
+Optimo[251] = 1243
+Optimo[252] = 1242
+Optimo[253] = 1241
+Optimo[254] = 1238
+Optimo[255] = 1237
+Optimo[256] = 1234
+Optimo[259] = 1233
+Optimo[260] = 1231
+Optimo[261] = 1230
+Optimo[262] = 1229
+Optimo[263] = 1228
+Optimo[264] = 1227
+Optimo[265] = 1225
+Optimo[266] = 1223
+Optimo[267] = 1220
+Optimo[268] = 1219
+Optimo[269] = 1218
+Optimo[270] = 1217
+Optimo[271] = 1216
+Optimo[272] = 1214
+Optimo[273] = 1212
+Optimo[274] = 1211
+Optimo[275] = 1210
+Optimo[276] = 1207
+Optimo[277] = 1204
+Optimo[278] = 1203
+Optimo[279] = 1202
+Optimo[281] = 1201
+Optimo[282] = 1200
+Optimo[284] = 1199
+Optimo[285] = 1197
+Optimo[286] = 1194
+Optimo[287] = 1193
+Optimo[290] = 1190
+Optimo[297] = 1189
+Optimo[298] = 1188
+Optimo[299] = 1187
+Optimo[300] = 1186
+Optimo[301] = 1185
+Optimo[302] = 1184
+Optimo[304] = 1182
+Optimo[305] = 1181
+Optimo[308] = 1178
+Optimo[309] = 1176
+Optimo[310] = 1175
+Optimo[311] = 1174
+Optimo[312] = 1173
+Optimo[314] = 1172
+Optimo[315] = 1170
+Optimo[316] = 1166
+Optimo[318] = 1165
+Optimo[319] = 1164
+Optimo[320] = 1163
+Optimo[321] = 1162
+Optimo[322] = 1157
+Optimo[324] = 1155
+Optimo[328] = 1154
+Optimo[329] = 1152
+Optimo[330] = 1151
+Optimo[331] = 1149
+Optimo[335] = 1147
+Optimo[337] = 1145
+Optimo[339] = 1143
+Optimo[340] = 1142
+Optimo[341] = 1141
+Optimo[347] = 1139
+Optimo[348] = 1137
+Optimo[349] = 1134
+Optimo[351] = 1133
+Optimo[353] = 1132
+Optimo[354] = 1131
+Optimo[355] = 1130
+Optimo[356] = 1129
+Optimo[359] = 1128
+Optimo[360] = 1126
+Optimo[361] = 1125
+Optimo[362] = 1124
+Optimo[364] = 1122
+Optimo[365] = 1121
+Optimo[367] = 1120
+Optimo[370] = 1117
+Optimo[373] = 1116
+Optimo[374] = 1112
+Optimo[377] = 1111
+Optimo[380] = 1110
+Optimo[381] = 1109
+Optimo[382] = 1108
+Optimo[383] = 1107
+Optimo[389] = 1106
+Optimo[390] = 1103
+Optimo[391] = 1102
+Optimo[392] = 1100
+Optimo[394] = 1098
+Optimo[395] = 1097
+Optimo[396] = 1096
+Optimo[397] = 1094
+Optimo[398] = 1093
+Optimo[399] = 1092
+Optimo[400] = 1091
+Optimo[401] = 1089
+Optimo[403] = 1087
+Optimo[405] = 1085
+Optimo[409] = 1084
+Optimo[410] = 1082
+Optimo[413] = 1079
+Optimo[414] = 1078
+Optimo[416] = 1077
+Optimo[417] = 1076
+Optimo[418] = 1074
+Optimo[421] = 1072
+Optimo[422] = 1071
+Optimo[423] = 1069
+Optimo[424] = 1068
+Optimo[426] = 1065
+Optimo[427] = 1064
+Optimo[428] = 1063
+Optimo[431] = 1062
+Optimo[434] = 1061
+Optimo[435] = 1060
+Optimo[438] = 1057
+Optimo[441] = 1056
+Optimo[442] = 1054
+Optimo[446] = 1052
+Optimo[447] = 1051
+Optimo[449] = 1050
+Optimo[457] = 1049
+Optimo[458] = 1048
+Optimo[462] = 1047
+Optimo[464] = 1046
+Optimo[465] = 1044
+Optimo[472] = 1042
+Optimo[473] = 1041
+Optimo[478] = 1039
+Optimo[479] = 1037
+Optimo[480] = 1036
+Optimo[481] = 1035
+Optimo[482] = 1033
+Optimo[483] = 1032
+Optimo[485] = 1029
+Optimo[486] = 1028
+Optimo[491] = 1027
+Optimo[492] = 1025
+Optimo[493] = 1024
+Optimo[494] = 1022
+Optimo[495] = 1021
+Optimo[499] = 1019
+Optimo[500] = 1018
+Optimo[501] = 1017
+Optimo[505] = 1015
+Optimo[510] = 1013
+Optimo[511] = 1012
+Optimo[513] = 1010
+Optimo[523] = 1009
+Optimo[524] = 1008
+Optimo[526] = 1007
+Optimo[530] = 1006
+Optimo[532] = 1005
+Optimo[533] = 1004
+Optimo[535] = 1003
+Optimo[537] = 1002
+Optimo[538] = 1001
+Optimo[540] = 1000
+Optimo[543] = 999
+Optimo[546] = 998
+Optimo[548] = 997
+Optimo[554] = 996
+Optimo[555] = 995
+Optimo[556] = 994
+Optimo[558] = 993
+Optimo[562] = 992
+Optimo[563] = 989
+Optimo[567] = 988
+Optimo[569] = 987
+Optimo[570] = 986
+Optimo[571] = 985
+Optimo[577] = 984
+Optimo[581] = 983
+Optimo[582] = 982
+Optimo[583] = 981
+Optimo[584] = 980
+Optimo[586] = 979
+Optimo[593] = 978
+Optimo[595] = 977
+Optimo[599] = 976
+Optimo[600] = 975
+Optimo[601] = 974
+Optimo[604] = 973
+Optimo[608] = 972
+Optimo[610] = 969
+Optimo[615] = 968
+Optimo[616] = 967
+Optimo[617] = 965
+Optimo[620] = 964
+Optimo[623] = 963
+Optimo[624] = 962
+Optimo[626] = 960
+Optimo[629] = 959
+Optimo[631] = 958
+Optimo[636] = 956
+Optimo[638] = 955
+Optimo[639] = 954
+Optimo[641] = 953
+Optimo[643] = 952
+Optimo[652] = 950
+Optimo[656] = 949
+Optimo[658] = 948
+Optimo[659] = 947
+Optimo[661] = 946
+Optimo[662] = 945
+Optimo[669] = 943
+Optimo[671] = 939
+Optimo[674] = 938
+Optimo[675] = 937
+Optimo[678] = 936
+Optimo[679] = 935
+Optimo[680] = 934
+Optimo[682] = 933
+Optimo[686] = 932
+Optimo[687] = 931
+Optimo[688] = 930
+Optimo[694] = 928
+Optimo[695] = 927
+Optimo[697] = 926
+Optimo[698] = 925
+Optimo[703] = 924
+Optimo[708] = 923
+Optimo[710] = 922
+Optimo[715] = 921
+Optimo[719] = 920
+Optimo[723] = 919
+Optimo[725] = 918
+Optimo[727] = 917
+Optimo[729] = 916
+Optimo[737] = 915
+Optimo[739] = 914
+Optimo[742] = 913
+Optimo[743] = 912
+Optimo[752] = 911
+Optimo[764] = 909
+Optimo[767] = 907
+Optimo[768] = 906
+Optimo[776] = 905
+Optimo[779] = 904
+Optimo[780] = 903
+Optimo[782] = 902
+Optimo[785] = 901
+Optimo[786] = 900
+Optimo[797] = 898
+Optimo[798] = 897
+Optimo[805] = 895
+Optimo[807] = 894
+Optimo[811] = 893
+Optimo[815] = 892
+Optimo[817] = 890
+Optimo[824] = 889
+Optimo[826] = 888
+Optimo[830] = 887
+Optimo[831] = 886
+Optimo[832] = 885
+Optimo[834] = 884
+Optimo[836] = 883
+Optimo[841] = 882
+Optimo[842] = 881
+Optimo[850] = 879
+Optimo[852] = 878
+Optimo[854] = 877
+Optimo[858] = 876
+Optimo[867] = 875
+Optimo[871] = 873
+Optimo[881] = 872
+Optimo[882] = 870
+Optimo[885] = 869
+Optimo[886] = 867
+Optimo[889] = 866
+Optimo[902] = 865
+Optimo[903] = 864
+Optimo[907] = 862
+Optimo[908] = 861
+Optimo[918] = 860
+Optimo[922] = 858
+Optimo[925] = 856
+Optimo[926] = 855
+Optimo[927] = 854
+Optimo[938] = 853
+Optimo[940] = 852
+Optimo[949] = 851
+Optimo[951] = 850
+Optimo[955] = 849
+Optimo[956] = 848
+Optimo[958] = 847
+Optimo[964] = 846
+Optimo[966] = 845
+Optimo[970] = 844
+Optimo[971] = 843
+Optimo[972] = 842
+Optimo[975] = 841
+Optimo[976] = 840
+Optimo[977] = 839
+Optimo[978] = 838
+Optimo[980] = 837
+Optimo[982] = 836
+Optimo[992] = 835
+Optimo[999] = 834
+Optimo[1008] = 833
+Optimo[1011] = 832
+Optimo[1017] = 831
+Optimo[1023] = 830
+Optimo[1032] = 829
+Optimo[1033] = 828
+Optimo[1035] = 827
+Optimo[1039] = 826
+Optimo[1040] = 825
+Optimo[1043] = 823
+Optimo[1044] = 822
+Optimo[1049] = 821
+Optimo[1064] = 820
+Optimo[1070] = 819
+Optimo[1081] = 818
+Optimo[1084] = 817
+Optimo[1087] = 816
+Optimo[1088] = 815
+Optimo[1089] = 814
+Optimo[1094] = 812
+Optimo[1098] = 811
+Optimo[1099] = 810
+Optimo[1100] = 809
+Optimo[1102] = 807
+Optimo[1119] = 806
+Optimo[1120] = 805
+Optimo[1122] = 804
+Optimo[1124] = 803
+Optimo[1127] = 802
+Optimo[1134] = 801
+Optimo[1135] = 800
+Optimo[1143] = 799
+Optimo[1145] = 798
+Optimo[1149] = 797
+Optimo[1162] = 796
+Optimo[1169] = 795
+Optimo[1175] = 794
+Optimo[1180] = 793
+Optimo[1186] = 792
+Optimo[1193] = 791
+Optimo[1195] = 789
+Optimo[1198] = 788
+Optimo[1204] = 787
+Optimo[1211] = 786
+Optimo[1227] = 785
+Optimo[1233] = 784
+Optimo[1241] = 783
+Optimo[1243] = 782
+Optimo[1248] = 781
+Optimo[1266] = 779
+Optimo[1267] = 778
+Optimo[1269] = 777
+Optimo[1270] = 776
+Optimo[1278] = 775
+Optimo[1284] = 774
+Optimo[1304] = 773
+Optimo[1305] = 772
+Optimo[1315] = 771
+Optimo[1317] = 770
+Optimo[1319] = 768
+Optimo[1329] = 766
+Optimo[1340] = 765
+Optimo[1342] = 764
+Optimo[1343] = 762
+Optimo[1349] = 761
+Optimo[1355] = 760
+Optimo[1357] = 759
+Optimo[1367] = 758
+Optimo[1373] = 757
+Optimo[1391] = 756
+Optimo[1399] = 755
+Optimo[1417] = 754
+Optimo[1421] = 753
+Optimo[1446] = 752
+Optimo[1447] = 751
+Optimo[1448] = 750
+Optimo[1449] = 748
+Optimo[1457] = 747
+Optimo[1460] = 746
+Optimo[1471] = 745
+Optimo[1475] = 744
+Optimo[1482] = 743
+Optimo[1487] = 741
+Optimo[1511] = 740
+Optimo[1518] = 739
+Optimo[1522] = 737
+Optimo[1527] = 736
+Optimo[1528] = 735
+Optimo[1529] = 734
+Optimo[1530] = 733
+Optimo[1534] = 731
+Optimo[1543] = 730
+Optimo[1552] = 729
+Optimo[1558] = 728
+Optimo[1587] = 727
+Optimo[1588] = 726
+Optimo[1589] = 725
+Optimo[1591] = 724
+Optimo[1594] = 723
+Optimo[1599] = 722
+Optimo[1607] = 721
+Optimo[1622] = 720
+Optimo[1625] = 719
+Optimo[1636] = 718
+Optimo[1654] = 717
+Optimo[1662] = 716
+Optimo[1664] = 715
+Optimo[1673] = 714
+Optimo[1679] = 713
+Optimo[1701] = 712
+Optimo[1716] = 711
+Optimo[1726] = 710
+Optimo[1731] = 709
+Optimo[1734] = 708
+Optimo[1735] = 707
+Optimo[1738] = 706
+Optimo[1747] = 705
+Optimo[1767] = 704
+Optimo[1775] = 703
+Optimo[1776] = 702
+Optimo[1780] = 701
+Optimo[1795] = 700
+Optimo[1797] = 699
+Optimo[1813] = 698
+Optimo[1820] = 697
+Optimo[1833] = 696
+Optimo[1846] = 695
+Optimo[1858] = 694
+Optimo[1879] = 693
+Optimo[1884] = 692
+Optimo[1887] = 691
+Optimo[1893] = 690
+Optimo[1900] = 689
+Optimo[1916] = 688
+Optimo[1922] = 687
+Optimo[1926] = 686
+Optimo[1929] = 685
+Optimo[1933] = 684
+Optimo[1951] = 683
+Optimo[1955] = 682
+Optimo[1975] = 680
+Optimo[1999] = 679
+Optimo[2001] = 678
+Optimo[2021] = 677
+Optimo[2038] = 676
+Optimo[2039] = 675
+Optimo[2040] = 674
+Optimo[2052] = 673
+Optimo[2084] = 672
+Optimo[2093] = 671
+Optimo[2095] = 670
+Optimo[2145] = 669
+Optimo[2148] = 668
+Optimo[2149] = 667
+Optimo[2160] = 666
+Optimo[2161] = 665
+Optimo[2165] = 664
+Optimo[2180] = 663
+Optimo[2193] = 662
+Optimo[2199] = 661
+Optimo[2200] = 660
+Optimo[2201] = 659
+Optimo[2217] = 658
+Optimo[2220] = 657
+Optimo[2247] = 656
+Optimo[2268] = 655
+Optimo[2274] = 654
+Optimo[2278] = 653
+Optimo[2286] = 652
+Optimo[2302] = 651
+Optimo[2332] = 649
+Optimo[2353] = 648
+Optimo[2365] = 647
+Optimo[2368] = 646
+Optimo[2385] = 645
+Optimo[2405] = 644
+Optimo[2408] = 643
+Optimo[2422] = 642
+Optimo[2423] = 641
+Optimo[2454] = 640
+Optimo[2469] = 639
+Optimo[2472] = 638
+Optimo[2474] = 637
+Optimo[2482] = 636
+Optimo[2484] = 635
+Optimo[2491] = 634
+Optimo[2495] = 633
+Optimo[2510] = 632
+Optimo[2514] = 631
+Optimo[2520] = 630
+Optimo[2521] = 629
+Optimo[2525] = 628
+Optimo[2526] = 627
+Optimo[2549] = 626
+Optimo[2570] = 624
+Optimo[2577] = 623
+Optimo[2594] = 622
+Optimo[2600] = 621
+Optimo[2605] = 620
+Optimo[2635] = 619
+Optimo[2646] = 618
+Optimo[2652] = 617
+Optimo[2679] = 616
+Optimo[2684] = 615
+Optimo[2700] = 614
+Optimo[2709] = 613
+Optimo[2736] = 612
+Optimo[2773] = 611
+Optimo[2778] = 610
+Optimo[2782] = 609
+Optimo[2813] = 608
+Optimo[2824] = 607
+Optimo[2830] = 606
+Optimo[2833] = 605
+Optimo[2853] = 604
+Optimo[2867] = 603
+Optimo[2884] = 602
+Optimo[2896] = 601
+Optimo[2917] = 600
+Optimo[2926] = 599
+Optimo[2932] = 598
+Optimo[2970] = 597
+Optimo[3014] = 596
+Optimo[3015] = 595
+Optimo[3018] = 594
+Optimo[3026] = 593
+Optimo[3027] = 592
+Optimo[3072] = 591
+Optimo[3086] = 590
+Optimo[3096] = 589
+Optimo[3099] = 588
+Optimo[3121] = 587
+Optimo[3136] = 586
+Optimo[3137] = 585
+Optimo[3162] = 584
+Optimo[3179] = 583
+Optimo[3192] = 582
+Optimo[3194] = 581
+Optimo[3200] = 580
+Optimo[3205] = 579
+Optimo[3209] = 578
+Optimo[3255] = 577
+Optimo[3286] = 576
+Optimo[3288] = 575
+Optimo[3310] = 574
+Optimo[3333] = 572
+Optimo[3345] = 571
+Optimo[3363] = 570
+Optimo[3369] = 569
+Optimo[3419] = 568
+Optimo[3445] = 567
+Estancamiento: 1 individuos reemplazados en la generacion 3495.
+Optimo[3502] = 566
+Optimo[3512] = 565
+Optimo[3516] = 564
+Estancamiento: 1 individuos reemplazados en la generacion 3566.
+Optimo[3590] = 563
+Optimo[3595] = 562
+Optimo[3616] = 561
+Optimo[3628] = 560
+Optimo[3651] = 559
+Optimo[3674] = 558
+Optimo[3685] = 557
+Optimo[3689] = 556
+Optimo[3726] = 555
+Optimo[3746] = 554
+Optimo[3748] = 553
+Optimo[3773] = 552
+Optimo[3774] = 551
+Optimo[3812] = 550
+Optimo[3832] = 549
+Optimo[3870] = 548
+Optimo[3878] = 547
+Optimo[3900] = 546
+Optimo[3922] = 545
+Optimo[3924] = 544
+Optimo[3929] = 543
+Optimo[3957] = 542
+Optimo[3991] = 541
+Optimo[4001] = 540
+Estancamiento: 1 individuos reemplazados en la generacion 4051.
+Optimo[4053] = 539
+Optimo[4057] = 538
+Optimo[4068] = 537
+Optimo[4079] = 536
+Optimo[4090] = 535
+Estancamiento: 1 individuos reemplazados en la generacion 4140.
+Optimo[4160] = 534
+Optimo[4163] = 533
+Optimo[4195] = 532
+Optimo[4196] = 531
+Optimo[4217] = 530
+Optimo[4221] = 529
+Optimo[4266] = 528
+Optimo[4267] = 527
+Optimo[4290] = 526
+Optimo[4307] = 525
+Optimo[4311] = 524
+Optimo[4330] = 523
+Optimo[4359] = 522
+Optimo[4362] = 521
+Optimo[4378] = 520
+Optimo[4400] = 519
+Optimo[4402] = 518
+Optimo[4408] = 517
+Estancamiento: 1 individuos reemplazados en la generacion 4458.
+Optimo[4459] = 516
+Optimo[4473] = 515
+Estancamiento: 1 individuos reemplazados en la generacion 4523.
+Optimo[4537] = 514
+Optimo[4557] = 513
+Optimo[4572] = 512
+Optimo[4596] = 511
+Optimo[4605] = 509
+Optimo[4612] = 508
+Optimo[4614] = 507
+Optimo[4620] = 506
+Estancamiento: 1 individuos reemplazados en la generacion 4670.
+Optimo[4679] = 505
+Optimo[4684] = 504
+Optimo[4690] = 503
+Estancamiento: 1 individuos reemplazados en la generacion 4740.
+Estancamiento: 1 individuos reemplazados en la generacion 4790.
+Optimo[4808] = 502
+Optimo[4812] = 501
+Optimo[4831] = 500
+Estancamiento: 1 individuos reemplazados en la generacion 4881.
+Estancamiento: 1 individuos reemplazados en la generacion 4931.
+Optimo[4939] = 499
+Optimo[4958] = 498
+Optimo[4962] = 497
+Optimo[4964] = 496
+Optimo[4974] = 495
+Optimo[4987] = 494
+Optimo[4997] = 493
+Optimo[5023] = 492
+Optimo[5032] = 491
+Optimo[5033] = 490
+Estancamiento: 1 individuos reemplazados en la generacion 5083.
+Optimo[5094] = 489
+Optimo[5097] = 488
+Optimo[5107] = 487
+Estancamiento: 1 individuos reemplazados en la generacion 5157.
+Optimo[5176] = 486
+Estancamiento: 1 individuos reemplazados en la generacion 5226.
+Optimo[5269] = 485
+Estancamiento: 1 individuos reemplazados en la generacion 5319.
+Optimo[5323] = 484
+Optimo[5355] = 483
+Optimo[5389] = 482
+Optimo[5420] = 481
+Optimo[5433] = 480
+Optimo[5455] = 479
+Estancamiento: 1 individuos reemplazados en la generacion 5505.
+Optimo[5516] = 478
+Optimo[5518] = 477
+Optimo[5524] = 476
+Optimo[5530] = 475
+Optimo[5576] = 474
+Optimo[5581] = 473
+Optimo[5591] = 472
+Optimo[5637] = 471
+Optimo[5652] = 469
+Estancamiento: 1 individuos reemplazados en la generacion 5702.
+Estancamiento: 1 individuos reemplazados en la generacion 5752.
+Optimo[5764] = 468
+Optimo[5782] = 467
+Optimo[5830] = 466
+Optimo[5844] = 465
+Estancamiento: 1 individuos reemplazados en la generacion 5894.
+Optimo[5910] = 464
+Optimo[5958] = 463
+Optimo[6000] = 462
+Optimo[6013] = 461
+Optimo[6018] = 460
+Optimo[6022] = 459
+Optimo[6034] = 458
+Optimo[6036] = 457
+Estancamiento: 1 individuos reemplazados en la generacion 6086.
+Optimo[6099] = 456
+Optimo[6101] = 455
+Optimo[6106] = 454
+Optimo[6147] = 453
+Optimo[6149] = 452
+Optimo[6174] = 451
+Optimo[6205] = 450
+Optimo[6220] = 449
+Estancamiento: 1 individuos reemplazados en la generacion 6270.
+Optimo[6271] = 448
+Optimo[6291] = 447
+Optimo[6311] = 446
+Optimo[6313] = 445
+Estancamiento: 1 individuos reemplazados en la generacion 6363.
+Optimo[6372] = 444
+Optimo[6409] = 443
+Optimo[6435] = 442
+Optimo[6439] = 441
+Optimo[6464] = 440
+Optimo[6501] = 439
+Optimo[6522] = 438
+Estancamiento: 1 individuos reemplazados en la generacion 6572.
+Optimo[6606] = 437
+Optimo[6651] = 436
+Optimo[6675] = 435
+Optimo[6704] = 434
+Optimo[6718] = 433
+Optimo[6723] = 432
+Optimo[6725] = 431
+Optimo[6732] = 430
+Estancamiento: 1 individuos reemplazados en la generacion 6782.
+Estancamiento: 1 individuos reemplazados en la generacion 6832.
+Optimo[6859] = 429
+Optimo[6878] = 428
+Optimo[6891] = 427
+Optimo[6904] = 426
+Estancamiento: 1 individuos reemplazados en la generacion 6954.
+Optimo[6967] = 425
+Optimo[6973] = 424
+Optimo[6977] = 423
+Optimo[6979] = 422
+Optimo[6991] = 421
+Optimo[7002] = 420
+Estancamiento: 1 individuos reemplazados en la generacion 7052.
+Estancamiento: 1 individuos reemplazados en la generacion 7102.
+Estancamiento: 1 individuos reemplazados en la generacion 7152.
+Optimo[7163] = 419
+Estancamiento: 1 individuos reemplazados en la generacion 7213.
+Optimo[7237] = 418
+Optimo[7252] = 417
+Optimo[7286] = 416
+Optimo[7289] = 415
+Optimo[7292] = 414
+Optimo[7317] = 413
+Optimo[7329] = 412
+Estancamiento: 1 individuos reemplazados en la generacion 7379.
+Optimo[7382] = 411
+Optimo[7407] = 410
+Optimo[7442] = 409
+Optimo[7445] = 408
+Estancamiento: 1 individuos reemplazados en la generacion 7495.
+Estancamiento: 1 individuos reemplazados en la generacion 7545.
+Optimo[7546] = 407
+Optimo[7560] = 406
+Optimo[7602] = 405
+Optimo[7625] = 404
+Optimo[7658] = 403
+Estancamiento: 1 individuos reemplazados en la generacion 7708.
+Estancamiento: 1 individuos reemplazados en la generacion 7758.
+Optimo[7782] = 402
+Optimo[7784] = 401
+Optimo[7790] = 400
+Optimo[7806] = 399
+Estancamiento: 1 individuos reemplazados en la generacion 7856.
+Optimo[7860] = 398
+Estancamiento: 1 individuos reemplazados en la generacion 7910.
+Estancamiento: 1 individuos reemplazados en la generacion 7960.
+Optimo[7972] = 397
+Optimo[7992] = 396
+Optimo[8011] = 395
+Optimo[8041] = 394
+Estancamiento: 1 individuos reemplazados en la generacion 8091.
+Estancamiento: 1 individuos reemplazados en la generacion 8141.
+Optimo[8177] = 393
+Optimo[8212] = 392
+Estancamiento: 1 individuos reemplazados en la generacion 8262.
+Estancamiento: 1 individuos reemplazados en la generacion 8312.
+Optimo[8356] = 391
+Optimo[8405] = 390
+Estancamiento: 1 individuos reemplazados en la generacion 8455.
+Estancamiento: 1 individuos reemplazados en la generacion 8505.
+Estancamiento: 1 individuos reemplazados en la generacion 8555.
+Optimo[8567] = 389
+Optimo[8590] = 388
+Optimo[8600] = 387
+Estancamiento: 1 individuos reemplazados en la generacion 8650.
+Optimo[8666] = 386
+Optimo[8695] = 385
+Optimo[8724] = 384
+Optimo[8763] = 383
+Optimo[8764] = 382
+Estancamiento: 1 individuos reemplazados en la generacion 8814.
+Optimo[8846] = 381
+Optimo[8891] = 380
+Optimo[8893] = 379
+Optimo[8895] = 378
+Optimo[8923] = 377
+Estancamiento: 1 individuos reemplazados en la generacion 8973.
+Estancamiento: 1 individuos reemplazados en la generacion 9023.
+Estancamiento: 1 individuos reemplazados en la generacion 9073.
+Estancamiento: 1 individuos reemplazados en la generacion 9123.
+Estancamiento: 1 individuos reemplazados en la generacion 9173.
+Optimo[9184] = 376
+Estancamiento: 1 individuos reemplazados en la generacion 9234.
+Optimo[9235] = 375
+Estancamiento: 1 individuos reemplazados en la generacion 9285.
+Optimo[9292] = 374
+Estancamiento: 1 individuos reemplazados en la generacion 9342.
+Optimo[9345] = 373
+Optimo[9386] = 372
+Estancamiento: 1 individuos reemplazados en la generacion 9436.
+Optimo[9468] = 371
+Estancamiento: 1 individuos reemplazados en la generacion 9518.
+Estancamiento: 1 individuos reemplazados en la generacion 9568.
+Optimo[9584] = 370
+Optimo[9588] = 369
+Optimo[9589] = 368
+Estancamiento: 1 individuos reemplazados en la generacion 9639.
+Optimo[9666] = 367
+Optimo[9710] = 366
+Optimo[9714] = 365
+Estancamiento: 1 individuos reemplazados en la generacion 9764.
+Optimo[9782] = 364
+Estancamiento: 1 individuos reemplazados en la generacion 9832.
+Estancamiento: 1 individuos reemplazados en la generacion 9882.
+Estancamiento: 1 individuos reemplazados en la generacion 9932.
+Optimo[9942] = 363
+Estancamiento: 1 individuos reemplazados en la generacion 9992.
+Estancamiento: 1 individuos reemplazados en la generacion 10042.
+Estancamiento: 1 individuos reemplazados en la generacion 10092.
+Optimo[10100] = 362
+Estancamiento: 1 individuos reemplazados en la generacion 10150.
+Optimo[10170] = 361
+Optimo[10216] = 360
+Optimo[10242] = 359
+Estancamiento: 1 individuos reemplazados en la generacion 10292.
+Estancamiento: 1 individuos reemplazados en la generacion 10342.
+Estancamiento: 1 individuos reemplazados en la generacion 10392.
+Optimo[10403] = 358
+Estancamiento: 1 individuos reemplazados en la generacion 10453.
+Estancamiento: 1 individuos reemplazados en la generacion 10503.
+Optimo[10507] = 357
+Optimo[10525] = 356
+Estancamiento: 1 individuos reemplazados en la generacion 10575.
+Estancamiento: 1 individuos reemplazados en la generacion 10625.
+Optimo[10626] = 355
+Estancamiento: 1 individuos reemplazados en la generacion 10676.
+Optimo[10680] = 354
+Estancamiento: 1 individuos reemplazados en la generacion 10730.
+Optimo[10735] = 353
+Estancamiento: 1 individuos reemplazados en la generacion 10785.
+Optimo[10810] = 352
+Estancamiento: 1 individuos reemplazados en la generacion 10860.
+Optimo[10873] = 351
+Optimo[10886] = 350
+Optimo[10934] = 349
+Optimo[10966] = 348
+Optimo[10978] = 347
+Optimo[10997] = 346
+Estancamiento: 1 individuos reemplazados en la generacion 11047.
+Optimo[11074] = 345
+Optimo[11123] = 344
+Optimo[11136] = 343
+Estancamiento: 1 individuos reemplazados en la generacion 11186.
+Estancamiento: 1 individuos reemplazados en la generacion 11236.
+Estancamiento: 1 individuos reemplazados en la generacion 11286.
+Estancamiento: 1 individuos reemplazados en la generacion 11336.
+Estancamiento: 1 individuos reemplazados en la generacion 11386.
+Optimo[11424] = 342
+Optimo[11469] = 341
+Estancamiento: 1 individuos reemplazados en la generacion 11519.
+Estancamiento: 1 individuos reemplazados en la generacion 11569.
+Estancamiento: 1 individuos reemplazados en la generacion 11619.
+Estancamiento: 1 individuos reemplazados en la generacion 11669.
+Optimo[11704] = 340
+Optimo[11745] = 339
+Estancamiento: 1 individuos reemplazados en la generacion 11795.
+Optimo[11800] = 338
+Estancamiento: 1 individuos reemplazados en la generacion 11850.
+Optimo[11894] = 337
+Estancamiento: 1 individuos reemplazados en la generacion 11944.
+Estancamiento: 1 individuos reemplazados en la generacion 11994.
+Estancamiento: 1 individuos reemplazados en la generacion 12044.
+Estancamiento: 1 individuos reemplazados en la generacion 12094.
+Estancamiento: 1 individuos reemplazados en la generacion 12144.
+Optimo[12150] = 336
+Estancamiento: 1 individuos reemplazados en la generacion 12200.
+Optimo[12245] = 335
+Optimo[12273] = 334
+Optimo[12276] = 333
+Estancamiento: 1 individuos reemplazados en la generacion 12326.
+Estancamiento: 1 individuos reemplazados en la generacion 12376.
+Estancamiento: 1 individuos reemplazados en la generacion 12426.
+Optimo[12439] = 332
+Estancamiento: 1 individuos reemplazados en la generacion 12489.
+Estancamiento: 1 individuos reemplazados en la generacion 12539.
+Estancamiento: 1 individuos reemplazados en la generacion 12589.
+Estancamiento: 1 individuos reemplazados en la generacion 12639.
+Optimo[12682] = 331
+Estancamiento: 1 individuos reemplazados en la generacion 12732.
+Optimo[12737] = 330
+Estancamiento: 1 individuos reemplazados en la generacion 12787.
+Estancamiento: 1 individuos reemplazados en la generacion 12837.
+Estancamiento: 1 individuos reemplazados en la generacion 12887.
+Estancamiento: 1 individuos reemplazados en la generacion 12937.
+Estancamiento: 1 individuos reemplazados en la generacion 12987.
+Estancamiento: 1 individuos reemplazados en la generacion 13037.
+Estancamiento: 1 individuos reemplazados en la generacion 13087.
+Optimo[13090] = 329
+Optimo[13096] = 328
+Estancamiento: 1 individuos reemplazados en la generacion 13146.
+Estancamiento: 1 individuos reemplazados en la generacion 13196.
+Estancamiento: 1 individuos reemplazados en la generacion 13246.
+Optimo[13283] = 327
+Optimo[13327] = 326
+Estancamiento: 1 individuos reemplazados en la generacion 13377.
+Estancamiento: 1 individuos reemplazados en la generacion 13427.
+Estancamiento: 1 individuos reemplazados en la generacion 13477.
+Optimo[13499] = 325
+Estancamiento: 1 individuos reemplazados en la generacion 13549.
+Estancamiento: 1 individuos reemplazados en la generacion 13599.
+Optimo[13634] = 324
+Optimo[13662] = 323
+Optimo[13679] = 322
+Optimo[13704] = 321
+Optimo[13707] = 320
+Optimo[13742] = 319
+Estancamiento: 1 individuos reemplazados en la generacion 13792.
+Estancamiento: 1 individuos reemplazados en la generacion 13842.
+Optimo[13892] = 318
+Estancamiento: 1 individuos reemplazados en la generacion 13942.
+Estancamiento: 1 individuos reemplazados en la generacion 13992.
+Estancamiento: 1 individuos reemplazados en la generacion 14042.
+Estancamiento: 1 individuos reemplazados en la generacion 14092.
+Estancamiento: 1 individuos reemplazados en la generacion 14142.
+Optimo[14152] = 317
+Estancamiento: 1 individuos reemplazados en la generacion 14202.
+Estancamiento: 1 individuos reemplazados en la generacion 14252.
+Optimo[14256] = 316
+Estancamiento: 1 individuos reemplazados en la generacion 14306.
+Optimo[14313] = 315
+Estancamiento: 1 individuos reemplazados en la generacion 14363.
+Estancamiento: 1 individuos reemplazados en la generacion 14413.
+Optimo[14442] = 314
+Estancamiento: 1 individuos reemplazados en la generacion 14492.
+Optimo[14534] = 313
+Estancamiento: 1 individuos reemplazados en la generacion 14584.
+Optimo[14607] = 312
+Estancamiento: 1 individuos reemplazados en la generacion 14657.
+Optimo[14695] = 311
+Optimo[14727] = 310
+Estancamiento: 1 individuos reemplazados en la generacion 14777.
+Estancamiento: 1 individuos reemplazados en la generacion 14827.
+Optimo[14839] = 309
+Optimo[14868] = 308
+Estancamiento: 1 individuos reemplazados en la generacion 14918.
+Optimo[14930] = 307
+Optimo[14971] = 306
+Estancamiento: 1 individuos reemplazados en la generacion 15021.
+Estancamiento: 1 individuos reemplazados en la generacion 15071.
+Estancamiento: 1 individuos reemplazados en la generacion 15121.
+Estancamiento: 1 individuos reemplazados en la generacion 15171.
+Optimo[15214] = 304
+Optimo[15226] = 303
+Optimo[15237] = 302
+Estancamiento: 1 individuos reemplazados en la generacion 15287.
+Estancamiento: 1 individuos reemplazados en la generacion 15337.
+Optimo[15350] = 301
+Optimo[15376] = 300
+Estancamiento: 1 individuos reemplazados en la generacion 15426.
+Optimo[15456] = 299
+Estancamiento: 1 individuos reemplazados en la generacion 15506.
+Estancamiento: 1 individuos reemplazados en la generacion 15556.
+Estancamiento: 1 individuos reemplazados en la generacion 15606.
+Estancamiento: 1 individuos reemplazados en la generacion 15656.
+Optimo[15665] = 298
+Optimo[15694] = 297
+Estancamiento: 1 individuos reemplazados en la generacion 15744.
+Estancamiento: 1 individuos reemplazados en la generacion 15794.
+Optimo[15813] = 296
+Estancamiento: 1 individuos reemplazados en la generacion 15863.
+Optimo[15867] = 295
+Optimo[15894] = 294
+Optimo[15939] = 293
+Estancamiento: 1 individuos reemplazados en la generacion 15989.
+Optimo[16006] = 292
+Estancamiento: 1 individuos reemplazados en la generacion 16056.
+Estancamiento: 1 individuos reemplazados en la generacion 16106.
+Optimo[16140] = 291
+Estancamiento: 1 individuos reemplazados en la generacion 16190.
+Optimo[16209] = 290
+Estancamiento: 1 individuos reemplazados en la generacion 16259.
+Estancamiento: 1 individuos reemplazados en la generacion 16309.
+Optimo[16351] = 289
+Optimo[16382] = 288
+Optimo[16413] = 287
+Estancamiento: 1 individuos reemplazados en la generacion 16463.
+Optimo[16489] = 286
+Optimo[16499] = 285
+Estancamiento: 1 individuos reemplazados en la generacion 16549.
+Optimo[16595] = 284
+Estancamiento: 1 individuos reemplazados en la generacion 16645.
+Optimo[16652] = 283
+Estancamiento: 1 individuos reemplazados en la generacion 16702.
+Estancamiento: 1 individuos reemplazados en la generacion 16752.
+Estancamiento: 1 individuos reemplazados en la generacion 16802.
+Estancamiento: 1 individuos reemplazados en la generacion 16852.
+Estancamiento: 1 individuos reemplazados en la generacion 16902.
+Optimo[16935] = 282
+Estancamiento: 1 individuos reemplazados en la generacion 16985.
+Optimo[16999] = 281
+Estancamiento: 1 individuos reemplazados en la generacion 17049.
+Estancamiento: 1 individuos reemplazados en la generacion 17099.
+Optimo[17136] = 280
+Estancamiento: 1 individuos reemplazados en la generacion 17186.
+Estancamiento: 1 individuos reemplazados en la generacion 17236.
+Estancamiento: 1 individuos reemplazados en la generacion 17286.
+Estancamiento: 1 individuos reemplazados en la generacion 17336.
+Estancamiento: 1 individuos reemplazados en la generacion 17386.
+Optimo[17433] = 279
+Optimo[17449] = 278
+Estancamiento: 1 individuos reemplazados en la generacion 17499.
+Estancamiento: 1 individuos reemplazados en la generacion 17549.
+Optimo[17593] = 277
+Optimo[17598] = 276
+Optimo[17609] = 275
+Estancamiento: 1 individuos reemplazados en la generacion 17659.
+Estancamiento: 1 individuos reemplazados en la generacion 17709.
+Estancamiento: 1 individuos reemplazados en la generacion 17759.
+Estancamiento: 1 individuos reemplazados en la generacion 17809.
+Optimo[17843] = 274
+Estancamiento: 1 individuos reemplazados en la generacion 17893.
+Estancamiento: 1 individuos reemplazados en la generacion 17943.
+Estancamiento: 1 individuos reemplazados en la generacion 17993.
+Optimo[18011] = 273
+Estancamiento: 1 individuos reemplazados en la generacion 18061.
+Optimo[18075] = 272
+Estancamiento: 1 individuos reemplazados en la generacion 18125.
+Estancamiento: 1 individuos reemplazados en la generacion 18175.
+Estancamiento: 1 individuos reemplazados en la generacion 18225.
+Optimo[18253] = 271
+Estancamiento: 1 individuos reemplazados en la generacion 18303.
+Estancamiento: 1 individuos reemplazados en la generacion 18353.
+Optimo[18366] = 270
+Optimo[18404] = 269
+Optimo[18439] = 267
+Estancamiento: 1 individuos reemplazados en la generacion 18489.
+Estancamiento: 1 individuos reemplazados en la generacion 18539.
+Estancamiento: 1 individuos reemplazados en la generacion 18589.
+Estancamiento: 1 individuos reemplazados en la generacion 18639.
+Estancamiento: 1 individuos reemplazados en la generacion 18689.
+Estancamiento: 1 individuos reemplazados en la generacion 18739.
+Estancamiento: 1 individuos reemplazados en la generacion 18789.
+Estancamiento: 1 individuos reemplazados en la generacion 18839.
+Estancamiento: 1 individuos reemplazados en la generacion 18889.
+Optimo[18891] = 266
+Estancamiento: 1 individuos reemplazados en la generacion 18941.
+Optimo[18958] = 265
+Estancamiento: 1 individuos reemplazados en la generacion 19008.
+Estancamiento: 1 individuos reemplazados en la generacion 19058.
+Optimo[19094] = 264
+Estancamiento: 1 individuos reemplazados en la generacion 19144.
+Estancamiento: 1 individuos reemplazados en la generacion 19194.
+Estancamiento: 1 individuos reemplazados en la generacion 19244.
+Estancamiento: 1 individuos reemplazados en la generacion 19294.
+Estancamiento: 1 individuos reemplazados en la generacion 19344.
+Optimo[19383] = 263
+Estancamiento: 1 individuos reemplazados en la generacion 19433.
+Estancamiento: 1 individuos reemplazados en la generacion 19483.
+Estancamiento: 1 individuos reemplazados en la generacion 19533.
+Optimo[19540] = 262
+Estancamiento: 1 individuos reemplazados en la generacion 19590.
+Estancamiento: 1 individuos reemplazados en la generacion 19640.
+Estancamiento: 1 individuos reemplazados en la generacion 19690.
+Estancamiento: 1 individuos reemplazados en la generacion 19740.
+Estancamiento: 1 individuos reemplazados en la generacion 19790.
+Estancamiento: 1 individuos reemplazados en la generacion 19840.
+Estancamiento: 1 individuos reemplazados en la generacion 19890.
+Estancamiento: 1 individuos reemplazados en la generacion 19940.
+Estancamiento: 1 individuos reemplazados en la generacion 19990.
+Estancamiento: 1 individuos reemplazados en la generacion 20040.
+Estancamiento: 1 individuos reemplazados en la generacion 20090.
+Estancamiento: 1 individuos reemplazados en la generacion 20140.
+Estancamiento: 1 individuos reemplazados en la generacion 20190.
+Optimo[20214] = 261
+Optimo[20220] = 260
+Estancamiento: 1 individuos reemplazados en la generacion 20270.
+Estancamiento: 1 individuos reemplazados en la generacion 20320.
+Estancamiento: 1 individuos reemplazados en la generacion 20370.
+Optimo[20406] = 259
+Estancamiento: 1 individuos reemplazados en la generacion 20456.
+Estancamiento: 1 individuos reemplazados en la generacion 20506.
+Estancamiento: 1 individuos reemplazados en la generacion 20556.
+Optimo[20561] = 258
+Estancamiento: 1 individuos reemplazados en la generacion 20611.
+Estancamiento: 1 individuos reemplazados en la generacion 20661.
+Optimo[20681] = 257
+Optimo[20728] = 256
+Estancamiento: 1 individuos reemplazados en la generacion 20778.
+Estancamiento: 1 individuos reemplazados en la generacion 20828.
+Estancamiento: 1 individuos reemplazados en la generacion 20878.
+Optimo[20909] = 255
+Estancamiento: 1 individuos reemplazados en la generacion 20959.
+Estancamiento: 1 individuos reemplazados en la generacion 21009.
+Optimo[21019] = 254
+Estancamiento: 1 individuos reemplazados en la generacion 21069.
+Estancamiento: 1 individuos reemplazados en la generacion 21119.
+Estancamiento: 1 individuos reemplazados en la generacion 21169.
+Estancamiento: 1 individuos reemplazados en la generacion 21219.
+Estancamiento: 1 individuos reemplazados en la generacion 21269.
+Optimo[21273] = 253
+Estancamiento: 1 individuos reemplazados en la generacion 21323.
+Optimo[21348] = 252
+Estancamiento: 1 individuos reemplazados en la generacion 21398.
+Estancamiento: 1 individuos reemplazados en la generacion 21448.
+Optimo[21450] = 251
+Estancamiento: 1 individuos reemplazados en la generacion 21500.
+Estancamiento: 1 individuos reemplazados en la generacion 21550.
+Estancamiento: 1 individuos reemplazados en la generacion 21600.
+Estancamiento: 1 individuos reemplazados en la generacion 21650.
+Estancamiento: 1 individuos reemplazados en la generacion 21700.
+Estancamiento: 1 individuos reemplazados en la generacion 21750.
+Estancamiento: 1 individuos reemplazados en la generacion 21800.
+Estancamiento: 1 individuos reemplazados en la generacion 21850.
+Estancamiento: 1 individuos reemplazados en la generacion 21900.
+Estancamiento: 1 individuos reemplazados en la generacion 21950.
+Estancamiento: 1 individuos reemplazados en la generacion 22000.
+Estancamiento: 1 individuos reemplazados en la generacion 22050.
+Estancamiento: 1 individuos reemplazados en la generacion 22100.
+Optimo[22136] = 250
+Estancamiento: 1 individuos reemplazados en la generacion 22186.
+Estancamiento: 1 individuos reemplazados en la generacion 22236.
+Optimo[22249] = 249
+Estancamiento: 1 individuos reemplazados en la generacion 22299.
+Estancamiento: 1 individuos reemplazados en la generacion 22349.
+Estancamiento: 1 individuos reemplazados en la generacion 22399.
+Optimo[22425] = 248
+Estancamiento: 1 individuos reemplazados en la generacion 22475.
+Optimo[22487] = 247
+Estancamiento: 1 individuos reemplazados en la generacion 22537.
+Estancamiento: 1 individuos reemplazados en la generacion 22587.
+Optimo[22628] = 246
+Estancamiento: 1 individuos reemplazados en la generacion 22678.
+Estancamiento: 1 individuos reemplazados en la generacion 22728.
+Estancamiento: 1 individuos reemplazados en la generacion 22778.
+Estancamiento: 1 individuos reemplazados en la generacion 22828.
+Optimo[22830] = 245
+Optimo[22870] = 244
+Estancamiento: 1 individuos reemplazados en la generacion 22920.
+Optimo[22934] = 243
+Estancamiento: 1 individuos reemplazados en la generacion 22984.
+Estancamiento: 1 individuos reemplazados en la generacion 23034.
+Estancamiento: 1 individuos reemplazados en la generacion 23084.
+Estancamiento: 1 individuos reemplazados en la generacion 23134.
+Estancamiento: 1 individuos reemplazados en la generacion 23184.
+Estancamiento: 1 individuos reemplazados en la generacion 23234.
+Estancamiento: 1 individuos reemplazados en la generacion 23284.
+Optimo[23286] = 242
+Estancamiento: 1 individuos reemplazados en la generacion 23336.
+Estancamiento: 1 individuos reemplazados en la generacion 23386.
+Estancamiento: 1 individuos reemplazados en la generacion 23436.
+Optimo[23454] = 241
+Estancamiento: 1 individuos reemplazados en la generacion 23504.
+Estancamiento: 1 individuos reemplazados en la generacion 23554.
+Optimo[23570] = 240
+Estancamiento: 1 individuos reemplazados en la generacion 23620.
+Estancamiento: 1 individuos reemplazados en la generacion 23670.
+Estancamiento: 1 individuos reemplazados en la generacion 23720.
+Estancamiento: 1 individuos reemplazados en la generacion 23770.
+Estancamiento: 1 individuos reemplazados en la generacion 23820.
+Estancamiento: 1 individuos reemplazados en la generacion 23870.
+Estancamiento: 1 individuos reemplazados en la generacion 23920.
+Estancamiento: 1 individuos reemplazados en la generacion 23970.
+Estancamiento: 1 individuos reemplazados en la generacion 24020.
+Optimo[24056] = 239
+Estancamiento: 1 individuos reemplazados en la generacion 24106.
+Optimo[24133] = 238
+Estancamiento: 1 individuos reemplazados en la generacion 24183.
+Estancamiento: 1 individuos reemplazados en la generacion 24233.
+Estancamiento: 1 individuos reemplazados en la generacion 24283.
+Estancamiento: 1 individuos reemplazados en la generacion 24333.
+Estancamiento: 1 individuos reemplazados en la generacion 24383.
+Estancamiento: 1 individuos reemplazados en la generacion 24433.
+Optimo[24443] = 237
+Estancamiento: 1 individuos reemplazados en la generacion 24493.
+Optimo[24496] = 236
+Estancamiento: 1 individuos reemplazados en la generacion 24546.
+Estancamiento: 1 individuos reemplazados en la generacion 24596.
+Estancamiento: 1 individuos reemplazados en la generacion 24646.
+Estancamiento: 1 individuos reemplazados en la generacion 24696.
+Optimo[24736] = 235
+Estancamiento: 1 individuos reemplazados en la generacion 24786.
+Optimo[24799] = 234
+Estancamiento: 1 individuos reemplazados en la generacion 24849.
+Estancamiento: 1 individuos reemplazados en la generacion 24899.
+Estancamiento: 1 individuos reemplazados en la generacion 24949.
+Optimo[24965] = 233
+Estancamiento: 1 individuos reemplazados en la generacion 25015.
+Estancamiento: 1 individuos reemplazados en la generacion 25065.
+Estancamiento: 1 individuos reemplazados en la generacion 25115.
+Optimo[25120] = 232
+Estancamiento: 1 individuos reemplazados en la generacion 25170.
+Estancamiento: 1 individuos reemplazados en la generacion 25220.
+Optimo[25232] = 231
+Estancamiento: 1 individuos reemplazados en la generacion 25282.
+Estancamiento: 1 individuos reemplazados en la generacion 25332.
+Optimo[25355] = 230
+Estancamiento: 1 individuos reemplazados en la generacion 25405.
+Estancamiento: 1 individuos reemplazados en la generacion 25455.
+Estancamiento: 1 individuos reemplazados en la generacion 25505.
+Optimo[25515] = 229
+Estancamiento: 1 individuos reemplazados en la generacion 25565.
+Estancamiento: 1 individuos reemplazados en la generacion 25615.
+Optimo[25639] = 228
+Estancamiento: 1 individuos reemplazados en la generacion 25689.
+Estancamiento: 1 individuos reemplazados en la generacion 25739.
+Estancamiento: 1 individuos reemplazados en la generacion 25789.
+Optimo[25827] = 227
+Estancamiento: 1 individuos reemplazados en la generacion 25877.
+Estancamiento: 1 individuos reemplazados en la generacion 25927.
+Estancamiento: 1 individuos reemplazados en la generacion 25977.
+Estancamiento: 1 individuos reemplazados en la generacion 26027.
+Estancamiento: 1 individuos reemplazados en la generacion 26077.
+Estancamiento: 1 individuos reemplazados en la generacion 26127.
+Optimo[26135] = 226
+Estancamiento: 1 individuos reemplazados en la generacion 26185.
+Estancamiento: 1 individuos reemplazados en la generacion 26235.
+Estancamiento: 1 individuos reemplazados en la generacion 26285.
+Estancamiento: 1 individuos reemplazados en la generacion 26335.
+Estancamiento: 1 individuos reemplazados en la generacion 26385.
+Estancamiento: 1 individuos reemplazados en la generacion 26435.
+Estancamiento: 1 individuos reemplazados en la generacion 26485.
+Estancamiento: 1 individuos reemplazados en la generacion 26535.
+Estancamiento: 1 individuos reemplazados en la generacion 26585.
+Optimo[26594] = 225
+Estancamiento: 1 individuos reemplazados en la generacion 26644.
+Estancamiento: 1 individuos reemplazados en la generacion 26694.
+Estancamiento: 1 individuos reemplazados en la generacion 26744.
+Optimo[26749] = 224
+Estancamiento: 1 individuos reemplazados en la generacion 26799.
+Estancamiento: 1 individuos reemplazados en la generacion 26849.
+Estancamiento: 1 individuos reemplazados en la generacion 26899.
+Estancamiento: 1 individuos reemplazados en la generacion 26949.
+Estancamiento: 1 individuos reemplazados en la generacion 26999.
+Optimo[27039] = 223
+Estancamiento: 1 individuos reemplazados en la generacion 27089.
+Optimo[27107] = 222
+Estancamiento: 1 individuos reemplazados en la generacion 27157.
+Estancamiento: 1 individuos reemplazados en la generacion 27207.
+Estancamiento: 1 individuos reemplazados en la generacion 27257.
+Estancamiento: 1 individuos reemplazados en la generacion 27307.
+Estancamiento: 1 individuos reemplazados en la generacion 27357.
+Estancamiento: 1 individuos reemplazados en la generacion 27407.
+Estancamiento: 1 individuos reemplazados en la generacion 27457.
+Estancamiento: 1 individuos reemplazados en la generacion 27507.
+Optimo[27537] = 221
+Estancamiento: 1 individuos reemplazados en la generacion 27587.
+Estancamiento: 1 individuos reemplazados en la generacion 27637.
+Estancamiento: 1 individuos reemplazados en la generacion 27687.
+Estancamiento: 1 individuos reemplazados en la generacion 27737.
+Estancamiento: 1 individuos reemplazados en la generacion 27787.
+Optimo[27817] = 220
+Estancamiento: 1 individuos reemplazados en la generacion 27867.
+Estancamiento: 1 individuos reemplazados en la generacion 27917.
+Estancamiento: 1 individuos reemplazados en la generacion 27967.
+Optimo[28005] = 219
+Estancamiento: 1 individuos reemplazados en la generacion 28055.
+Estancamiento: 1 individuos reemplazados en la generacion 28105.
+Estancamiento: 1 individuos reemplazados en la generacion 28155.
+Optimo[28198] = 218
+Estancamiento: 1 individuos reemplazados en la generacion 28248.
+Estancamiento: 1 individuos reemplazados en la generacion 28298.
+Estancamiento: 1 individuos reemplazados en la generacion 28348.
+Estancamiento: 1 individuos reemplazados en la generacion 28398.
+Estancamiento: 1 individuos reemplazados en la generacion 28448.
+Optimo[28471] = 217
+Optimo[28516] = 216
+Estancamiento: 1 individuos reemplazados en la generacion 28566.
+Estancamiento: 1 individuos reemplazados en la generacion 28616.
+Estancamiento: 1 individuos reemplazados en la generacion 28666.
+Estancamiento: 1 individuos reemplazados en la generacion 28716.
+Estancamiento: 1 individuos reemplazados en la generacion 28766.
+Estancamiento: 1 individuos reemplazados en la generacion 28816.
+Optimo[28849] = 215
+Estancamiento: 1 individuos reemplazados en la generacion 28899.
+Estancamiento: 1 individuos reemplazados en la generacion 28949.
+Estancamiento: 1 individuos reemplazados en la generacion 28999.
+Estancamiento: 1 individuos reemplazados en la generacion 29049.
+Estancamiento: 1 individuos reemplazados en la generacion 29099.
+Estancamiento: 1 individuos reemplazados en la generacion 29149.
+Estancamiento: 1 individuos reemplazados en la generacion 29199.
+Optimo[29233] = 214
+Estancamiento: 1 individuos reemplazados en la generacion 29283.
+Estancamiento: 1 individuos reemplazados en la generacion 29333.
+Estancamiento: 1 individuos reemplazados en la generacion 29383.
+Estancamiento: 1 individuos reemplazados en la generacion 29433.
+Estancamiento: 1 individuos reemplazados en la generacion 29483.
+Estancamiento: 1 individuos reemplazados en la generacion 29533.
+Estancamiento: 1 individuos reemplazados en la generacion 29583.
+Estancamiento: 1 individuos reemplazados en la generacion 29633.
+Estancamiento: 1 individuos reemplazados en la generacion 29683.
+Estancamiento: 1 individuos reemplazados en la generacion 29733.
+Estancamiento: 1 individuos reemplazados en la generacion 29783.
+Estancamiento: 1 individuos reemplazados en la generacion 29833.
+Optimo[29865] = 213
+Estancamiento: 1 individuos reemplazados en la generacion 29915.
+Estancamiento: 1 individuos reemplazados en la generacion 29965.
+Estancamiento: 1 individuos reemplazados en la generacion 30015.
+Estancamiento: 1 individuos reemplazados en la generacion 30065.
+Estancamiento: 1 individuos reemplazados en la generacion 30115.
+Optimo[30129] = 212
+Estancamiento: 1 individuos reemplazados en la generacion 30179.
+Estancamiento: 1 individuos reemplazados en la generacion 30229.
+Estancamiento: 1 individuos reemplazados en la generacion 30279.
+Estancamiento: 1 individuos reemplazados en la generacion 30329.
+Estancamiento: 1 individuos reemplazados en la generacion 30379.
+Estancamiento: 1 individuos reemplazados en la generacion 30429.
+Estancamiento: 1 individuos reemplazados en la generacion 30479.
+Estancamiento: 1 individuos reemplazados en la generacion 30529.
+Optimo[30550] = 211
+Estancamiento: 1 individuos reemplazados en la generacion 30600.
+Estancamiento: 1 individuos reemplazados en la generacion 30650.
+Optimo[30679] = 210
+Estancamiento: 1 individuos reemplazados en la generacion 30729.
+Optimo[30741] = 209
+Estancamiento: 1 individuos reemplazados en la generacion 30791.
+Estancamiento: 1 individuos reemplazados en la generacion 30841.
+Estancamiento: 1 individuos reemplazados en la generacion 30891.
+Optimo[30930] = 208
+Estancamiento: 1 individuos reemplazados en la generacion 30980.
+Estancamiento: 1 individuos reemplazados en la generacion 31030.
+Estancamiento: 1 individuos reemplazados en la generacion 31080.
+Estancamiento: 1 individuos reemplazados en la generacion 31130.
+Estancamiento: 1 individuos reemplazados en la generacion 31180.
+Estancamiento: 1 individuos reemplazados en la generacion 31230.
+Optimo[31276] = 207
+Estancamiento: 1 individuos reemplazados en la generacion 31326.
+Estancamiento: 1 individuos reemplazados en la generacion 31376.
+Estancamiento: 1 individuos reemplazados en la generacion 31426.
+Estancamiento: 1 individuos reemplazados en la generacion 31476.
+Estancamiento: 1 individuos reemplazados en la generacion 31526.
+Estancamiento: 1 individuos reemplazados en la generacion 31576.
+Estancamiento: 1 individuos reemplazados en la generacion 31626.
+Estancamiento: 1 individuos reemplazados en la generacion 31676.
+Estancamiento: 1 individuos reemplazados en la generacion 31726.
+Estancamiento: 1 individuos reemplazados en la generacion 31776.
+Estancamiento: 1 individuos reemplazados en la generacion 31826.
+Estancamiento: 1 individuos reemplazados en la generacion 31876.
+Estancamiento: 1 individuos reemplazados en la generacion 31926.
+Optimo[31941] = 206
+Estancamiento: 1 individuos reemplazados en la generacion 31991.
+Estancamiento: 1 individuos reemplazados en la generacion 32041.
+Estancamiento: 1 individuos reemplazados en la generacion 32091.
+Estancamiento: 1 individuos reemplazados en la generacion 32141.
+Estancamiento: 1 individuos reemplazados en la generacion 32191.
+Estancamiento: 1 individuos reemplazados en la generacion 32241.
+Estancamiento: 1 individuos reemplazados en la generacion 32291.
+Estancamiento: 1 individuos reemplazados en la generacion 32341.
+Estancamiento: 1 individuos reemplazados en la generacion 32391.
+Estancamiento: 1 individuos reemplazados en la generacion 32441.
+Estancamiento: 1 individuos reemplazados en la generacion 32491.
+Estancamiento: 1 individuos reemplazados en la generacion 32541.
+Estancamiento: 1 individuos reemplazados en la generacion 32591.
+Estancamiento: 1 individuos reemplazados en la generacion 32641.
+Optimo[32680] = 205
+Estancamiento: 1 individuos reemplazados en la generacion 32730.
+Estancamiento: 1 individuos reemplazados en la generacion 32780.
+Estancamiento: 1 individuos reemplazados en la generacion 32830.
+Estancamiento: 1 individuos reemplazados en la generacion 32880.
+Optimo[32895] = 204
+Estancamiento: 1 individuos reemplazados en la generacion 32945.
+Estancamiento: 1 individuos reemplazados en la generacion 32995.
+Estancamiento: 1 individuos reemplazados en la generacion 33045.
+Estancamiento: 1 individuos reemplazados en la generacion 33095.
+Estancamiento: 1 individuos reemplazados en la generacion 33145.
+Optimo[33175] = 203
+Estancamiento: 1 individuos reemplazados en la generacion 33225.
+Estancamiento: 1 individuos reemplazados en la generacion 33275.
+Estancamiento: 1 individuos reemplazados en la generacion 33325.
+Estancamiento: 1 individuos reemplazados en la generacion 33375.
+Optimo[33387] = 202
+Estancamiento: 1 individuos reemplazados en la generacion 33437.
+Optimo[33472] = 201
+Estancamiento: 1 individuos reemplazados en la generacion 33522.
+Estancamiento: 1 individuos reemplazados en la generacion 33572.
+Estancamiento: 1 individuos reemplazados en la generacion 33622.
+Estancamiento: 1 individuos reemplazados en la generacion 33672.
+Estancamiento: 1 individuos reemplazados en la generacion 33722.
+Estancamiento: 1 individuos reemplazados en la generacion 33772.
+Optimo[33820] = 200
+Estancamiento: 1 individuos reemplazados en la generacion 33870.
+Estancamiento: 1 individuos reemplazados en la generacion 33920.
+Estancamiento: 1 individuos reemplazados en la generacion 33970.
+Estancamiento: 1 individuos reemplazados en la generacion 34020.
+Estancamiento: 1 individuos reemplazados en la generacion 34070.
+Estancamiento: 1 individuos reemplazados en la generacion 34120.
+Optimo[34166] = 199
+Estancamiento: 1 individuos reemplazados en la generacion 34216.
+Estancamiento: 1 individuos reemplazados en la generacion 34266.
+Estancamiento: 1 individuos reemplazados en la generacion 34316.
+Optimo[34325] = 198
+Estancamiento: 1 individuos reemplazados en la generacion 34375.
+Estancamiento: 1 individuos reemplazados en la generacion 34425.
+Estancamiento: 1 individuos reemplazados en la generacion 34475.
+Optimo[34493] = 197
+Estancamiento: 1 individuos reemplazados en la generacion 34543.
+Estancamiento: 1 individuos reemplazados en la generacion 34593.
+Estancamiento: 1 individuos reemplazados en la generacion 34643.
+Estancamiento: 1 individuos reemplazados en la generacion 34693.
+Estancamiento: 1 individuos reemplazados en la generacion 34743.
+Estancamiento: 1 individuos reemplazados en la generacion 34793.
+Estancamiento: 1 individuos reemplazados en la generacion 34843.
+Estancamiento: 1 individuos reemplazados en la generacion 34893.
+Estancamiento: 1 individuos reemplazados en la generacion 34943.
+Optimo[34951] = 196
+Estancamiento: 1 individuos reemplazados en la generacion 35001.
+Estancamiento: 1 individuos reemplazados en la generacion 35051.
+Estancamiento: 1 individuos reemplazados en la generacion 35101.
+Estancamiento: 1 individuos reemplazados en la generacion 35151.
+Optimo[35158] = 195
+Estancamiento: 1 individuos reemplazados en la generacion 35208.
+Estancamiento: 1 individuos reemplazados en la generacion 35258.
+Estancamiento: 1 individuos reemplazados en la generacion 35308.
+Estancamiento: 1 individuos reemplazados en la generacion 35358.
+Estancamiento: 1 individuos reemplazados en la generacion 35408.
+Estancamiento: 1 individuos reemplazados en la generacion 35458.
+Optimo[35503] = 194
+Estancamiento: 1 individuos reemplazados en la generacion 35553.
+Estancamiento: 1 individuos reemplazados en la generacion 35603.
+Estancamiento: 1 individuos reemplazados en la generacion 35653.
+Estancamiento: 1 individuos reemplazados en la generacion 35703.
+Optimo[35722] = 193
+Estancamiento: 1 individuos reemplazados en la generacion 35772.
+Estancamiento: 1 individuos reemplazados en la generacion 35822.
+Estancamiento: 1 individuos reemplazados en la generacion 35872.
+Estancamiento: 1 individuos reemplazados en la generacion 35922.
+Estancamiento: 1 individuos reemplazados en la generacion 35972.
+Estancamiento: 1 individuos reemplazados en la generacion 36022.
+Estancamiento: 1 individuos reemplazados en la generacion 36072.
+Optimo[36081] = 192
+Estancamiento: 1 individuos reemplazados en la generacion 36131.
+Estancamiento: 1 individuos reemplazados en la generacion 36181.
+Estancamiento: 1 individuos reemplazados en la generacion 36231.
+Estancamiento: 1 individuos reemplazados en la generacion 36281.
+Estancamiento: 1 individuos reemplazados en la generacion 36331.
+Estancamiento: 1 individuos reemplazados en la generacion 36381.
+Estancamiento: 1 individuos reemplazados en la generacion 36431.
+Estancamiento: 1 individuos reemplazados en la generacion 36481.
+Estancamiento: 1 individuos reemplazados en la generacion 36531.
+Optimo[36574] = 191
+Estancamiento: 1 individuos reemplazados en la generacion 36624.
+Estancamiento: 1 individuos reemplazados en la generacion 36674.
+Estancamiento: 1 individuos reemplazados en la generacion 36724.
+Estancamiento: 1 individuos reemplazados en la generacion 36774.
+Estancamiento: 1 individuos reemplazados en la generacion 36824.
+Estancamiento: 1 individuos reemplazados en la generacion 36874.
+Estancamiento: 1 individuos reemplazados en la generacion 36924.
+Estancamiento: 1 individuos reemplazados en la generacion 36974.
+Estancamiento: 1 individuos reemplazados en la generacion 37024.
+Estancamiento: 1 individuos reemplazados en la generacion 37074.
+Estancamiento: 1 individuos reemplazados en la generacion 37124.
+Estancamiento: 1 individuos reemplazados en la generacion 37174.
+Estancamiento: 1 individuos reemplazados en la generacion 37224.
+Estancamiento: 1 individuos reemplazados en la generacion 37274.
+Estancamiento: 1 individuos reemplazados en la generacion 37324.
+Estancamiento: 1 individuos reemplazados en la generacion 37374.
+Estancamiento: 1 individuos reemplazados en la generacion 37424.
+Optimo[37440] = 190
+Estancamiento: 1 individuos reemplazados en la generacion 37490.
+Estancamiento: 1 individuos reemplazados en la generacion 37540.
+Estancamiento: 1 individuos reemplazados en la generacion 37590.
+Optimo[37620] = 189
+Estancamiento: 1 individuos reemplazados en la generacion 37670.
+Estancamiento: 1 individuos reemplazados en la generacion 37720.
+Estancamiento: 1 individuos reemplazados en la generacion 37770.
+Estancamiento: 1 individuos reemplazados en la generacion 37820.
+Estancamiento: 1 individuos reemplazados en la generacion 37870.
+Estancamiento: 1 individuos reemplazados en la generacion 37920.
+Estancamiento: 1 individuos reemplazados en la generacion 37970.
+Estancamiento: 1 individuos reemplazados en la generacion 38020.
+Estancamiento: 1 individuos reemplazados en la generacion 38070.
+Estancamiento: 1 individuos reemplazados en la generacion 38120.
+Estancamiento: 1 individuos reemplazados en la generacion 38170.
+Estancamiento: 1 individuos reemplazados en la generacion 38220.
+Optimo[38231] = 188
+Estancamiento: 1 individuos reemplazados en la generacion 38281.
+Optimo[38326] = 187
+Estancamiento: 1 individuos reemplazados en la generacion 38376.
+Optimo[38395] = 186
+Estancamiento: 1 individuos reemplazados en la generacion 38445.
+Estancamiento: 1 individuos reemplazados en la generacion 38495.
+Estancamiento: 1 individuos reemplazados en la generacion 38545.
+Estancamiento: 1 individuos reemplazados en la generacion 38595.
+Estancamiento: 1 individuos reemplazados en la generacion 38645.
+Estancamiento: 1 individuos reemplazados en la generacion 38695.
+Estancamiento: 1 individuos reemplazados en la generacion 38745.
+Estancamiento: 1 individuos reemplazados en la generacion 38795.
+Estancamiento: 1 individuos reemplazados en la generacion 38845.
+Estancamiento: 1 individuos reemplazados en la generacion 38895.
+Estancamiento: 1 individuos reemplazados en la generacion 38945.
+Optimo[38948] = 185
+Optimo[38989] = 184
+Estancamiento: 1 individuos reemplazados en la generacion 39039.
+Optimo[39089] = 183
+Estancamiento: 1 individuos reemplazados en la generacion 39139.
+Estancamiento: 1 individuos reemplazados en la generacion 39189.
+Estancamiento: 1 individuos reemplazados en la generacion 39239.
+Estancamiento: 1 individuos reemplazados en la generacion 39289.
+Optimo[39332] = 182
+Optimo[39374] = 181
+Estancamiento: 1 individuos reemplazados en la generacion 39424.
+Estancamiento: 1 individuos reemplazados en la generacion 39474.
+Optimo[39492] = 180
+Estancamiento: 1 individuos reemplazados en la generacion 39542.
+Estancamiento: 1 individuos reemplazados en la generacion 39592.
+Estancamiento: 1 individuos reemplazados en la generacion 39642.
+Estancamiento: 1 individuos reemplazados en la generacion 39692.
+Estancamiento: 1 individuos reemplazados en la generacion 39742.
+Estancamiento: 1 individuos reemplazados en la generacion 39792.
+Estancamiento: 1 individuos reemplazados en la generacion 39842.
+Estancamiento: 1 individuos reemplazados en la generacion 39892.
+Estancamiento: 1 individuos reemplazados en la generacion 39942.
+Estancamiento: 1 individuos reemplazados en la generacion 39992.
+Estancamiento: 1 individuos reemplazados en la generacion 40042.
+Optimo[40067] = 179
+Estancamiento: 1 individuos reemplazados en la generacion 40117.
+Estancamiento: 1 individuos reemplazados en la generacion 40167.
+Estancamiento: 1 individuos reemplazados en la generacion 40217.
+Estancamiento: 1 individuos reemplazados en la generacion 40267.
+Estancamiento: 1 individuos reemplazados en la generacion 40317.
+Estancamiento: 1 individuos reemplazados en la generacion 40367.
+Estancamiento: 1 individuos reemplazados en la generacion 40417.
+Estancamiento: 1 individuos reemplazados en la generacion 40467.
+Estancamiento: 1 individuos reemplazados en la generacion 40517.
+Optimo[40531] = 178
+Estancamiento: 1 individuos reemplazados en la generacion 40581.
+Estancamiento: 1 individuos reemplazados en la generacion 40631.
+Estancamiento: 1 individuos reemplazados en la generacion 40681.
+Optimo[40702] = 177
+Estancamiento: 1 individuos reemplazados en la generacion 40752.
+Estancamiento: 1 individuos reemplazados en la generacion 40802.
+Estancamiento: 1 individuos reemplazados en la generacion 40852.
+Estancamiento: 1 individuos reemplazados en la generacion 40902.
+Estancamiento: 1 individuos reemplazados en la generacion 40952.
+Estancamiento: 1 individuos reemplazados en la generacion 41002.
+Estancamiento: 1 individuos reemplazados en la generacion 41052.
+Estancamiento: 1 individuos reemplazados en la generacion 41102.
+Optimo[41111] = 176
+Estancamiento: 1 individuos reemplazados en la generacion 41161.
+Optimo[41209] = 175
+Estancamiento: 1 individuos reemplazados en la generacion 41259.
+Estancamiento: 1 individuos reemplazados en la generacion 41309.
+Estancamiento: 1 individuos reemplazados en la generacion 41359.
+Estancamiento: 1 individuos reemplazados en la generacion 41409.
+Estancamiento: 1 individuos reemplazados en la generacion 41459.
+Estancamiento: 1 individuos reemplazados en la generacion 41509.
+Estancamiento: 1 individuos reemplazados en la generacion 41559.
+Estancamiento: 1 individuos reemplazados en la generacion 41609.
+Estancamiento: 1 individuos reemplazados en la generacion 41659.
+Optimo[41687] = 174
+Estancamiento: 1 individuos reemplazados en la generacion 41737.
+Estancamiento: 1 individuos reemplazados en la generacion 41787.
+Estancamiento: 1 individuos reemplazados en la generacion 41837.
+Estancamiento: 1 individuos reemplazados en la generacion 41887.
+Estancamiento: 1 individuos reemplazados en la generacion 41937.
+Estancamiento: 1 individuos reemplazados en la generacion 41987.
+Estancamiento: 1 individuos reemplazados en la generacion 42037.
+Estancamiento: 1 individuos reemplazados en la generacion 42087.
+Estancamiento: 1 individuos reemplazados en la generacion 42137.
+Estancamiento: 1 individuos reemplazados en la generacion 42187.
+Estancamiento: 1 individuos reemplazados en la generacion 42237.
+Optimo[42267] = 173
+Estancamiento: 1 individuos reemplazados en la generacion 42317.
+Estancamiento: 1 individuos reemplazados en la generacion 42367.
+Estancamiento: 1 individuos reemplazados en la generacion 42417.
+Estancamiento: 1 individuos reemplazados en la generacion 42467.
+Estancamiento: 1 individuos reemplazados en la generacion 42517.
+Estancamiento: 1 individuos reemplazados en la generacion 42567.
+Optimo[42595] = 172
+Estancamiento: 1 individuos reemplazados en la generacion 42645.
+Estancamiento: 1 individuos reemplazados en la generacion 42695.
+Estancamiento: 1 individuos reemplazados en la generacion 42745.
+Estancamiento: 1 individuos reemplazados en la generacion 42795.
+Estancamiento: 1 individuos reemplazados en la generacion 42845.
+Estancamiento: 1 individuos reemplazados en la generacion 42895.
+Optimo[42917] = 171
+Estancamiento: 1 individuos reemplazados en la generacion 42967.
+Estancamiento: 1 individuos reemplazados en la generacion 43017.
+Estancamiento: 1 individuos reemplazados en la generacion 43067.
+Estancamiento: 1 individuos reemplazados en la generacion 43117.
+Estancamiento: 1 individuos reemplazados en la generacion 43167.
+Estancamiento: 1 individuos reemplazados en la generacion 43217.
+Estancamiento: 1 individuos reemplazados en la generacion 43267.
+Estancamiento: 1 individuos reemplazados en la generacion 43317.
+Estancamiento: 1 individuos reemplazados en la generacion 43367.
+Estancamiento: 1 individuos reemplazados en la generacion 43417.
+Estancamiento: 1 individuos reemplazados en la generacion 43467.
+Estancamiento: 1 individuos reemplazados en la generacion 43517.
+Estancamiento: 1 individuos reemplazados en la generacion 43567.
+Estancamiento: 1 individuos reemplazados en la generacion 43617.
+Estancamiento: 1 individuos reemplazados en la generacion 43667.
+Estancamiento: 1 individuos reemplazados en la generacion 43717.
+Estancamiento: 1 individuos reemplazados en la generacion 43767.
+Estancamiento: 1 individuos reemplazados en la generacion 43817.
+Estancamiento: 1 individuos reemplazados en la generacion 43867.
+Estancamiento: 1 individuos reemplazados en la generacion 43917.
+Estancamiento: 1 individuos reemplazados en la generacion 43967.
+Estancamiento: 1 individuos reemplazados en la generacion 44017.
+Estancamiento: 1 individuos reemplazados en la generacion 44067.
+Estancamiento: 1 individuos reemplazados en la generacion 44117.
+Estancamiento: 1 individuos reemplazados en la generacion 44167.
+Estancamiento: 1 individuos reemplazados en la generacion 44217.
+Estancamiento: 1 individuos reemplazados en la generacion 44267.
+Optimo[44269] = 170
+Estancamiento: 1 individuos reemplazados en la generacion 44319.
+Estancamiento: 1 individuos reemplazados en la generacion 44369.
+Estancamiento: 1 individuos reemplazados en la generacion 44419.
+Estancamiento: 1 individuos reemplazados en la generacion 44469.
+Estancamiento: 1 individuos reemplazados en la generacion 44519.
+Optimo[44566] = 169
+Estancamiento: 1 individuos reemplazados en la generacion 44616.
+Estancamiento: 1 individuos reemplazados en la generacion 44666.
+Estancamiento: 1 individuos reemplazados en la generacion 44716.
+Estancamiento: 1 individuos reemplazados en la generacion 44766.
+Estancamiento: 1 individuos reemplazados en la generacion 44816.
+Optimo[44837] = 168
+Estancamiento: 1 individuos reemplazados en la generacion 44887.
+Estancamiento: 1 individuos reemplazados en la generacion 44937.
+Estancamiento: 1 individuos reemplazados en la generacion 44987.
+Estancamiento: 1 individuos reemplazados en la generacion 45037.
+Estancamiento: 1 individuos reemplazados en la generacion 45087.
+Estancamiento: 1 individuos reemplazados en la generacion 45137.
+Estancamiento: 1 individuos reemplazados en la generacion 45187.
+Estancamiento: 1 individuos reemplazados en la generacion 45237.
+Estancamiento: 1 individuos reemplazados en la generacion 45287.
+Estancamiento: 1 individuos reemplazados en la generacion 45337.
+Estancamiento: 1 individuos reemplazados en la generacion 45387.
+Optimo[45417] = 167
+Estancamiento: 1 individuos reemplazados en la generacion 45467.
+Estancamiento: 1 individuos reemplazados en la generacion 45517.
+Optimo[45525] = 166
+Estancamiento: 1 individuos reemplazados en la generacion 45575.
+Estancamiento: 1 individuos reemplazados en la generacion 45625.
+Estancamiento: 1 individuos reemplazados en la generacion 45675.
+Estancamiento: 1 individuos reemplazados en la generacion 45725.
+Estancamiento: 1 individuos reemplazados en la generacion 45775.
+Estancamiento: 1 individuos reemplazados en la generacion 45825.
+Estancamiento: 1 individuos reemplazados en la generacion 45875.
+Estancamiento: 1 individuos reemplazados en la generacion 45925.
+Estancamiento: 1 individuos reemplazados en la generacion 45975.
+Estancamiento: 1 individuos reemplazados en la generacion 46025.
+Estancamiento: 1 individuos reemplazados en la generacion 46075.
+Estancamiento: 1 individuos reemplazados en la generacion 46125.
+Estancamiento: 1 individuos reemplazados en la generacion 46175.
+Estancamiento: 1 individuos reemplazados en la generacion 46225.
+Estancamiento: 1 individuos reemplazados en la generacion 46275.
+Estancamiento: 1 individuos reemplazados en la generacion 46325.
+Estancamiento: 1 individuos reemplazados en la generacion 46375.
+Estancamiento: 1 individuos reemplazados en la generacion 46425.
+Estancamiento: 1 individuos reemplazados en la generacion 46475.
+Estancamiento: 1 individuos reemplazados en la generacion 46525.
+Optimo[46531] = 165
+Estancamiento: 1 individuos reemplazados en la generacion 46581.
+Estancamiento: 1 individuos reemplazados en la generacion 46631.
+Estancamiento: 1 individuos reemplazados en la generacion 46681.
+Estancamiento: 1 individuos reemplazados en la generacion 46731.
+Estancamiento: 1 individuos reemplazados en la generacion 46781.
+Estancamiento: 1 individuos reemplazados en la generacion 46831.
+Estancamiento: 1 individuos reemplazados en la generacion 46881.
+Estancamiento: 1 individuos reemplazados en la generacion 46931.
+Estancamiento: 1 individuos reemplazados en la generacion 46981.
+Estancamiento: 1 individuos reemplazados en la generacion 47031.
+Estancamiento: 1 individuos reemplazados en la generacion 47081.
+Estancamiento: 1 individuos reemplazados en la generacion 47131.
+Estancamiento: 1 individuos reemplazados en la generacion 47181.
+Estancamiento: 1 individuos reemplazados en la generacion 47231.
+Estancamiento: 1 individuos reemplazados en la generacion 47281.
+Estancamiento: 1 individuos reemplazados en la generacion 47331.
+Estancamiento: 1 individuos reemplazados en la generacion 47381.
+Estancamiento: 1 individuos reemplazados en la generacion 47431.
+Estancamiento: 1 individuos reemplazados en la generacion 47481.
+Estancamiento: 1 individuos reemplazados en la generacion 47531.
+Estancamiento: 1 individuos reemplazados en la generacion 47581.
+Estancamiento: 1 individuos reemplazados en la generacion 47631.
+Estancamiento: 1 individuos reemplazados en la generacion 47681.
+Estancamiento: 1 individuos reemplazados en la generacion 47731.
+Optimo[47778] = 164
+Estancamiento: 1 individuos reemplazados en la generacion 47828.
+Estancamiento: 1 individuos reemplazados en la generacion 47878.
+Estancamiento: 1 individuos reemplazados en la generacion 47928.
+Estancamiento: 1 individuos reemplazados en la generacion 47978.
+Estancamiento: 1 individuos reemplazados en la generacion 48028.
+Estancamiento: 1 individuos reemplazados en la generacion 48078.
+Estancamiento: 1 individuos reemplazados en la generacion 48128.
+Estancamiento: 1 individuos reemplazados en la generacion 48178.
+Estancamiento: 1 individuos reemplazados en la generacion 48228.
+Estancamiento: 1 individuos reemplazados en la generacion 48278.
+Estancamiento: 1 individuos reemplazados en la generacion 48328.
+Optimo[48331] = 163
+Estancamiento: 1 individuos reemplazados en la generacion 48381.
+Estancamiento: 1 individuos reemplazados en la generacion 48431.
+Optimo[48478] = 162
+Estancamiento: 1 individuos reemplazados en la generacion 48528.
+Estancamiento: 1 individuos reemplazados en la generacion 48578.
+Estancamiento: 1 individuos reemplazados en la generacion 48628.
+Estancamiento: 1 individuos reemplazados en la generacion 48678.
+Optimo[48704] = 161
+Estancamiento: 1 individuos reemplazados en la generacion 48754.
+Estancamiento: 1 individuos reemplazados en la generacion 48804.
+Estancamiento: 1 individuos reemplazados en la generacion 48854.
+Estancamiento: 1 individuos reemplazados en la generacion 48904.
+Estancamiento: 1 individuos reemplazados en la generacion 48954.
+Estancamiento: 1 individuos reemplazados en la generacion 49004.
+Estancamiento: 1 individuos reemplazados en la generacion 49054.
+Estancamiento: 1 individuos reemplazados en la generacion 49104.
+Estancamiento: 1 individuos reemplazados en la generacion 49154.
+Estancamiento: 1 individuos reemplazados en la generacion 49204.
+Estancamiento: 1 individuos reemplazados en la generacion 49254.
+Optimo[49303] = 160
+Estancamiento: 1 individuos reemplazados en la generacion 49353.
+Estancamiento: 1 individuos reemplazados en la generacion 49403.
+Estancamiento: 1 individuos reemplazados en la generacion 49453.
+Estancamiento: 1 individuos reemplazados en la generacion 49503.
+Estancamiento: 1 individuos reemplazados en la generacion 49553.
+Estancamiento: 1 individuos reemplazados en la generacion 49603.
+Estancamiento: 1 individuos reemplazados en la generacion 49653.
+Estancamiento: 1 individuos reemplazados en la generacion 49703.
+Estancamiento: 1 individuos reemplazados en la generacion 49753.
+Estancamiento: 1 individuos reemplazados en la generacion 49803.
+Estancamiento: 1 individuos reemplazados en la generacion 49853.
+Estancamiento: 1 individuos reemplazados en la generacion 49903.
+Optimo[49927] = 159
+Estancamiento: 1 individuos reemplazados en la generacion 49977.
+Estancamiento: 1 individuos reemplazados en la generacion 50027.
+Estancamiento: 1 individuos reemplazados en la generacion 50077.
+Estancamiento: 1 individuos reemplazados en la generacion 50127.
+Estancamiento: 1 individuos reemplazados en la generacion 50177.
+Estancamiento: 1 individuos reemplazados en la generacion 50227.
+Estancamiento: 1 individuos reemplazados en la generacion 50277.
+Estancamiento: 1 individuos reemplazados en la generacion 50327.
+Estancamiento: 1 individuos reemplazados en la generacion 50377.
+Estancamiento: 1 individuos reemplazados en la generacion 50427.
+Estancamiento: 1 individuos reemplazados en la generacion 50477.
+Estancamiento: 1 individuos reemplazados en la generacion 50527.
+Estancamiento: 1 individuos reemplazados en la generacion 50577.
+Estancamiento: 1 individuos reemplazados en la generacion 50627.
+Estancamiento: 1 individuos reemplazados en la generacion 50677.
+Estancamiento: 1 individuos reemplazados en la generacion 50727.
+Estancamiento: 1 individuos reemplazados en la generacion 50777.
+Estancamiento: 1 individuos reemplazados en la generacion 50827.
+Estancamiento: 1 individuos reemplazados en la generacion 50877.
+Estancamiento: 1 individuos reemplazados en la generacion 50927.
+Estancamiento: 1 individuos reemplazados en la generacion 50977.
+Estancamiento: 1 individuos reemplazados en la generacion 51027.
+Estancamiento: 1 individuos reemplazados en la generacion 51077.
+Estancamiento: 1 individuos reemplazados en la generacion 51127.
+Estancamiento: 1 individuos reemplazados en la generacion 51177.
+Estancamiento: 1 individuos reemplazados en la generacion 51227.
+Estancamiento: 1 individuos reemplazados en la generacion 51277.
+Estancamiento: 1 individuos reemplazados en la generacion 51327.
+Optimo[51358] = 158
+Estancamiento: 1 individuos reemplazados en la generacion 51408.
+Estancamiento: 1 individuos reemplazados en la generacion 51458.
+Estancamiento: 1 individuos reemplazados en la generacion 51508.
+Estancamiento: 1 individuos reemplazados en la generacion 51558.
+Estancamiento: 1 individuos reemplazados en la generacion 51608.
+Estancamiento: 1 individuos reemplazados en la generacion 51658.
+Estancamiento: 1 individuos reemplazados en la generacion 51708.
+Optimo[51710] = 157
+Estancamiento: 1 individuos reemplazados en la generacion 51760.
+Estancamiento: 1 individuos reemplazados en la generacion 51810.
+Estancamiento: 1 individuos reemplazados en la generacion 51860.
+Estancamiento: 1 individuos reemplazados en la generacion 51910.
+Estancamiento: 1 individuos reemplazados en la generacion 51960.
+Estancamiento: 1 individuos reemplazados en la generacion 52010.
+Estancamiento: 1 individuos reemplazados en la generacion 52060.
+Estancamiento: 1 individuos reemplazados en la generacion 52110.
+Estancamiento: 1 individuos reemplazados en la generacion 52160.
+Estancamiento: 1 individuos reemplazados en la generacion 52210.
+Estancamiento: 1 individuos reemplazados en la generacion 52260.
+Estancamiento: 1 individuos reemplazados en la generacion 52310.
+Estancamiento: 1 individuos reemplazados en la generacion 52360.
+Estancamiento: 1 individuos reemplazados en la generacion 52410.
+Estancamiento: 1 individuos reemplazados en la generacion 52460.
+Estancamiento: 1 individuos reemplazados en la generacion 52510.
+Estancamiento: 1 individuos reemplazados en la generacion 52560.
+Estancamiento: 1 individuos reemplazados en la generacion 52610.
+Optimo[52655] = 156
+Estancamiento: 1 individuos reemplazados en la generacion 52705.
+Estancamiento: 1 individuos reemplazados en la generacion 52755.
+Estancamiento: 1 individuos reemplazados en la generacion 52805.
+Estancamiento: 1 individuos reemplazados en la generacion 52855.
+Estancamiento: 1 individuos reemplazados en la generacion 52905.
+Estancamiento: 1 individuos reemplazados en la generacion 52955.
+Optimo[52986] = 155
+Estancamiento: 1 individuos reemplazados en la generacion 53036.
+Optimo[53072] = 154
+Estancamiento: 1 individuos reemplazados en la generacion 53122.
+Estancamiento: 1 individuos reemplazados en la generacion 53172.
+Estancamiento: 1 individuos reemplazados en la generacion 53222.
+Estancamiento: 1 individuos reemplazados en la generacion 53272.
+Estancamiento: 1 individuos reemplazados en la generacion 53322.
+Estancamiento: 1 individuos reemplazados en la generacion 53372.
+Optimo[53416] = 153
+Estancamiento: 1 individuos reemplazados en la generacion 53466.
+Estancamiento: 1 individuos reemplazados en la generacion 53516.
+Estancamiento: 1 individuos reemplazados en la generacion 53566.
+Estancamiento: 1 individuos reemplazados en la generacion 53616.
+Estancamiento: 1 individuos reemplazados en la generacion 53666.
+Estancamiento: 1 individuos reemplazados en la generacion 53716.
+Estancamiento: 1 individuos reemplazados en la generacion 53766.
+Estancamiento: 1 individuos reemplazados en la generacion 53816.
+Estancamiento: 1 individuos reemplazados en la generacion 53866.
+Estancamiento: 1 individuos reemplazados en la generacion 53916.
+Estancamiento: 1 individuos reemplazados en la generacion 53966.
+Estancamiento: 1 individuos reemplazados en la generacion 54016.
+Optimo[54034] = 152
+Estancamiento: 1 individuos reemplazados en la generacion 54084.
+Estancamiento: 1 individuos reemplazados en la generacion 54134.
+Estancamiento: 1 individuos reemplazados en la generacion 54184.
+Estancamiento: 1 individuos reemplazados en la generacion 54234.
+Estancamiento: 1 individuos reemplazados en la generacion 54284.
+Estancamiento: 1 individuos reemplazados en la generacion 54334.
+Estancamiento: 1 individuos reemplazados en la generacion 54384.
+Estancamiento: 1 individuos reemplazados en la generacion 54434.
+Estancamiento: 1 individuos reemplazados en la generacion 54484.
+Estancamiento: 1 individuos reemplazados en la generacion 54534.
+Estancamiento: 1 individuos reemplazados en la generacion 54584.
+Optimo[54618] = 151
+Optimo[54662] = 150
+Estancamiento: 1 individuos reemplazados en la generacion 54712.
+Estancamiento: 1 individuos reemplazados en la generacion 54762.
+Estancamiento: 1 individuos reemplazados en la generacion 54812.
+Estancamiento: 1 individuos reemplazados en la generacion 54862.
+Estancamiento: 1 individuos reemplazados en la generacion 54912.
+Estancamiento: 1 individuos reemplazados en la generacion 54962.
+Estancamiento: 1 individuos reemplazados en la generacion 55012.
+Estancamiento: 1 individuos reemplazados en la generacion 55062.
+Estancamiento: 1 individuos reemplazados en la generacion 55112.
+Estancamiento: 1 individuos reemplazados en la generacion 55162.
+Estancamiento: 1 individuos reemplazados en la generacion 55212.
+Estancamiento: 1 individuos reemplazados en la generacion 55262.
+Optimo[55290] = 149
+Estancamiento: 1 individuos reemplazados en la generacion 55340.
+Estancamiento: 1 individuos reemplazados en la generacion 55390.
+Estancamiento: 1 individuos reemplazados en la generacion 55440.
+Estancamiento: 1 individuos reemplazados en la generacion 55490.
+Estancamiento: 1 individuos reemplazados en la generacion 55540.
+Estancamiento: 1 individuos reemplazados en la generacion 55590.
+Estancamiento: 1 individuos reemplazados en la generacion 55640.
+Estancamiento: 1 individuos reemplazados en la generacion 55690.
+Estancamiento: 1 individuos reemplazados en la generacion 55740.
+Estancamiento: 1 individuos reemplazados en la generacion 55790.
+Estancamiento: 1 individuos reemplazados en la generacion 55840.
+Estancamiento: 1 individuos reemplazados en la generacion 55890.
+Optimo[55933] = 148
+Estancamiento: 1 individuos reemplazados en la generacion 55983.
+Estancamiento: 1 individuos reemplazados en la generacion 56033.
+Estancamiento: 1 individuos reemplazados en la generacion 56083.
+Estancamiento: 1 individuos reemplazados en la generacion 56133.
+Estancamiento: 1 individuos reemplazados en la generacion 56183.
+Estancamiento: 1 individuos reemplazados en la generacion 56233.
+Estancamiento: 1 individuos reemplazados en la generacion 56283.
+Estancamiento: 1 individuos reemplazados en la generacion 56333.
+Optimo[56353] = 147
+Estancamiento: 1 individuos reemplazados en la generacion 56403.
+Optimo[56448] = 146
+Estancamiento: 1 individuos reemplazados en la generacion 56498.
+Estancamiento: 1 individuos reemplazados en la generacion 56548.
+Optimo[56573] = 145
+Estancamiento: 1 individuos reemplazados en la generacion 56623.
+Estancamiento: 1 individuos reemplazados en la generacion 56673.
+Estancamiento: 1 individuos reemplazados en la generacion 56723.
+Estancamiento: 1 individuos reemplazados en la generacion 56773.
+Estancamiento: 1 individuos reemplazados en la generacion 56823.
+Estancamiento: 1 individuos reemplazados en la generacion 56873.
+Estancamiento: 1 individuos reemplazados en la generacion 56923.
+Estancamiento: 1 individuos reemplazados en la generacion 56973.
+Estancamiento: 1 individuos reemplazados en la generacion 57023.
+Estancamiento: 1 individuos reemplazados en la generacion 57073.
+Estancamiento: 1 individuos reemplazados en la generacion 57123.
+Estancamiento: 1 individuos reemplazados en la generacion 57173.
+Estancamiento: 1 individuos reemplazados en la generacion 57223.
+Estancamiento: 1 individuos reemplazados en la generacion 57273.
+Estancamiento: 1 individuos reemplazados en la generacion 57323.
+Optimo[57350] = 144
+Estancamiento: 1 individuos reemplazados en la generacion 57400.
+Estancamiento: 1 individuos reemplazados en la generacion 57450.
+Estancamiento: 1 individuos reemplazados en la generacion 57500.
+Estancamiento: 1 individuos reemplazados en la generacion 57550.
+Estancamiento: 1 individuos reemplazados en la generacion 57600.
+Optimo[57647] = 143
+Estancamiento: 1 individuos reemplazados en la generacion 57697.
+Estancamiento: 1 individuos reemplazados en la generacion 57747.
+Estancamiento: 1 individuos reemplazados en la generacion 57797.
+Estancamiento: 1 individuos reemplazados en la generacion 57847.
+Estancamiento: 1 individuos reemplazados en la generacion 57897.
+Estancamiento: 1 individuos reemplazados en la generacion 57947.
+Estancamiento: 1 individuos reemplazados en la generacion 57997.
+Estancamiento: 1 individuos reemplazados en la generacion 58047.
+Estancamiento: 1 individuos reemplazados en la generacion 58097.
+Estancamiento: 1 individuos reemplazados en la generacion 58147.
+Estancamiento: 1 individuos reemplazados en la generacion 58197.
+Estancamiento: 1 individuos reemplazados en la generacion 58247.
+Estancamiento: 1 individuos reemplazados en la generacion 58297.
+Estancamiento: 1 individuos reemplazados en la generacion 58347.
+Estancamiento: 1 individuos reemplazados en la generacion 58397.
+Estancamiento: 1 individuos reemplazados en la generacion 58447.
+Estancamiento: 1 individuos reemplazados en la generacion 58497.
+Estancamiento: 1 individuos reemplazados en la generacion 58547.
+Estancamiento: 1 individuos reemplazados en la generacion 58597.
+Estancamiento: 1 individuos reemplazados en la generacion 58647.
+Estancamiento: 1 individuos reemplazados en la generacion 58697.
+Estancamiento: 1 individuos reemplazados en la generacion 58747.
+Estancamiento: 1 individuos reemplazados en la generacion 58797.
+Estancamiento: 1 individuos reemplazados en la generacion 58847.
+Estancamiento: 1 individuos reemplazados en la generacion 58897.
+Estancamiento: 1 individuos reemplazados en la generacion 58947.
+Estancamiento: 1 individuos reemplazados en la generacion 58997.
+Optimo[59025] = 142
+Estancamiento: 1 individuos reemplazados en la generacion 59075.
+Estancamiento: 1 individuos reemplazados en la generacion 59125.
+Estancamiento: 1 individuos reemplazados en la generacion 59175.
+Estancamiento: 1 individuos reemplazados en la generacion 59225.
+Estancamiento: 1 individuos reemplazados en la generacion 59275.
+Estancamiento: 1 individuos reemplazados en la generacion 59325.
+Estancamiento: 1 individuos reemplazados en la generacion 59375.
+Estancamiento: 1 individuos reemplazados en la generacion 59425.
+Estancamiento: 1 individuos reemplazados en la generacion 59475.
+Estancamiento: 1 individuos reemplazados en la generacion 59525.
+Estancamiento: 1 individuos reemplazados en la generacion 59575.
+Optimo[59609] = 141
+Estancamiento: 1 individuos reemplazados en la generacion 59659.
+Estancamiento: 1 individuos reemplazados en la generacion 59709.
+Estancamiento: 1 individuos reemplazados en la generacion 59759.
+Estancamiento: 1 individuos reemplazados en la generacion 59809.
+Estancamiento: 1 individuos reemplazados en la generacion 59859.
+Estancamiento: 1 individuos reemplazados en la generacion 59909.
+Estancamiento: 1 individuos reemplazados en la generacion 59959.
+Estancamiento: 1 individuos reemplazados en la generacion 60009.
+Estancamiento: 1 individuos reemplazados en la generacion 60059.
+Estancamiento: 1 individuos reemplazados en la generacion 60109.
+Estancamiento: 1 individuos reemplazados en la generacion 60159.
+Estancamiento: 1 individuos reemplazados en la generacion 60209.
+Estancamiento: 1 individuos reemplazados en la generacion 60259.
+Estancamiento: 1 individuos reemplazados en la generacion 60309.
+Estancamiento: 1 individuos reemplazados en la generacion 60359.
+Estancamiento: 1 individuos reemplazados en la generacion 60409.
+Estancamiento: 1 individuos reemplazados en la generacion 60459.
+Estancamiento: 1 individuos reemplazados en la generacion 60509.
+Estancamiento: 1 individuos reemplazados en la generacion 60559.
+Estancamiento: 1 individuos reemplazados en la generacion 60609.
+Estancamiento: 1 individuos reemplazados en la generacion 60659.
+Estancamiento: 1 individuos reemplazados en la generacion 60709.
+Estancamiento: 1 individuos reemplazados en la generacion 60759.
+Estancamiento: 1 individuos reemplazados en la generacion 60809.
+Estancamiento: 1 individuos reemplazados en la generacion 60859.
+Estancamiento: 1 individuos reemplazados en la generacion 60909.
+Estancamiento: 1 individuos reemplazados en la generacion 60959.
+Estancamiento: 1 individuos reemplazados en la generacion 61009.
+Optimo[61028] = 140
+Estancamiento: 1 individuos reemplazados en la generacion 61078.
+Estancamiento: 1 individuos reemplazados en la generacion 61128.
+Optimo[61134] = 139
+Estancamiento: 1 individuos reemplazados en la generacion 61184.
+Estancamiento: 1 individuos reemplazados en la generacion 61234.
+Estancamiento: 1 individuos reemplazados en la generacion 61284.
+Estancamiento: 1 individuos reemplazados en la generacion 61334.
+Estancamiento: 1 individuos reemplazados en la generacion 61384.
+Estancamiento: 1 individuos reemplazados en la generacion 61434.
+Estancamiento: 1 individuos reemplazados en la generacion 61484.
+Estancamiento: 1 individuos reemplazados en la generacion 61534.
+Estancamiento: 1 individuos reemplazados en la generacion 61584.
+Estancamiento: 1 individuos reemplazados en la generacion 61634.
+Estancamiento: 1 individuos reemplazados en la generacion 61684.
+Estancamiento: 1 individuos reemplazados en la generacion 61734.
+Estancamiento: 1 individuos reemplazados en la generacion 61784.
+Estancamiento: 1 individuos reemplazados en la generacion 61834.
+Optimo[61841] = 138
+Estancamiento: 1 individuos reemplazados en la generacion 61891.
+Estancamiento: 1 individuos reemplazados en la generacion 61941.
+Estancamiento: 1 individuos reemplazados en la generacion 61991.
+Estancamiento: 1 individuos reemplazados en la generacion 62041.
+Estancamiento: 1 individuos reemplazados en la generacion 62091.
+Estancamiento: 1 individuos reemplazados en la generacion 62141.
+Estancamiento: 1 individuos reemplazados en la generacion 62191.
+Estancamiento: 1 individuos reemplazados en la generacion 62241.
+Estancamiento: 1 individuos reemplazados en la generacion 62291.
+Estancamiento: 1 individuos reemplazados en la generacion 62341.
+Estancamiento: 1 individuos reemplazados en la generacion 62391.
+Estancamiento: 1 individuos reemplazados en la generacion 62441.
+Estancamiento: 1 individuos reemplazados en la generacion 62491.
+Estancamiento: 1 individuos reemplazados en la generacion 62541.
+Estancamiento: 1 individuos reemplazados en la generacion 62591.
+Estancamiento: 1 individuos reemplazados en la generacion 62641.
+Estancamiento: 1 individuos reemplazados en la generacion 62691.
+Estancamiento: 1 individuos reemplazados en la generacion 62741.
+Estancamiento: 1 individuos reemplazados en la generacion 62791.
+Estancamiento: 1 individuos reemplazados en la generacion 62841.
+Estancamiento: 1 individuos reemplazados en la generacion 62891.
+Estancamiento: 1 individuos reemplazados en la generacion 62941.
+Estancamiento: 1 individuos reemplazados en la generacion 62991.
+Estancamiento: 1 individuos reemplazados en la generacion 63041.
+Estancamiento: 1 individuos reemplazados en la generacion 63091.
+Estancamiento: 1 individuos reemplazados en la generacion 63141.
+Estancamiento: 1 individuos reemplazados en la generacion 63191.
+Estancamiento: 1 individuos reemplazados en la generacion 63241.
+Estancamiento: 1 individuos reemplazados en la generacion 63291.
+Estancamiento: 1 individuos reemplazados en la generacion 63341.
+Optimo[63350] = 137
+Estancamiento: 1 individuos reemplazados en la generacion 63400.
+Estancamiento: 1 individuos reemplazados en la generacion 63450.
+Estancamiento: 1 individuos reemplazados en la generacion 63500.
+Estancamiento: 1 individuos reemplazados en la generacion 63550.
+Estancamiento: 1 individuos reemplazados en la generacion 63600.
+Estancamiento: 1 individuos reemplazados en la generacion 63650.
+Estancamiento: 1 individuos reemplazados en la generacion 63700.
+Estancamiento: 1 individuos reemplazados en la generacion 63750.
+Estancamiento: 1 individuos reemplazados en la generacion 63800.
+Estancamiento: 1 individuos reemplazados en la generacion 63850.
+Estancamiento: 1 individuos reemplazados en la generacion 63900.
+Estancamiento: 1 individuos reemplazados en la generacion 63950.
+Estancamiento: 1 individuos reemplazados en la generacion 64000.
+Estancamiento: 1 individuos reemplazados en la generacion 64050.
+Estancamiento: 1 individuos reemplazados en la generacion 64100.
+Estancamiento: 1 individuos reemplazados en la generacion 64150.
+Estancamiento: 1 individuos reemplazados en la generacion 64200.
+Estancamiento: 1 individuos reemplazados en la generacion 64250.
+Estancamiento: 1 individuos reemplazados en la generacion 64300.
+Estancamiento: 1 individuos reemplazados en la generacion 64350.
+Estancamiento: 1 individuos reemplazados en la generacion 64400.
+Estancamiento: 1 individuos reemplazados en la generacion 64450.
+Estancamiento: 1 individuos reemplazados en la generacion 64500.
+Estancamiento: 1 individuos reemplazados en la generacion 64550.
+Estancamiento: 1 individuos reemplazados en la generacion 64600.
+Optimo[64627] = 136
+Estancamiento: 1 individuos reemplazados en la generacion 64677.
+Estancamiento: 1 individuos reemplazados en la generacion 64727.
+Estancamiento: 1 individuos reemplazados en la generacion 64777.
+Estancamiento: 1 individuos reemplazados en la generacion 64827.
+Estancamiento: 1 individuos reemplazados en la generacion 64877.
+Estancamiento: 1 individuos reemplazados en la generacion 64927.
+Estancamiento: 1 individuos reemplazados en la generacion 64977.
+Estancamiento: 1 individuos reemplazados en la generacion 65027.
+Optimo[65059] = 135
+Estancamiento: 1 individuos reemplazados en la generacion 65109.
+Estancamiento: 1 individuos reemplazados en la generacion 65159.
+Optimo[65161] = 134
+Estancamiento: 1 individuos reemplazados en la generacion 65211.
+Estancamiento: 1 individuos reemplazados en la generacion 65261.
+Estancamiento: 1 individuos reemplazados en la generacion 65311.
+Optimo[65357] = 133
+Estancamiento: 1 individuos reemplazados en la generacion 65407.
+Estancamiento: 1 individuos reemplazados en la generacion 65457.
+Estancamiento: 1 individuos reemplazados en la generacion 65507.
+Estancamiento: 1 individuos reemplazados en la generacion 65557.
+Estancamiento: 1 individuos reemplazados en la generacion 65607.
+Estancamiento: 1 individuos reemplazados en la generacion 65657.
+Estancamiento: 1 individuos reemplazados en la generacion 65707.
+Optimo[65753] = 132
+Estancamiento: 1 individuos reemplazados en la generacion 65803.
+Estancamiento: 1 individuos reemplazados en la generacion 65853.
+Estancamiento: 1 individuos reemplazados en la generacion 65903.
+Estancamiento: 1 individuos reemplazados en la generacion 65953.
+Estancamiento: 1 individuos reemplazados en la generacion 66003.
+Estancamiento: 1 individuos reemplazados en la generacion 66053.
+Estancamiento: 1 individuos reemplazados en la generacion 66103.
+Estancamiento: 1 individuos reemplazados en la generacion 66153.
+Estancamiento: 1 individuos reemplazados en la generacion 66203.
+Estancamiento: 1 individuos reemplazados en la generacion 66253.
+Estancamiento: 1 individuos reemplazados en la generacion 66303.
+Estancamiento: 1 individuos reemplazados en la generacion 66353.
+Estancamiento: 1 individuos reemplazados en la generacion 66403.
+Estancamiento: 1 individuos reemplazados en la generacion 66453.
+Estancamiento: 1 individuos reemplazados en la generacion 66503.
+Estancamiento: 1 individuos reemplazados en la generacion 66553.
+Optimo[66602] = 131
+Estancamiento: 1 individuos reemplazados en la generacion 66652.
+Estancamiento: 1 individuos reemplazados en la generacion 66702.
+Estancamiento: 1 individuos reemplazados en la generacion 66752.
+Estancamiento: 1 individuos reemplazados en la generacion 66802.
+Estancamiento: 1 individuos reemplazados en la generacion 66852.
+Estancamiento: 1 individuos reemplazados en la generacion 66902.
+Estancamiento: 1 individuos reemplazados en la generacion 66952.
+Estancamiento: 1 individuos reemplazados en la generacion 67002.
+Estancamiento: 1 individuos reemplazados en la generacion 67052.
+Estancamiento: 1 individuos reemplazados en la generacion 67102.
+Estancamiento: 1 individuos reemplazados en la generacion 67152.
+Estancamiento: 1 individuos reemplazados en la generacion 67202.
+Estancamiento: 1 individuos reemplazados en la generacion 67252.
+Estancamiento: 1 individuos reemplazados en la generacion 67302.
+Estancamiento: 1 individuos reemplazados en la generacion 67352.
+Estancamiento: 1 individuos reemplazados en la generacion 67402.
+Estancamiento: 1 individuos reemplazados en la generacion 67452.
+Estancamiento: 1 individuos reemplazados en la generacion 67502.
+Estancamiento: 1 individuos reemplazados en la generacion 67552.
+Estancamiento: 1 individuos reemplazados en la generacion 67602.
+Estancamiento: 1 individuos reemplazados en la generacion 67652.
+Estancamiento: 1 individuos reemplazados en la generacion 67702.
+Estancamiento: 1 individuos reemplazados en la generacion 67752.
+Estancamiento: 1 individuos reemplazados en la generacion 67802.
+Estancamiento: 1 individuos reemplazados en la generacion 67852.
+Estancamiento: 1 individuos reemplazados en la generacion 67902.
+Estancamiento: 1 individuos reemplazados en la generacion 67952.
+Estancamiento: 1 individuos reemplazados en la generacion 68002.
+Estancamiento: 1 individuos reemplazados en la generacion 68052.
+Estancamiento: 1 individuos reemplazados en la generacion 68102.
+Estancamiento: 1 individuos reemplazados en la generacion 68152.
+Estancamiento: 1 individuos reemplazados en la generacion 68202.
+Estancamiento: 1 individuos reemplazados en la generacion 68252.
+Estancamiento: 1 individuos reemplazados en la generacion 68302.
+Estancamiento: 1 individuos reemplazados en la generacion 68352.
+Estancamiento: 1 individuos reemplazados en la generacion 68402.
+Estancamiento: 1 individuos reemplazados en la generacion 68452.
+Estancamiento: 1 individuos reemplazados en la generacion 68502.
+Estancamiento: 1 individuos reemplazados en la generacion 68552.
+Estancamiento: 1 individuos reemplazados en la generacion 68602.
+Estancamiento: 1 individuos reemplazados en la generacion 68652.
+Estancamiento: 1 individuos reemplazados en la generacion 68702.
+Estancamiento: 1 individuos reemplazados en la generacion 68752.
+Estancamiento: 1 individuos reemplazados en la generacion 68802.
+Estancamiento: 1 individuos reemplazados en la generacion 68852.
+Estancamiento: 1 individuos reemplazados en la generacion 68902.
+Estancamiento: 1 individuos reemplazados en la generacion 68952.
+Estancamiento: 1 individuos reemplazados en la generacion 69002.
+Estancamiento: 1 individuos reemplazados en la generacion 69052.
+Estancamiento: 1 individuos reemplazados en la generacion 69102.
+Estancamiento: 1 individuos reemplazados en la generacion 69152.
+Estancamiento: 1 individuos reemplazados en la generacion 69202.
+Estancamiento: 1 individuos reemplazados en la generacion 69252.
+Estancamiento: 1 individuos reemplazados en la generacion 69302.
+Estancamiento: 1 individuos reemplazados en la generacion 69352.
+Estancamiento: 1 individuos reemplazados en la generacion 69402.
+Estancamiento: 1 individuos reemplazados en la generacion 69452.
+Estancamiento: 1 individuos reemplazados en la generacion 69502.
+Estancamiento: 1 individuos reemplazados en la generacion 69552.
+Estancamiento: 1 individuos reemplazados en la generacion 69602.
+Estancamiento: 1 individuos reemplazados en la generacion 69652.
+Estancamiento: 1 individuos reemplazados en la generacion 69702.
+Estancamiento: 1 individuos reemplazados en la generacion 69752.
+Estancamiento: 1 individuos reemplazados en la generacion 69802.
+Estancamiento: 1 individuos reemplazados en la generacion 69852.
+Estancamiento: 1 individuos reemplazados en la generacion 69902.
+Estancamiento: 1 individuos reemplazados en la generacion 69952.
+Estancamiento: 1 individuos reemplazados en la generacion 70002.
+Estancamiento: 1 individuos reemplazados en la generacion 70052.
+Estancamiento: 1 individuos reemplazados en la generacion 70102.
+Estancamiento: 1 individuos reemplazados en la generacion 70152.
+Estancamiento: 1 individuos reemplazados en la generacion 70202.
+Estancamiento: 1 individuos reemplazados en la generacion 70252.
+Estancamiento: 1 individuos reemplazados en la generacion 70302.
+Estancamiento: 1 individuos reemplazados en la generacion 70352.
+Optimo[70401] = 130
+Estancamiento: 1 individuos reemplazados en la generacion 70451.
+Estancamiento: 1 individuos reemplazados en la generacion 70501.
+Estancamiento: 1 individuos reemplazados en la generacion 70551.
+Estancamiento: 1 individuos reemplazados en la generacion 70601.
+Estancamiento: 1 individuos reemplazados en la generacion 70651.
+Estancamiento: 1 individuos reemplazados en la generacion 70701.
+Estancamiento: 1 individuos reemplazados en la generacion 70751.
+Estancamiento: 1 individuos reemplazados en la generacion 70801.
+Estancamiento: 1 individuos reemplazados en la generacion 70851.
+Estancamiento: 1 individuos reemplazados en la generacion 70901.
+Estancamiento: 1 individuos reemplazados en la generacion 70951.
+Estancamiento: 1 individuos reemplazados en la generacion 71001.
+Estancamiento: 1 individuos reemplazados en la generacion 71051.
+Estancamiento: 1 individuos reemplazados en la generacion 71101.
+Estancamiento: 1 individuos reemplazados en la generacion 71151.
+Estancamiento: 1 individuos reemplazados en la generacion 71201.
+Estancamiento: 1 individuos reemplazados en la generacion 71251.
+Estancamiento: 1 individuos reemplazados en la generacion 71301.
+Estancamiento: 1 individuos reemplazados en la generacion 71351.
+Estancamiento: 1 individuos reemplazados en la generacion 71401.
+Estancamiento: 1 individuos reemplazados en la generacion 71451.
+Estancamiento: 1 individuos reemplazados en la generacion 71501.
+Estancamiento: 1 individuos reemplazados en la generacion 71551.
+Estancamiento: 1 individuos reemplazados en la generacion 71601.
+Estancamiento: 1 individuos reemplazados en la generacion 71651.
+Estancamiento: 1 individuos reemplazados en la generacion 71701.
+Estancamiento: 1 individuos reemplazados en la generacion 71751.
+Optimo[71788] = 129
+Estancamiento: 1 individuos reemplazados en la generacion 71838.
+Estancamiento: 1 individuos reemplazados en la generacion 71888.
+Estancamiento: 1 individuos reemplazados en la generacion 71938.
+Estancamiento: 1 individuos reemplazados en la generacion 71988.
+Estancamiento: 1 individuos reemplazados en la generacion 72038.
+Estancamiento: 1 individuos reemplazados en la generacion 72088.
+Estancamiento: 1 individuos reemplazados en la generacion 72138.
+Estancamiento: 1 individuos reemplazados en la generacion 72188.
+Estancamiento: 1 individuos reemplazados en la generacion 72238.
+Estancamiento: 1 individuos reemplazados en la generacion 72288.
+Estancamiento: 1 individuos reemplazados en la generacion 72338.
+Estancamiento: 1 individuos reemplazados en la generacion 72388.
+Estancamiento: 1 individuos reemplazados en la generacion 72438.
+Estancamiento: 1 individuos reemplazados en la generacion 72488.
+Estancamiento: 1 individuos reemplazados en la generacion 72538.
+Estancamiento: 1 individuos reemplazados en la generacion 72588.
+Estancamiento: 1 individuos reemplazados en la generacion 72638.
+Estancamiento: 1 individuos reemplazados en la generacion 72688.
+Estancamiento: 1 individuos reemplazados en la generacion 72738.
+Optimo[72757] = 128
+Estancamiento: 1 individuos reemplazados en la generacion 72807.
+Estancamiento: 1 individuos reemplazados en la generacion 72857.
+Estancamiento: 1 individuos reemplazados en la generacion 72907.
+Estancamiento: 1 individuos reemplazados en la generacion 72957.
+Estancamiento: 1 individuos reemplazados en la generacion 73007.
+Estancamiento: 1 individuos reemplazados en la generacion 73057.
+Estancamiento: 1 individuos reemplazados en la generacion 73107.
+Estancamiento: 1 individuos reemplazados en la generacion 73157.
+Estancamiento: 1 individuos reemplazados en la generacion 73207.
+Estancamiento: 1 individuos reemplazados en la generacion 73257.
+Estancamiento: 1 individuos reemplazados en la generacion 73307.
+Estancamiento: 1 individuos reemplazados en la generacion 73357.
+Estancamiento: 1 individuos reemplazados en la generacion 73407.
+Estancamiento: 1 individuos reemplazados en la generacion 73457.
+Estancamiento: 1 individuos reemplazados en la generacion 73507.
+Optimo[73555] = 127
+Estancamiento: 1 individuos reemplazados en la generacion 73605.
+Estancamiento: 1 individuos reemplazados en la generacion 73655.
+Estancamiento: 1 individuos reemplazados en la generacion 73705.
+Estancamiento: 1 individuos reemplazados en la generacion 73755.
+Estancamiento: 1 individuos reemplazados en la generacion 73805.
+Estancamiento: 1 individuos reemplazados en la generacion 73855.
+Estancamiento: 1 individuos reemplazados en la generacion 73905.
+Estancamiento: 1 individuos reemplazados en la generacion 73955.
+Estancamiento: 1 individuos reemplazados en la generacion 74005.
+Estancamiento: 1 individuos reemplazados en la generacion 74055.
+Estancamiento: 1 individuos reemplazados en la generacion 74105.
+Estancamiento: 1 individuos reemplazados en la generacion 74155.
+Estancamiento: 1 individuos reemplazados en la generacion 74205.
+Estancamiento: 1 individuos reemplazados en la generacion 74255.
+Estancamiento: 1 individuos reemplazados en la generacion 74305.
+Estancamiento: 1 individuos reemplazados en la generacion 74355.
+Estancamiento: 1 individuos reemplazados en la generacion 74405.
+Estancamiento: 1 individuos reemplazados en la generacion 74455.
+Estancamiento: 1 individuos reemplazados en la generacion 74505.
+Estancamiento: 1 individuos reemplazados en la generacion 74555.
+Estancamiento: 1 individuos reemplazados en la generacion 74605.
+Estancamiento: 1 individuos reemplazados en la generacion 74655.
+Estancamiento: 1 individuos reemplazados en la generacion 74705.
+Estancamiento: 1 individuos reemplazados en la generacion 74755.
+Estancamiento: 1 individuos reemplazados en la generacion 74805.
+Estancamiento: 1 individuos reemplazados en la generacion 74855.
+Estancamiento: 1 individuos reemplazados en la generacion 74905.
+Estancamiento: 1 individuos reemplazados en la generacion 74955.
+Estancamiento: 1 individuos reemplazados en la generacion 75005.
+Estancamiento: 1 individuos reemplazados en la generacion 75055.
+Estancamiento: 1 individuos reemplazados en la generacion 75105.
+Estancamiento: 1 individuos reemplazados en la generacion 75155.
+Estancamiento: 1 individuos reemplazados en la generacion 75205.
+Estancamiento: 1 individuos reemplazados en la generacion 75255.
+Estancamiento: 1 individuos reemplazados en la generacion 75305.
+Estancamiento: 1 individuos reemplazados en la generacion 75355.
+Estancamiento: 1 individuos reemplazados en la generacion 75405.
+Estancamiento: 1 individuos reemplazados en la generacion 75455.
+Estancamiento: 1 individuos reemplazados en la generacion 75505.
+Estancamiento: 1 individuos reemplazados en la generacion 75555.
+Estancamiento: 1 individuos reemplazados en la generacion 75605.
+Estancamiento: 1 individuos reemplazados en la generacion 75655.
+Estancamiento: 1 individuos reemplazados en la generacion 75705.
+Estancamiento: 1 individuos reemplazados en la generacion 75755.
+Estancamiento: 1 individuos reemplazados en la generacion 75805.
+Estancamiento: 1 individuos reemplazados en la generacion 75855.
+Estancamiento: 1 individuos reemplazados en la generacion 75905.
+Estancamiento: 1 individuos reemplazados en la generacion 75955.
+Estancamiento: 1 individuos reemplazados en la generacion 76005.
+Estancamiento: 1 individuos reemplazados en la generacion 76055.
+Estancamiento: 1 individuos reemplazados en la generacion 76105.
+Estancamiento: 1 individuos reemplazados en la generacion 76155.
+Estancamiento: 1 individuos reemplazados en la generacion 76205.
+Estancamiento: 1 individuos reemplazados en la generacion 76255.
+Estancamiento: 1 individuos reemplazados en la generacion 76305.
+Estancamiento: 1 individuos reemplazados en la generacion 76355.
+Estancamiento: 1 individuos reemplazados en la generacion 76405.
+Estancamiento: 1 individuos reemplazados en la generacion 76455.
+Estancamiento: 1 individuos reemplazados en la generacion 76505.
+Estancamiento: 1 individuos reemplazados en la generacion 76555.
+Estancamiento: 1 individuos reemplazados en la generacion 76605.
+Estancamiento: 1 individuos reemplazados en la generacion 76655.
+Estancamiento: 1 individuos reemplazados en la generacion 76705.
+Optimo[76731] = 126
+Estancamiento: 1 individuos reemplazados en la generacion 76781.
+Estancamiento: 1 individuos reemplazados en la generacion 76831.
+Estancamiento: 1 individuos reemplazados en la generacion 76881.
+Estancamiento: 1 individuos reemplazados en la generacion 76931.
+Estancamiento: 1 individuos reemplazados en la generacion 76981.
+Estancamiento: 1 individuos reemplazados en la generacion 77031.
+Estancamiento: 1 individuos reemplazados en la generacion 77081.
+Estancamiento: 1 individuos reemplazados en la generacion 77131.
+Estancamiento: 1 individuos reemplazados en la generacion 77181.
+Estancamiento: 1 individuos reemplazados en la generacion 77231.
+Estancamiento: 1 individuos reemplazados en la generacion 77281.
+Estancamiento: 1 individuos reemplazados en la generacion 77331.
+Estancamiento: 1 individuos reemplazados en la generacion 77381.
+Estancamiento: 1 individuos reemplazados en la generacion 77431.
+Estancamiento: 1 individuos reemplazados en la generacion 77481.
+Estancamiento: 1 individuos reemplazados en la generacion 77531.
+Optimo[77560] = 125
+Estancamiento: 1 individuos reemplazados en la generacion 77610.
+Estancamiento: 1 individuos reemplazados en la generacion 77660.
+Estancamiento: 1 individuos reemplazados en la generacion 77710.
+Estancamiento: 1 individuos reemplazados en la generacion 77760.
+Estancamiento: 1 individuos reemplazados en la generacion 77810.
+Estancamiento: 1 individuos reemplazados en la generacion 77860.
+Estancamiento: 1 individuos reemplazados en la generacion 77910.
+Estancamiento: 1 individuos reemplazados en la generacion 77960.
+Estancamiento: 1 individuos reemplazados en la generacion 78010.
+Estancamiento: 1 individuos reemplazados en la generacion 78060.
+Estancamiento: 1 individuos reemplazados en la generacion 78110.
+Estancamiento: 1 individuos reemplazados en la generacion 78160.
+Estancamiento: 1 individuos reemplazados en la generacion 78210.
+Estancamiento: 1 individuos reemplazados en la generacion 78260.
+Estancamiento: 1 individuos reemplazados en la generacion 78310.
+Estancamiento: 1 individuos reemplazados en la generacion 78360.
+Estancamiento: 1 individuos reemplazados en la generacion 78410.
+Estancamiento: 1 individuos reemplazados en la generacion 78460.
+Estancamiento: 1 individuos reemplazados en la generacion 78510.
+Estancamiento: 1 individuos reemplazados en la generacion 78560.
+Estancamiento: 1 individuos reemplazados en la generacion 78610.
+Estancamiento: 1 individuos reemplazados en la generacion 78660.
+Estancamiento: 1 individuos reemplazados en la generacion 78710.
+Estancamiento: 1 individuos reemplazados en la generacion 78760.
+Estancamiento: 1 individuos reemplazados en la generacion 78810.
+Estancamiento: 1 individuos reemplazados en la generacion 78860.
+Optimo[78899] = 124
+Estancamiento: 1 individuos reemplazados en la generacion 78949.
+Estancamiento: 1 individuos reemplazados en la generacion 78999.
+Estancamiento: 1 individuos reemplazados en la generacion 79049.
+Estancamiento: 1 individuos reemplazados en la generacion 79099.
+Estancamiento: 1 individuos reemplazados en la generacion 79149.
+Estancamiento: 1 individuos reemplazados en la generacion 79199.
+Estancamiento: 1 individuos reemplazados en la generacion 79249.
+Estancamiento: 1 individuos reemplazados en la generacion 79299.
+Estancamiento: 1 individuos reemplazados en la generacion 79349.
+Estancamiento: 1 individuos reemplazados en la generacion 79399.
+Estancamiento: 1 individuos reemplazados en la generacion 79449.
+Estancamiento: 1 individuos reemplazados en la generacion 79499.
+Estancamiento: 1 individuos reemplazados en la generacion 79549.
+Estancamiento: 1 individuos reemplazados en la generacion 79599.
+Estancamiento: 1 individuos reemplazados en la generacion 79649.
+Estancamiento: 1 individuos reemplazados en la generacion 79699.
+Estancamiento: 1 individuos reemplazados en la generacion 79749.
+Estancamiento: 1 individuos reemplazados en la generacion 79799.
+Estancamiento: 1 individuos reemplazados en la generacion 79849.
+Estancamiento: 1 individuos reemplazados en la generacion 79899.
+Estancamiento: 1 individuos reemplazados en la generacion 79949.
+Optimo[79964] = 123
+Estancamiento: 1 individuos reemplazados en la generacion 80014.
+Estancamiento: 1 individuos reemplazados en la generacion 80064.
+Estancamiento: 1 individuos reemplazados en la generacion 80114.
+Estancamiento: 1 individuos reemplazados en la generacion 80164.
+Estancamiento: 1 individuos reemplazados en la generacion 80214.
+Estancamiento: 1 individuos reemplazados en la generacion 80264.
+Estancamiento: 1 individuos reemplazados en la generacion 80314.
+Estancamiento: 1 individuos reemplazados en la generacion 80364.
+Estancamiento: 1 individuos reemplazados en la generacion 80414.
+Estancamiento: 1 individuos reemplazados en la generacion 80464.
+Estancamiento: 1 individuos reemplazados en la generacion 80514.
+Estancamiento: 1 individuos reemplazados en la generacion 80564.
+Estancamiento: 1 individuos reemplazados en la generacion 80614.
+Estancamiento: 1 individuos reemplazados en la generacion 80664.
+Estancamiento: 1 individuos reemplazados en la generacion 80714.
+Estancamiento: 1 individuos reemplazados en la generacion 80764.
+Estancamiento: 1 individuos reemplazados en la generacion 80814.
+Optimo[80864] = 122
+Estancamiento: 1 individuos reemplazados en la generacion 80914.
+Estancamiento: 1 individuos reemplazados en la generacion 80964.
+Estancamiento: 1 individuos reemplazados en la generacion 81014.
+Estancamiento: 1 individuos reemplazados en la generacion 81064.
+Estancamiento: 1 individuos reemplazados en la generacion 81114.
+Estancamiento: 1 individuos reemplazados en la generacion 81164.
+Estancamiento: 1 individuos reemplazados en la generacion 81214.
+Estancamiento: 1 individuos reemplazados en la generacion 81264.
+Estancamiento: 1 individuos reemplazados en la generacion 81314.
+Estancamiento: 1 individuos reemplazados en la generacion 81364.
+Estancamiento: 1 individuos reemplazados en la generacion 81414.
+Estancamiento: 1 individuos reemplazados en la generacion 81464.
+Estancamiento: 1 individuos reemplazados en la generacion 81514.
+Estancamiento: 1 individuos reemplazados en la generacion 81564.
+Estancamiento: 1 individuos reemplazados en la generacion 81614.
+Estancamiento: 1 individuos reemplazados en la generacion 81664.
+Estancamiento: 1 individuos reemplazados en la generacion 81714.
+Estancamiento: 1 individuos reemplazados en la generacion 81764.
+Estancamiento: 1 individuos reemplazados en la generacion 81814.
+Estancamiento: 1 individuos reemplazados en la generacion 81864.
+Estancamiento: 1 individuos reemplazados en la generacion 81914.
+Estancamiento: 1 individuos reemplazados en la generacion 81964.
+Estancamiento: 1 individuos reemplazados en la generacion 82014.
+Estancamiento: 1 individuos reemplazados en la generacion 82064.
+Estancamiento: 1 individuos reemplazados en la generacion 82114.
+Estancamiento: 1 individuos reemplazados en la generacion 82164.
+Optimo[82205] = 121
+Estancamiento: 1 individuos reemplazados en la generacion 82255.
+Estancamiento: 1 individuos reemplazados en la generacion 82305.
+Estancamiento: 1 individuos reemplazados en la generacion 82355.
+Estancamiento: 1 individuos reemplazados en la generacion 82405.
+Estancamiento: 1 individuos reemplazados en la generacion 82455.
+Estancamiento: 1 individuos reemplazados en la generacion 82505.
+Estancamiento: 1 individuos reemplazados en la generacion 82555.
+Estancamiento: 1 individuos reemplazados en la generacion 82605.
+Estancamiento: 1 individuos reemplazados en la generacion 82655.
+Estancamiento: 1 individuos reemplazados en la generacion 82705.
+Estancamiento: 1 individuos reemplazados en la generacion 82755.
+Estancamiento: 1 individuos reemplazados en la generacion 82805.
+Estancamiento: 1 individuos reemplazados en la generacion 82855.
+Estancamiento: 1 individuos reemplazados en la generacion 82905.
+Estancamiento: 1 individuos reemplazados en la generacion 82955.
+Estancamiento: 1 individuos reemplazados en la generacion 83005.
+Estancamiento: 1 individuos reemplazados en la generacion 83055.
+Estancamiento: 1 individuos reemplazados en la generacion 83105.
+Estancamiento: 1 individuos reemplazados en la generacion 83155.
+Estancamiento: 1 individuos reemplazados en la generacion 83205.
+Estancamiento: 1 individuos reemplazados en la generacion 83255.
+Estancamiento: 1 individuos reemplazados en la generacion 83305.
+Estancamiento: 1 individuos reemplazados en la generacion 83355.
+Estancamiento: 1 individuos reemplazados en la generacion 83405.
+Estancamiento: 1 individuos reemplazados en la generacion 83455.
+Estancamiento: 1 individuos reemplazados en la generacion 83505.
+Estancamiento: 1 individuos reemplazados en la generacion 83555.
+Estancamiento: 1 individuos reemplazados en la generacion 83605.
+Estancamiento: 1 individuos reemplazados en la generacion 83655.
+Estancamiento: 1 individuos reemplazados en la generacion 83705.
+Estancamiento: 1 individuos reemplazados en la generacion 83755.
+Estancamiento: 1 individuos reemplazados en la generacion 83805.
+Estancamiento: 1 individuos reemplazados en la generacion 83855.
+Estancamiento: 1 individuos reemplazados en la generacion 83905.
+Estancamiento: 1 individuos reemplazados en la generacion 83955.
+Estancamiento: 1 individuos reemplazados en la generacion 84005.
+Estancamiento: 1 individuos reemplazados en la generacion 84055.
+Estancamiento: 1 individuos reemplazados en la generacion 84105.
+Estancamiento: 1 individuos reemplazados en la generacion 84155.
+Estancamiento: 1 individuos reemplazados en la generacion 84205.
+Estancamiento: 1 individuos reemplazados en la generacion 84255.
+Estancamiento: 1 individuos reemplazados en la generacion 84305.
+Estancamiento: 1 individuos reemplazados en la generacion 84355.
+Estancamiento: 1 individuos reemplazados en la generacion 84405.
+Estancamiento: 1 individuos reemplazados en la generacion 84455.
+Estancamiento: 1 individuos reemplazados en la generacion 84505.
+Estancamiento: 1 individuos reemplazados en la generacion 84555.
+Estancamiento: 1 individuos reemplazados en la generacion 84605.
+Estancamiento: 1 individuos reemplazados en la generacion 84655.
+Estancamiento: 1 individuos reemplazados en la generacion 84705.
+Estancamiento: 1 individuos reemplazados en la generacion 84755.
+Estancamiento: 1 individuos reemplazados en la generacion 84805.
+Estancamiento: 1 individuos reemplazados en la generacion 84855.
+Estancamiento: 1 individuos reemplazados en la generacion 84905.
+Estancamiento: 1 individuos reemplazados en la generacion 84955.
+Estancamiento: 1 individuos reemplazados en la generacion 85005.
+Estancamiento: 1 individuos reemplazados en la generacion 85055.
+Estancamiento: 1 individuos reemplazados en la generacion 85105.
+Estancamiento: 1 individuos reemplazados en la generacion 85155.
+Estancamiento: 1 individuos reemplazados en la generacion 85205.
+Estancamiento: 1 individuos reemplazados en la generacion 85255.
+Optimo[85279] = 120
+Estancamiento: 1 individuos reemplazados en la generacion 85329.
+Estancamiento: 1 individuos reemplazados en la generacion 85379.
+Estancamiento: 1 individuos reemplazados en la generacion 85429.
+Estancamiento: 1 individuos reemplazados en la generacion 85479.
+Estancamiento: 1 individuos reemplazados en la generacion 85529.
+Estancamiento: 1 individuos reemplazados en la generacion 85579.
+Estancamiento: 1 individuos reemplazados en la generacion 85629.
+Estancamiento: 1 individuos reemplazados en la generacion 85679.
+Estancamiento: 1 individuos reemplazados en la generacion 85729.
+Estancamiento: 1 individuos reemplazados en la generacion 85779.
+Estancamiento: 1 individuos reemplazados en la generacion 85829.
+Estancamiento: 1 individuos reemplazados en la generacion 85879.
+Estancamiento: 1 individuos reemplazados en la generacion 85929.
+Optimo[85979] = 119
+Estancamiento: 1 individuos reemplazados en la generacion 86029.
+Estancamiento: 1 individuos reemplazados en la generacion 86079.
+Estancamiento: 1 individuos reemplazados en la generacion 86129.
+Estancamiento: 1 individuos reemplazados en la generacion 86179.
+Estancamiento: 1 individuos reemplazados en la generacion 86229.
+Estancamiento: 1 individuos reemplazados en la generacion 86279.
+Estancamiento: 1 individuos reemplazados en la generacion 86329.
+Estancamiento: 1 individuos reemplazados en la generacion 86379.
+Estancamiento: 1 individuos reemplazados en la generacion 86429.
+Estancamiento: 1 individuos reemplazados en la generacion 86479.
+Estancamiento: 1 individuos reemplazados en la generacion 86529.
+Estancamiento: 1 individuos reemplazados en la generacion 86579.
+Estancamiento: 1 individuos reemplazados en la generacion 86629.
+Estancamiento: 1 individuos reemplazados en la generacion 86679.
+Estancamiento: 1 individuos reemplazados en la generacion 86729.
+Estancamiento: 1 individuos reemplazados en la generacion 86779.
+Estancamiento: 1 individuos reemplazados en la generacion 86829.
+Estancamiento: 1 individuos reemplazados en la generacion 86879.
+Estancamiento: 1 individuos reemplazados en la generacion 86929.
+Estancamiento: 1 individuos reemplazados en la generacion 86979.
+Estancamiento: 1 individuos reemplazados en la generacion 87029.
+Estancamiento: 1 individuos reemplazados en la generacion 87079.
+Estancamiento: 1 individuos reemplazados en la generacion 87129.
+Estancamiento: 1 individuos reemplazados en la generacion 87179.
+Estancamiento: 1 individuos reemplazados en la generacion 87229.
+Optimo[87272] = 118
+Estancamiento: 1 individuos reemplazados en la generacion 87322.
+Estancamiento: 1 individuos reemplazados en la generacion 87372.
+Estancamiento: 1 individuos reemplazados en la generacion 87422.
+Estancamiento: 1 individuos reemplazados en la generacion 87472.
+Optimo[87516] = 117
+Estancamiento: 1 individuos reemplazados en la generacion 87566.
+Estancamiento: 1 individuos reemplazados en la generacion 87616.
+Estancamiento: 1 individuos reemplazados en la generacion 87666.
+Estancamiento: 1 individuos reemplazados en la generacion 87716.
+Estancamiento: 1 individuos reemplazados en la generacion 87766.
+Estancamiento: 1 individuos reemplazados en la generacion 87816.
+Estancamiento: 1 individuos reemplazados en la generacion 87866.
+Optimo[87870] = 116
+Estancamiento: 1 individuos reemplazados en la generacion 87920.
+Estancamiento: 1 individuos reemplazados en la generacion 87970.
+Estancamiento: 1 individuos reemplazados en la generacion 88020.
+Estancamiento: 1 individuos reemplazados en la generacion 88070.
+Estancamiento: 1 individuos reemplazados en la generacion 88120.
+Estancamiento: 1 individuos reemplazados en la generacion 88170.
+Estancamiento: 1 individuos reemplazados en la generacion 88220.
+Estancamiento: 1 individuos reemplazados en la generacion 88270.
+Estancamiento: 1 individuos reemplazados en la generacion 88320.
+Estancamiento: 1 individuos reemplazados en la generacion 88370.
+Estancamiento: 1 individuos reemplazados en la generacion 88420.
+Estancamiento: 1 individuos reemplazados en la generacion 88470.
+Estancamiento: 1 individuos reemplazados en la generacion 88520.
+Optimo[88568] = 115
+Estancamiento: 1 individuos reemplazados en la generacion 88618.
+Estancamiento: 1 individuos reemplazados en la generacion 88668.
+Estancamiento: 1 individuos reemplazados en la generacion 88718.
+Estancamiento: 1 individuos reemplazados en la generacion 88768.
+Estancamiento: 1 individuos reemplazados en la generacion 88818.
+Estancamiento: 1 individuos reemplazados en la generacion 88868.
+Estancamiento: 1 individuos reemplazados en la generacion 88918.
+Estancamiento: 1 individuos reemplazados en la generacion 88968.
+Estancamiento: 1 individuos reemplazados en la generacion 89018.
+Estancamiento: 1 individuos reemplazados en la generacion 89068.
+Estancamiento: 1 individuos reemplazados en la generacion 89118.
+Estancamiento: 1 individuos reemplazados en la generacion 89168.
+Estancamiento: 1 individuos reemplazados en la generacion 89218.
+Estancamiento: 1 individuos reemplazados en la generacion 89268.
+Estancamiento: 1 individuos reemplazados en la generacion 89318.
+Estancamiento: 1 individuos reemplazados en la generacion 89368.
+Estancamiento: 1 individuos reemplazados en la generacion 89418.
+Estancamiento: 1 individuos reemplazados en la generacion 89468.
+Estancamiento: 1 individuos reemplazados en la generacion 89518.
+Estancamiento: 1 individuos reemplazados en la generacion 89568.
+Estancamiento: 1 individuos reemplazados en la generacion 89618.
+Estancamiento: 1 individuos reemplazados en la generacion 89668.
+Estancamiento: 1 individuos reemplazados en la generacion 89718.
+Estancamiento: 1 individuos reemplazados en la generacion 89768.
+Estancamiento: 1 individuos reemplazados en la generacion 89818.
+Estancamiento: 1 individuos reemplazados en la generacion 89868.
+Estancamiento: 1 individuos reemplazados en la generacion 89918.
+Estancamiento: 1 individuos reemplazados en la generacion 89968.
+Estancamiento: 1 individuos reemplazados en la generacion 90018.
+Estancamiento: 1 individuos reemplazados en la generacion 90068.
+Estancamiento: 1 individuos reemplazados en la generacion 90118.
+Optimo[90138] = 114
+Estancamiento: 1 individuos reemplazados en la generacion 90188.
+Estancamiento: 1 individuos reemplazados en la generacion 90238.
+Estancamiento: 1 individuos reemplazados en la generacion 90288.
+Estancamiento: 1 individuos reemplazados en la generacion 90338.
+Estancamiento: 1 individuos reemplazados en la generacion 90388.
+Estancamiento: 1 individuos reemplazados en la generacion 90438.
+Estancamiento: 1 individuos reemplazados en la generacion 90488.
+Estancamiento: 1 individuos reemplazados en la generacion 90538.
+Estancamiento: 1 individuos reemplazados en la generacion 90588.
+Estancamiento: 1 individuos reemplazados en la generacion 90638.
+Estancamiento: 1 individuos reemplazados en la generacion 90688.
+Estancamiento: 1 individuos reemplazados en la generacion 90738.
+Optimo[90746] = 113
+Estancamiento: 1 individuos reemplazados en la generacion 90796.
+Estancamiento: 1 individuos reemplazados en la generacion 90846.
+Estancamiento: 1 individuos reemplazados en la generacion 90896.
+Estancamiento: 1 individuos reemplazados en la generacion 90946.
+Estancamiento: 1 individuos reemplazados en la generacion 90996.
+Estancamiento: 1 individuos reemplazados en la generacion 91046.
+Estancamiento: 1 individuos reemplazados en la generacion 91096.
+Estancamiento: 1 individuos reemplazados en la generacion 91146.
+Optimo[91182] = 112
+Estancamiento: 1 individuos reemplazados en la generacion 91232.
+Estancamiento: 1 individuos reemplazados en la generacion 91282.
+Estancamiento: 1 individuos reemplazados en la generacion 91332.
+Estancamiento: 1 individuos reemplazados en la generacion 91382.
+Estancamiento: 1 individuos reemplazados en la generacion 91432.
+Estancamiento: 1 individuos reemplazados en la generacion 91482.
+Estancamiento: 1 individuos reemplazados en la generacion 91532.
+Estancamiento: 1 individuos reemplazados en la generacion 91582.
+Estancamiento: 1 individuos reemplazados en la generacion 91632.
+Estancamiento: 1 individuos reemplazados en la generacion 91682.
+Estancamiento: 1 individuos reemplazados en la generacion 91732.
+Estancamiento: 1 individuos reemplazados en la generacion 91782.
+Estancamiento: 1 individuos reemplazados en la generacion 91832.
+Estancamiento: 1 individuos reemplazados en la generacion 91882.
+Estancamiento: 1 individuos reemplazados en la generacion 91932.
+Estancamiento: 1 individuos reemplazados en la generacion 91982.
+Estancamiento: 1 individuos reemplazados en la generacion 92032.
+Estancamiento: 1 individuos reemplazados en la generacion 92082.
+Estancamiento: 1 individuos reemplazados en la generacion 92132.
+Estancamiento: 1 individuos reemplazados en la generacion 92182.
+Estancamiento: 1 individuos reemplazados en la generacion 92232.
+Estancamiento: 1 individuos reemplazados en la generacion 92282.
+Estancamiento: 1 individuos reemplazados en la generacion 92332.
+Estancamiento: 1 individuos reemplazados en la generacion 92382.
+Estancamiento: 1 individuos reemplazados en la generacion 92432.
+Estancamiento: 1 individuos reemplazados en la generacion 92482.
+Estancamiento: 1 individuos reemplazados en la generacion 92532.
+Estancamiento: 1 individuos reemplazados en la generacion 92582.
+Estancamiento: 1 individuos reemplazados en la generacion 92632.
+Estancamiento: 1 individuos reemplazados en la generacion 92682.
+Estancamiento: 1 individuos reemplazados en la generacion 92732.
+Estancamiento: 1 individuos reemplazados en la generacion 92782.
+Estancamiento: 1 individuos reemplazados en la generacion 92832.
+Estancamiento: 1 individuos reemplazados en la generacion 92882.
+Estancamiento: 1 individuos reemplazados en la generacion 92932.
+Estancamiento: 1 individuos reemplazados en la generacion 92982.
+Estancamiento: 1 individuos reemplazados en la generacion 93032.
+Estancamiento: 1 individuos reemplazados en la generacion 93082.
+Estancamiento: 1 individuos reemplazados en la generacion 93132.
+Estancamiento: 1 individuos reemplazados en la generacion 93182.
+Estancamiento: 1 individuos reemplazados en la generacion 93232.
+Optimo[93267] = 111
+Estancamiento: 1 individuos reemplazados en la generacion 93317.
+Estancamiento: 1 individuos reemplazados en la generacion 93367.
+Estancamiento: 1 individuos reemplazados en la generacion 93417.
+Estancamiento: 1 individuos reemplazados en la generacion 93467.
+Estancamiento: 1 individuos reemplazados en la generacion 93517.
+Estancamiento: 1 individuos reemplazados en la generacion 93567.
+Optimo[93594] = 110
+Estancamiento: 1 individuos reemplazados en la generacion 93644.
+Estancamiento: 1 individuos reemplazados en la generacion 93694.
+Estancamiento: 1 individuos reemplazados en la generacion 93744.
+Estancamiento: 1 individuos reemplazados en la generacion 93794.
+Estancamiento: 1 individuos reemplazados en la generacion 93844.
+Estancamiento: 1 individuos reemplazados en la generacion 93894.
+Estancamiento: 1 individuos reemplazados en la generacion 93944.
+Estancamiento: 1 individuos reemplazados en la generacion 93994.
+Estancamiento: 1 individuos reemplazados en la generacion 94044.
+Estancamiento: 1 individuos reemplazados en la generacion 94094.
+Estancamiento: 1 individuos reemplazados en la generacion 94144.
+Estancamiento: 1 individuos reemplazados en la generacion 94194.
+Estancamiento: 1 individuos reemplazados en la generacion 94244.
+Estancamiento: 1 individuos reemplazados en la generacion 94294.
+Estancamiento: 1 individuos reemplazados en la generacion 94344.
+Estancamiento: 1 individuos reemplazados en la generacion 94394.
+Estancamiento: 1 individuos reemplazados en la generacion 94444.
+Estancamiento: 1 individuos reemplazados en la generacion 94494.
+Optimo[94495] = 109
+Estancamiento: 1 individuos reemplazados en la generacion 94545.
+Optimo[94549] = 108
+Estancamiento: 1 individuos reemplazados en la generacion 94599.
+Estancamiento: 1 individuos reemplazados en la generacion 94649.
+Estancamiento: 1 individuos reemplazados en la generacion 94699.
+Estancamiento: 1 individuos reemplazados en la generacion 94749.
+Estancamiento: 1 individuos reemplazados en la generacion 94799.
+Estancamiento: 1 individuos reemplazados en la generacion 94849.
+Estancamiento: 1 individuos reemplazados en la generacion 94899.
+Estancamiento: 1 individuos reemplazados en la generacion 94949.
+Estancamiento: 1 individuos reemplazados en la generacion 94999.
+Estancamiento: 1 individuos reemplazados en la generacion 95049.
+Estancamiento: 1 individuos reemplazados en la generacion 95099.
+Estancamiento: 1 individuos reemplazados en la generacion 95149.
+Estancamiento: 1 individuos reemplazados en la generacion 95199.
+Estancamiento: 1 individuos reemplazados en la generacion 95249.
+Estancamiento: 1 individuos reemplazados en la generacion 95299.
+Optimo[95317] = 107
+Estancamiento: 1 individuos reemplazados en la generacion 95367.
+Estancamiento: 1 individuos reemplazados en la generacion 95417.
+Estancamiento: 1 individuos reemplazados en la generacion 95467.
+Estancamiento: 1 individuos reemplazados en la generacion 95517.
+Estancamiento: 1 individuos reemplazados en la generacion 95567.
+Estancamiento: 1 individuos reemplazados en la generacion 95617.
+Estancamiento: 1 individuos reemplazados en la generacion 95667.
+Estancamiento: 1 individuos reemplazados en la generacion 95717.
+Estancamiento: 1 individuos reemplazados en la generacion 95767.
+Estancamiento: 1 individuos reemplazados en la generacion 95817.
+Estancamiento: 1 individuos reemplazados en la generacion 95867.
+Estancamiento: 1 individuos reemplazados en la generacion 95917.
+Estancamiento: 1 individuos reemplazados en la generacion 95967.
+Estancamiento: 1 individuos reemplazados en la generacion 96017.
+Estancamiento: 1 individuos reemplazados en la generacion 96067.
+Estancamiento: 1 individuos reemplazados en la generacion 96117.
+Estancamiento: 1 individuos reemplazados en la generacion 96167.
+Estancamiento: 1 individuos reemplazados en la generacion 96217.
+Estancamiento: 1 individuos reemplazados en la generacion 96267.
+Estancamiento: 1 individuos reemplazados en la generacion 96317.
+Estancamiento: 1 individuos reemplazados en la generacion 96367.
+Estancamiento: 1 individuos reemplazados en la generacion 96417.
+Estancamiento: 1 individuos reemplazados en la generacion 96467.
+Estancamiento: 1 individuos reemplazados en la generacion 96517.
+Estancamiento: 1 individuos reemplazados en la generacion 96567.
+Estancamiento: 1 individuos reemplazados en la generacion 96617.
+Estancamiento: 1 individuos reemplazados en la generacion 96667.
+Estancamiento: 1 individuos reemplazados en la generacion 96717.
+Estancamiento: 1 individuos reemplazados en la generacion 96767.
+Estancamiento: 1 individuos reemplazados en la generacion 96817.
+Estancamiento: 1 individuos reemplazados en la generacion 96867.
+Estancamiento: 1 individuos reemplazados en la generacion 96917.
+Estancamiento: 1 individuos reemplazados en la generacion 96967.
+Estancamiento: 1 individuos reemplazados en la generacion 97017.
+Estancamiento: 1 individuos reemplazados en la generacion 97067.
+Estancamiento: 1 individuos reemplazados en la generacion 97117.
+Estancamiento: 1 individuos reemplazados en la generacion 97167.
+Estancamiento: 1 individuos reemplazados en la generacion 97217.
+Estancamiento: 1 individuos reemplazados en la generacion 97267.
+Estancamiento: 1 individuos reemplazados en la generacion 97317.
+Estancamiento: 1 individuos reemplazados en la generacion 97367.
+Estancamiento: 1 individuos reemplazados en la generacion 97417.
+Estancamiento: 1 individuos reemplazados en la generacion 97467.
+Estancamiento: 1 individuos reemplazados en la generacion 97517.
+Estancamiento: 1 individuos reemplazados en la generacion 97567.
+Estancamiento: 1 individuos reemplazados en la generacion 97617.
+Estancamiento: 1 individuos reemplazados en la generacion 97667.
+Estancamiento: 1 individuos reemplazados en la generacion 97717.
+Estancamiento: 1 individuos reemplazados en la generacion 97767.
+Estancamiento: 1 individuos reemplazados en la generacion 97817.
+Estancamiento: 1 individuos reemplazados en la generacion 97867.
+Estancamiento: 1 individuos reemplazados en la generacion 97917.
+Estancamiento: 1 individuos reemplazados en la generacion 97967.
+Estancamiento: 1 individuos reemplazados en la generacion 98017.
+Estancamiento: 1 individuos reemplazados en la generacion 98067.
+Estancamiento: 1 individuos reemplazados en la generacion 98117.
+Estancamiento: 1 individuos reemplazados en la generacion 98167.
+Estancamiento: 1 individuos reemplazados en la generacion 98217.
+Estancamiento: 1 individuos reemplazados en la generacion 98267.
+Estancamiento: 1 individuos reemplazados en la generacion 98317.
+Estancamiento: 1 individuos reemplazados en la generacion 98367.
+Estancamiento: 1 individuos reemplazados en la generacion 98417.
+Estancamiento: 1 individuos reemplazados en la generacion 98467.
+Estancamiento: 1 individuos reemplazados en la generacion 98517.
+Optimo[98563] = 106
+Estancamiento: 1 individuos reemplazados en la generacion 98613.
+Estancamiento: 1 individuos reemplazados en la generacion 98663.
+Estancamiento: 1 individuos reemplazados en la generacion 98713.
+Estancamiento: 1 individuos reemplazados en la generacion 98763.
+Estancamiento: 1 individuos reemplazados en la generacion 98813.
+Estancamiento: 1 individuos reemplazados en la generacion 98863.
+Estancamiento: 1 individuos reemplazados en la generacion 98913.
+Estancamiento: 1 individuos reemplazados en la generacion 98963.
+Optimo[98975] = 105
+Estancamiento: 1 individuos reemplazados en la generacion 99025.
+Estancamiento: 1 individuos reemplazados en la generacion 99075.
+Estancamiento: 1 individuos reemplazados en la generacion 99125.
+Estancamiento: 1 individuos reemplazados en la generacion 99175.
+Presupuesto de 4e+09 evaluaciones agotado. Error residual = 105.
+--- Verificacion ---
+Inventario de sitios conservado:  SI (permutacion exacta de M_base)
+Inventario de enlaces conservado: SI (permutacion exacta de M_base)
+Fitness recalculado = 105 (registrado = 105)
+Error residual por incidencia = 1.0500%
+Vecinos de misma categoria (crudo) = 85.6%
+C(1) vecinos inmediatos = 0.8689
+Generaciones = 99201
+Evaluaciones de sitio = 4000025238
+CRUCE,modo=pmx,reparar=0,hijos_evaluados=396804,hijos_aceptados=11639,tasa_aceptacion=0.0293
+Tiempo total de ejecucion: 120.50 segundos
+RESUMEN,variante,L,omega,semilla,P,cruce,generaciones,evaluaciones,tiempo_s,error,error_pct,misma_cat,C1,inventario_ok,fitness_ok
+RESUMEN,GA4_pmx_focal,50,0.950,2,4,1,99201,4000025238,120.498,105,1.05000,0.8564,0.8689,1,1
+Archivos /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L50/redes/w0.95_GA4_pmx_focal_s2_colores.csv y /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L50/redes/w0.95_GA4_pmx_focal_s2_completa.csv generados.

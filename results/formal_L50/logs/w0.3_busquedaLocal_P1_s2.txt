@@ -1,0 +1,40 @@
+GA v2 [busquedaLocal_P1] | L=50 P=1 Gmax=2147483647 presupuesto=4e+09 semilla=2 | mediaS=440.00 mediaE=370.00 semiancho=50.00 -> Omega=0.300
+Mutacion GUIADA (acepta si no empeora), pm=0.15, sin restriccion de categoria; cruce DESACTIVADO; reparacion de frontera: 0 barridos.
+Hilos OpenMP: 1
+M_base: media sitios=440.534  media enlaces=369.534  x1=423.309 x2=456.592
+Optimo[0] = 398
+Optimo[1] = 288
+Optimo[2] = 214
+Optimo[3] = 156
+Optimo[4] = 117
+Optimo[5] = 88
+Optimo[6] = 72
+Optimo[7] = 55
+Optimo[8] = 40
+Optimo[9] = 35
+Optimo[10] = 28
+Optimo[11] = 24
+Optimo[12] = 22
+Optimo[13] = 15
+Optimo[14] = 14
+Optimo[15] = 13
+Optimo[16] = 10
+Optimo[17] = 9
+Optimo[18] = 6
+Optimo[19] = 4
+Optimo[20] = 2
+Optimo[21] = 0
+Solucion sin violaciones en la generacion 21.
+--- Verificacion ---
+Inventario de sitios conservado:  SI (permutacion exacta de M_base)
+Inventario de enlaces conservado: SI (permutacion exacta de M_base)
+Fitness recalculado = 0 (registrado = 0)
+Error residual por incidencia = 0.0000%
+Vecinos de misma categoria (crudo) = 32.6%
+C(1) vecinos inmediatos = 0.0204
+Generaciones = 21
+Evaluaciones de sitio = 159586
+Tiempo total de ejecucion: 0.04 segundos
+RESUMEN,variante,L,omega,semilla,P,cruce,generaciones,evaluaciones,tiempo_s,error,error_pct,misma_cat,C1,inventario_ok,fitness_ok
+RESUMEN,busquedaLocal_P1,50,0.300,2,1,0,21,159586,0.042,0,0.00000,0.3256,0.0204,1,1
+Archivos /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L50/redes/w0.3_busquedaLocal_P1_s2_colores.csv y /mnt/e/Documentos_Benja/Trabajo_UAM/Trimestre_26-P/Redes_Retomando/dsbm-ga-repo/results/formal_L50/redes/w0.3_busquedaLocal_P1_s2_completa.csv generados.

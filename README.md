@@ -10,6 +10,83 @@ accuracy. It contains the genetic algorithm's C source (sequential and OpenMP-pa
 below), scripts to reproduce Table 1 and Figures 12-18, and a pure Monte Carlo baseline
 implementation (Sec. 2.2's classical approach) used as a quantitative point of comparison.
 
+## Status update (November 2026): revised method, version 2
+
+A systematic verification of the original genetic algorithm (`src/genetico/`) found defects that
+affect the paper's results. The code below that section is kept unchanged for traceability; the
+**revised implementation and all new results** are in `src/genetico_v2/`, `src/genetico_v3/` and
+`docs/evidencias/`. Each evidence file documents code hash, parameters, hardware, commands to
+reproduce it, raw data location, statistics, interpretation and limitations. The evidence files are
+written in Spanish.
+
+**Findings on the original code** ([EVIDENCIA_00](docs/evidencias/EVIDENCIA_00_verificacion_codigo_original.md),
+reproducible with `scripts/verificar.sh`):
+
+- The category-restricted mutation never changes the size-category map, so the operators cannot
+  create spatial correlation.
+- The domains in the site-distribution figures come from the `gaussian_filter` + `argmax`
+  smoothing in `plot_site_distribution.py`, not from the networks.
+- Crossover swaps bond values *between* chromosomes, so under selection the bond distribution
+  drifts (−1% in the GA, −10% in the ablation): the bond inventory is not preserved.
+- Mutation randomness is identical across generations on Linux (`rand_r` seed independent of the
+  generation).
+
+**Version 2** (`src/genetico_v2/ConstructorRedes2D_C4_Genetico_v2.c`):
+
+- Each configuration is a permutation of the base inventory, so site and bond distributions are
+  preserved **exactly by construction** (checked at the end of every run).
+- Moves are guided by the Construction Principle, with O(1) local evaluation and no radius
+  relaxation.
+- Own xoshiro256** generator with a command-line seed; results are bit-identical across platforms
+  and thread counts.
+- Cost is measured in site evaluations, independent of hardware.
+- The same program covers the population GA (`P > 1`, PMX or rank crossover, optional boundary
+  repair) and the (1+1) evolutionary algorithm (`P = 1 --sin-cruce`).
+- Optional simulated annealing (`--recocido=T0/Tf`) and conflict-directed mutation (`--focal=f`):
+  with probability f, the first element of each swap is drawn from the sites that currently violate
+  the Construction Principle.
+
+`src/genetico_v3/` is an experimental variant: one network split into tiles, each tile with its own
+small population, processed in parallel with a deterministic 4-colouring.
+
+**Main results**, all with an equal evaluation budget (details in `docs/evidencias/`):
+
+| Evidence | Result |
+|---|---|
+| [01](docs/evidencias/EVIDENCIA_01_aporte_del_cruce.md) (L=50, 10 seeds) | Crossover does not help. The (1+1)-EA reaches 0 violations at Ω=0.9 in 10/10 seeds; the GA with P=64 leaves ~2.5% |
+| [02](docs/evidencias/EVIDENCIA_02_regimen_grande.md) (L=200, 5 seeds) | The (1+1)-EA beats every GA variant at Ω=0.9 and 0.95 (Mann-Whitney U = 0 in all 6 comparisons). Ordering P=1 < 4 < 16 < 64 |
+| [03](docs/evidencias/EVIDENCIA_03_piloto_cruces.md) | Redesigned crossovers (rank-based, boundary repair) do not close the gap; only 0.4–1.6% of offspring survive selection at L=50, and ≤0.2% at L=200 |
+| [04](docs/evidencias/EVIDENCIA_04_recocido_y_teselas.md) | Conflict-directed mutation reduces residual violations by 39% (L=50) and 28% (L=200, Ω=0.95). Simulated annealing and tile populations do not help |
+| [05](docs/evidencias/EVIDENCIA_05_ga_con_mutacion_focal.md) | With the same conflict-directed mutation, the GA still loses to the (1+1)-EA |
+
+Spatial correlation is now measured on raw networks, without smoothing
+(`analysis/plot_red_cruda.py`, `analysis/verificar_red.py`). It grows with Ω and with constraint
+satisfaction: same-category neighbours go from 35% (Ω=0.3) to 77–87% (Ω≥0.9).
+
+**Reproducing the new results** (bash, gcc ≥ 9, Python 3 with numpy, scipy, matplotlib):
+
+```bash
+bash scripts/verificar.sh           # checks on the original code (EVIDENCIA_00)
+bash scripts/verificar_v2.sh        # inventory, reproducibility across threads, raw maps vs. Omega
+bash scripts/experimento_cruce.sh   # experiment 01; header shows the settings for 02-05
+python3 analysis/resumen_cruce.py results/experimento_cruce
+```
+
+`results/` contains, for each experiment, the summary tables, statistics, figures, per-run logs and
+convergence traces. The final networks (`results/*/redes/`, ~175 MB) are not versioned.
+
+Single run of the conflict-directed (1+1)-EA:
+
+```bash
+gcc -O3 -std=gnu99 -fopenmp src/genetico_v2/ConstructorRedes2D_C4_Genetico_v2.c -o ga_v2 -lm
+# L mediaS mediaE semiancho P Gmax(0=unlimited) seed prefix  [options]
+./ga_v2 100 410 400 50 1 0 1 red --sin-cruce --focal=0.75 --presupuesto=2e9
+```
+
+The rest of this README describes the **original** implementation (`src/genetico/`).
+
+---
+
 **Please read "Reproducibility notes / known limitations" near the end of this file before
 treating any script output as a literal match to the paper's reported numbers.** The public
 interface (interactive `scanf` prompts, a compile-time population size, no fixed iteration
@@ -20,11 +97,17 @@ the closest faithful reproduction available.
 ## Repository layout
 
 ```
-src/genetico/     ConstructorRedes2D_C4_Genetico_Final.c + .vscode/  - the genetic algorithm
+src/genetico/      ConstructorRedes2D_C4_Genetico_Final.c + .vscode/  - the original genetic algorithm
+src/genetico_v2/   ConstructorRedes2D_C4_Genetico_v2.c                - revised GA / (1+1)-EA (see status update)
+src/genetico_v3/   ConstructorRedes2D_C4_Teselas_v3.c                 - experimental tile-population variant
 src/montecarlo/    ConstructorRedes2D_C4_MonteCarlo.c + .vscode/      - pure Monte Carlo baseline (Sec. 2.2)
-scripts/           build.sh, env_info.sh, run_*.sh                   - build + experiment automation (bash)
-analysis/          plot_*.py, requirements.txt                       - Python plotting for Table 1 / Fig. 12-18 / GA vs. MC
-results/           (created by the scripts; not committed)           - raw logs, CSVs and generated figures
+tests/             verificar_operadores.c                             - checks on the original operators
+scripts/           build.sh, env_info.sh, run_*.sh                    - build + experiment automation (bash)
+                   verificar*.sh, experimento_cruce.sh                - verification and equal-budget experiments
+analysis/          plot_*.py, requirements.txt                        - Python plotting for Table 1 / Fig. 12-18 / GA vs. MC
+                   resumen_cruce.py, plot_red_cruda.py, ...           - analysis of the new experiments (raw, no smoothing)
+docs/evidencias/   EVIDENCIA_00..05 (Spanish)                         - documented evidence for the revised paper
+results/           summaries, figures, logs and traces of each experiment (final networks not committed)
 ```
 
 Each program lives in its own subfolder (with its own `.vscode/`) specifically so they can each be opened
@@ -308,11 +391,11 @@ run it" is explicit:
     arrangements are present in the population changes. Prints
     `Estancamiento detectado: N individuos reemplazados...` when it fires.
 
-None of the above affect the correctness of the core constraint-preserving genetic operators
-(population initialization, crossover, mutation — Sec. 3.2/3.4/3.5), which this source
-implements as described in the paper (Fisher-Yates population initialization from a shared
-baseline network, per-category bond crossover, per-category site-relocation mutation at a
-fixed 15% acceptance probability).
+**Superseded (November 2026):** an earlier version of this README stated that none of the above
+affect the correctness of the core genetic operators. Later verification showed that they do:
+the category-restricted mutation cannot change the category map, and crossover does not preserve
+the bond distribution. See the status update at the top of this file and
+[EVIDENCIA_00](docs/evidencias/EVIDENCIA_00_verificacion_codigo_original.md).
 
 ## Citation
 

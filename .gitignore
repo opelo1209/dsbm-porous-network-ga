@@ -8,6 +8,23 @@ build/
 # Generated experiment data (large CSV/PNG/log outputs from scripts/run_*.sh)
 results/**
 !results/.gitkeep
+# Experiment evidence (docs/evidencias): summaries, tables, figures, per-run logs and
+# convergence traces ARE versioned (~30 MB). The final networks (results/*/redes/, ~175 MB)
+# and the per-experiment compiled binaries are not; archive the networks separately.
+!results/*/
+!results/*.txt
+!results/*/*.md
+!results/*/*.csv
+!results/*/*.png
+!results/*/*.txt
+!results/*/logs/
+!results/*/logs/*.txt
+!results/*/trazas/
+!results/*/trazas/*.csv
+# Older ad-hoc outputs from the previous version, not cited by any evidence file
+results/session_checks/
+results/ga_vs_mc/
+results/correlation_avg/
 
 # Stray CSV the program writes to the current working directory when run manually
 red_colores.csv

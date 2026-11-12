@@ -17,6 +17,15 @@ Cada archivo documenta un experimento o una verificación con lo necesario para 
 
 Plan de reformulación del artículo: [../PLAN_REFORMULACION_ARTICULO.md](../PLAN_REFORMULACION_ARTICULO.md)
 
+**Nota sobre los sha256 del código.** Los `sha256 fuente` de cada `entorno.txt` se calcularon sobre la copia de
+trabajo en Windows. La de v2 tenía fin de línea CRLF, y git guarda los archivos con LF, así que en un clon el sha de
+v2 no coincide directamente. Para comprobarlo:
+`git show <commit>:src/genetico_v2/ConstructorRedes2D_C4_Genetico_v2.c | sed 's/$/\r/' | sha256sum`.
+El sha de la versión final de v2 (`f36f445e…`) se reproduce así con el commit `2a9bc5a`. El de v3 (`8df40210…`)
+coincide directamente. Las evidencias 01–04 se corrieron con versiones intermedias de v2 que no se versionaron por
+separado. Cada cambio posterior se verificó con una prueba de regresión: con las opciones de esas evidencias, la
+versión final da resultados idénticos bit a bit. Para reproducirlas, basta la versión final.
+
 Los datos de cada evidencia están en `results/`. Se versionan los resúmenes, las tablas, las pruebas estadísticas,
 las figuras, los logs por corrida y las trazas de convergencia. Las redes finales (`results/*/redes/`, ~175 MB) no
 se versionan; hay que respaldarlas aparte (por ejemplo, en Zenodo junto con el artículo).
